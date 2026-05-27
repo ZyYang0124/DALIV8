@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sassacus vitis</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Sassacus vitis</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14801.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14802.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14804.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14805.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14806.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40776.jpg" alt="SYNONYM: Dendryphantes melanomerus - ♂ - right palpus, ectal view - Mexico - HOLOTYPE © CHAMBERLIN, R. V. (1924). RecId: 7405">
+            
+
+            <div>SYNONYM: Dendryphantes melanomerus - ♂ - right palpus, ectal view - Mexico - HOLOTYPE © CHAMBERLIN, R. V. (1924). RecId: 7405</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40777.jpg" alt="SYNONYM: Dendryphantes melanomerus - ♂ - right palpus, ventral view - Mexico - HOLOTYPE © CHAMBERLIN, R. V. (1924). RecId: 7405">
+            
+
+            <div>SYNONYM: Dendryphantes melanomerus - ♂ - right palpus, ventral view - Mexico - HOLOTYPE © CHAMBERLIN, R. V. (1924). RecId: 7405</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32238.jpg" alt="SYNONYM: Dendryphantes mathetes - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20435">
+            
+
+            <div>SYNONYM: Dendryphantes mathetes - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20435</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32239.jpg" alt="SYNONYM: Dendryphantes mathetes - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20435">
+            
+
+            <div>SYNONYM: Dendryphantes mathetes - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20435</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32234.jpg" alt="SYNONYM: Dendryphantes apachecus - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20433">
+            
+
+            <div>SYNONYM: Dendryphantes apachecus - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20433</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32235.jpg" alt="SYNONYM: Dendryphantes apachecus - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20433">
+            
+
+            <div>SYNONYM: Dendryphantes apachecus - ♂ - US - HOLOTYPE © CHAMBERLIN, R. V. (1925). RecId: 20433</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14803.jpg" alt="SYNONYM: Dendryphantes apachecus - ♂ - Arizona, possibly Thatcher - left palpus, ventral view. Scale: 0.1 mm - US - HOLOTYPE © RICHMAN, D. B. (2008). RecId: 20433">
+            
+
+            <div>SYNONYM: Dendryphantes apachecus - ♂ - Arizona, possibly Thatcher - left palpus, ventral view. Scale: 0.1 mm - US - HOLOTYPE © RICHMAN, D. B. (2008). RecId: 20433</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22868.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22869.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22870.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22871.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22872.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22873.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22874.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

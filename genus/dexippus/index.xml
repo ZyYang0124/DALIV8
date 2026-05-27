@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dexippus on Jumping Spider World</title>
+    <link>https://example.org/genus/dexippus/</link>
+    <description>Recent content in Dexippus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/dexippus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dexippus kleini</title>
+      <link>https://example.org/species/dexippus-kleini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/dexippus-kleini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dexippus pengi</title>
+      <link>https://example.org/species/dexippus-pengi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/dexippus-pengi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dexippus qiuhangi</title>
+      <link>https://example.org/species/dexippus-qiuhangi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/dexippus-qiuhangi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dexippus taiwanensis</title>
+      <link>https://example.org/species/dexippus-taiwanensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/dexippus-taiwanensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dexippus topali</title>
+      <link>https://example.org/species/dexippus-topali/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/dexippus-topali/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

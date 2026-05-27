@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peplometus on Jumping Spider World</title>
+    <link>https://example.org/genus/peplometus/</link>
+    <description>Recent content in Peplometus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/peplometus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peplometus biscutellatus</title>
+      <link>https://example.org/species/peplometus-biscutellatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/peplometus-biscutellatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peplometus chlorophthalmus</title>
+      <link>https://example.org/species/peplometus-chlorophthalmus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/peplometus-chlorophthalmus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peplometus congoensis</title>
+      <link>https://example.org/species/peplometus-congoensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/peplometus-congoensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peplometus nimba</title>
+      <link>https://example.org/species/peplometus-nimba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/peplometus-nimba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peplometus oyo</title>
+      <link>https://example.org/species/peplometus-oyo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/peplometus-oyo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

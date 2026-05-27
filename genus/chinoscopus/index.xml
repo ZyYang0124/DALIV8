@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chinoscopus on Jumping Spider World</title>
+    <link>https://example.org/genus/chinoscopus/</link>
+    <description>Recent content in Chinoscopus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/chinoscopus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chinoscopus ernsti</title>
+      <link>https://example.org/species/chinoscopus-ernsti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/chinoscopus-ernsti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinoscopus flavus</title>
+      <link>https://example.org/species/chinoscopus-flavus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/chinoscopus-flavus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinoscopus gracilis</title>
+      <link>https://example.org/species/chinoscopus-gracilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/chinoscopus-gracilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinoscopus maculipes</title>
+      <link>https://example.org/species/chinoscopus-maculipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/chinoscopus-maculipes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

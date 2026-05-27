@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Siler cupreus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Siler cupreus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21609.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21610.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31292.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48744.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31293.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2290.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2288.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2289.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2291.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2292.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2293.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20897.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20898.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20899.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20900.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20901.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20902.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4893.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2296.jpg" alt="Marpissa vittata - ♂ - Saga - Japan - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>Marpissa vittata - ♂ - Saga - Japan - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4894.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4895.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4896.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2297.jpg" alt="Marpissa vittata - ♀ - Saga - Japan - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>Marpissa vittata - ♀ - Saga - Japan - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-33091.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48495.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38346.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49110.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49111.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49108.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49109.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31294.jpg" alt="SYNONYM: Silerella barbata - ♂ - Japan - HOLOTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906)">
+            
+
+            <div>SYNONYM: Silerella barbata - ♂ - Japan - HOLOTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31295.jpg" alt="SYNONYM: Silerella barbata - ♂ - Japan - HOLOTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906)">
+            
+
+            <div>SYNONYM: Silerella barbata - ♂ - Japan - HOLOTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31296.jpg" alt="SYNONYM: Silerella barbata - ♂ - Japan - HOLOTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906)">
+            
+
+            <div>SYNONYM: Silerella barbata - ♂ - Japan - HOLOTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2294.jpg" alt="SYNONYM:">
+            
+
+            <div>SYNONYM:</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17406.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18269.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18270.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18271.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18272.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18273.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18274.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17806.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17807.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17808.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17809.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17810.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17811.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17812.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17813.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18543.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18544.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18545.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

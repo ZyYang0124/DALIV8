@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gelotia on Jumping Spider World</title>
+    <link>https://example.org/genus/gelotia/</link>
+    <description>Recent content in Gelotia on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/gelotia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gelotia argenteolimbata</title>
+      <link>https://example.org/species/gelotia-argenteolimbata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-argenteolimbata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia bimaculata</title>
+      <link>https://example.org/species/gelotia-bimaculata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-bimaculata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia bouchardi</title>
+      <link>https://example.org/species/gelotia-bouchardi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-bouchardi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia frenata</title>
+      <link>https://example.org/species/gelotia-frenata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-frenata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia lanka</title>
+      <link>https://example.org/species/gelotia-lanka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-lanka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia liuae</title>
+      <link>https://example.org/species/gelotia-liuae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-liuae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia onoi</title>
+      <link>https://example.org/species/gelotia-onoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-onoi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia robusta</title>
+      <link>https://example.org/species/gelotia-robusta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-robusta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia salax</title>
+      <link>https://example.org/species/gelotia-salax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-salax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia syringopalpis</title>
+      <link>https://example.org/species/gelotia-syringopalpis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-syringopalpis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelotia zhengi</title>
+      <link>https://example.org/species/gelotia-zhengi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gelotia-zhengi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

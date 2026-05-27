@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scopocira on Jumping Spider World</title>
+    <link>https://example.org/genus/scopocira/</link>
+    <description>Recent content in Scopocira on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/scopocira/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scopocira abaporu</title>
+      <link>https://example.org/species/scopocira-abaporu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-abaporu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira albertoi</title>
+      <link>https://example.org/species/scopocira-albertoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-albertoi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira bicornia</title>
+      <link>https://example.org/species/scopocira-bicornia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-bicornia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira carinata</title>
+      <link>https://example.org/species/scopocira-carinata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-carinata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira cepa</title>
+      <link>https://example.org/species/scopocira-cepa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-cepa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira crotalica</title>
+      <link>https://example.org/species/scopocira-crotalica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-crotalica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira cyrili</title>
+      <link>https://example.org/species/scopocira-cyrili/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-cyrili/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira dentichelis</title>
+      <link>https://example.org/species/scopocira-dentichelis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-dentichelis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira fuscimana</title>
+      <link>https://example.org/species/scopocira-fuscimana/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-fuscimana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira histrio</title>
+      <link>https://example.org/species/scopocira-histrio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-histrio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira kunai</title>
+      <link>https://example.org/species/scopocira-kunai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-kunai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira melanops</title>
+      <link>https://example.org/species/scopocira-melanops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-melanops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira petilloni</title>
+      <link>https://example.org/species/scopocira-petilloni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-petilloni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira pterodactyla</title>
+      <link>https://example.org/species/scopocira-pterodactyla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-pterodactyla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira sciosciae</title>
+      <link>https://example.org/species/scopocira-sciosciae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-sciosciae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scopocira tenella</title>
+      <link>https://example.org/species/scopocira-tenella/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/scopocira-tenella/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

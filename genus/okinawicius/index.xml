@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Okinawicius on Jumping Spider World</title>
+    <link>https://example.org/genus/okinawicius/</link>
+    <description>Recent content in Okinawicius on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/okinawicius/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Okinawicius daitaricus</title>
+      <link>https://example.org/species/okinawicius-daitaricus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-daitaricus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius daoxianensis</title>
+      <link>https://example.org/species/okinawicius-daoxianensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-daoxianensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius delesserti</title>
+      <link>https://example.org/species/okinawicius-delesserti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-delesserti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius modestus</title>
+      <link>https://example.org/species/okinawicius-modestus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-modestus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius nepalicus</title>
+      <link>https://example.org/species/okinawicius-nepalicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-nepalicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius okinawaensis</title>
+      <link>https://example.org/species/okinawicius-okinawaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-okinawaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius seychellensis</title>
+      <link>https://example.org/species/okinawicius-seychellensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-seychellensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius sheherezadae</title>
+      <link>https://example.org/species/okinawicius-sheherezadae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-sheherezadae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius shirinae</title>
+      <link>https://example.org/species/okinawicius-shirinae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-shirinae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius sindbadi</title>
+      <link>https://example.org/species/okinawicius-sindbadi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-sindbadi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius tekdi</title>
+      <link>https://example.org/species/okinawicius-tekdi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-tekdi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okinawicius tokaraensis</title>
+      <link>https://example.org/species/okinawicius-tokaraensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/okinawicius-tokaraensis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

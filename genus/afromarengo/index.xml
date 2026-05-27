@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Afromarengo on Jumping Spider World</title>
+    <link>https://example.org/genus/afromarengo/</link>
+    <description>Recent content in Afromarengo on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/afromarengo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Afromarengo coriacea</title>
+      <link>https://example.org/species/afromarengo-coriacea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/afromarengo-coriacea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Afromarengo ghanaensis</title>
+      <link>https://example.org/species/afromarengo-ghanaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/afromarengo-ghanaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Afromarengo lyrifera</title>
+      <link>https://example.org/species/afromarengo-lyrifera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/afromarengo-lyrifera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Afromarengo ugandensis</title>
+      <link>https://example.org/species/afromarengo-ugandensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/afromarengo-ugandensis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

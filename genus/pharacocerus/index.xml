@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pharacocerus on Jumping Spider World</title>
+    <link>https://example.org/genus/pharacocerus/</link>
+    <description>Recent content in Pharacocerus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/pharacocerus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pharacocerus castaneiceps</title>
+      <link>https://example.org/species/pharacocerus-castaneiceps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-castaneiceps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharacocerus ebenauensis</title>
+      <link>https://example.org/species/pharacocerus-ebenauensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-ebenauensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharacocerus ephippiatus</title>
+      <link>https://example.org/species/pharacocerus-ephippiatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-ephippiatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharacocerus fagei</title>
+      <link>https://example.org/species/pharacocerus-fagei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-fagei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharacocerus rubrocomatus</title>
+      <link>https://example.org/species/pharacocerus-rubrocomatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-rubrocomatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharacocerus sessor</title>
+      <link>https://example.org/species/pharacocerus-sessor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-sessor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharacocerus xanthopogon</title>
+      <link>https://example.org/species/pharacocerus-xanthopogon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/pharacocerus-xanthopogon/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

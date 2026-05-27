@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amycus on Jumping Spider World</title>
+    <link>https://example.org/genus/amycus/</link>
+    <description>Recent content in Amycus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/amycus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amycus albipalpus</title>
+      <link>https://example.org/species/amycus-albipalpus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-albipalpus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus annulatus</title>
+      <link>https://example.org/species/amycus-annulatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-annulatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus ectypus</title>
+      <link>https://example.org/species/amycus-ectypus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-ectypus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus equulus</title>
+      <link>https://example.org/species/amycus-equulus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-equulus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus flavicomis</title>
+      <link>https://example.org/species/amycus-flavicomis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-flavicomis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus lycosiformis</title>
+      <link>https://example.org/species/amycus-lycosiformis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-lycosiformis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus pertyi</title>
+      <link>https://example.org/species/amycus-pertyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-pertyi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus rufifrons</title>
+      <link>https://example.org/species/amycus-rufifrons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-rufifrons/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amycus spectabilis</title>
+      <link>https://example.org/species/amycus-spectabilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/amycus-spectabilis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Irura longiochelicera</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Irura longiochelicera</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37582.jpg" alt="Iura longiochelicera - ♂ - body. Scale: 1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♂ - body. Scale: 1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37587.jpg" alt="Iura longiochelicera - ♀ - body. Scale: 1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♀ - body. Scale: 1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37583.jpg" alt="Iura longiochelicera - ♂ - chelicera. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♂ - chelicera. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37588.jpg" alt="Iura longiochelicera - ♀ - chelicera. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♀ - chelicera. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37589.jpg" alt="Iura longiochelicera - ♀ - fang. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♀ - fang. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37584.jpg" alt="Iura longiochelicera - ♂ - palpal organ. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♂ - palpal organ. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37585.jpg" alt="Iura longiochelicera - ♂ - palpal organ. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♂ - palpal organ. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37586.jpg" alt="Iura longiochelicera - ♂ - palpal organ. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♂ - palpal organ. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37590.jpg" alt="Iura longiochelicera - ♀ - epigynum. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♀ - epigynum. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37591.jpg" alt="Iura longiochelicera - ♀ - vulva dorsal. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♀ - vulva dorsal. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37592.jpg" alt="Iura longiochelicera - ♀ - vulva ventral. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>Iura longiochelicera - ♀ - vulva ventral. Scale: 0.1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49974.jpg" alt="Iura longiochelicera - ♀ - epigyne, ventral view. Scale: 0.1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♀ - epigyne, ventral view. Scale: 0.1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49975.jpg" alt="Iura longiochelicera - ♀ - vulva, dorsal view. Scale: 0.1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♀ - vulva, dorsal view. Scale: 0.1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49976.jpg" alt="Iura longiochelicera - ♀ - vulva, ventral view. Scale: 0.1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♀ - vulva, ventral view. Scale: 0.1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19579.jpg" alt="Iura longiochelicera - ♂ - carapace &amp; abdomen, dorsal view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♂ - carapace &amp; abdomen, dorsal view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19580.jpg" alt="Iura longiochelicera - ♂ - carapace &amp; abdomen, lateral view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♂ - carapace &amp; abdomen, lateral view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19581.jpg" alt="Iura longiochelicera - ♂ - carapace &amp; abdomen, ventral view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♂ - carapace &amp; abdomen, ventral view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19582.jpg" alt="Iura longiochelicera - ♂ - carapace, frontal view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)">
+            
+
+            <div>Iura longiochelicera - ♂ - carapace, frontal view. Scale: 1 mm - Malaysia © LOGUNOV, D. V. (2022)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

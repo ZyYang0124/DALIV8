@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tylogonus on Jumping Spider World</title>
+    <link>https://example.org/genus/tylogonus/</link>
+    <description>Recent content in Tylogonus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/tylogonus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tylogonus auricapillus</title>
+      <link>https://example.org/species/tylogonus-auricapillus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-auricapillus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus chiriqui</title>
+      <link>https://example.org/species/tylogonus-chiriqui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-chiriqui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus miles</title>
+      <link>https://example.org/species/tylogonus-miles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-miles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus parabolicus</title>
+      <link>https://example.org/species/tylogonus-parabolicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-parabolicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus parvus</title>
+      <link>https://example.org/species/tylogonus-parvus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-parvus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus pichincha</title>
+      <link>https://example.org/species/tylogonus-pichincha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-pichincha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus prasinus</title>
+      <link>https://example.org/species/tylogonus-prasinus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-prasinus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus putumayo</title>
+      <link>https://example.org/species/tylogonus-putumayo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-putumayo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus vachoni</title>
+      <link>https://example.org/species/tylogonus-vachoni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-vachoni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus viridimicans</title>
+      <link>https://example.org/species/tylogonus-viridimicans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-viridimicans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tylogonus yanayacu</title>
+      <link>https://example.org/species/tylogonus-yanayacu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tylogonus-yanayacu/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

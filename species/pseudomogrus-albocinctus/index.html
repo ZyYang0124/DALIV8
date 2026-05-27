@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pseudomogrus albocinctus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Pseudomogrus albocinctus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35241.jpg" alt="Attus albo-cinctus - juv. ♀ - Uzbekistan - SYNTYPE © KRONEBERG, A. (1875). RecId: 2903">
+            
+
+            <div>Attus albo-cinctus - juv. ♀ - Uzbekistan - SYNTYPE © KRONEBERG, A. (1875). RecId: 2903</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35242.jpg" alt="Attus albo-cinctus - ♂ - Uzbekistan - SYNTYPE © KRONEBERG, A. (1875). RecId: 2891">
+            
+
+            <div>Attus albo-cinctus - ♂ - Uzbekistan - SYNTYPE © KRONEBERG, A. (1875). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20400.jpg" alt="Yllenus albicinctus [lapsus] - ♀ - abdominal pattern - Mongolia © PRÓSZYŃ SKI, J. (1982)">
+            
+
+            <div>Yllenus albicinctus [lapsus] - ♀ - abdominal pattern - Mongolia © PRÓSZYŃ SKI, J. (1982)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19766.jpg" alt="Yllenus albocinctus - ♂ - right copulatory organ, ventral view - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♂ - right copulatory organ, ventral view - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19767.jpg" alt="Yllenus albocinctus - ♂ - right copulatory organ, lateral view - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♂ - right copulatory organ, lateral view - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19770.jpg" alt="Yllenus albocinctus - ♂ - right copulatory organ, latero-ventral view - Uzbekistan © PRÓSZYŃ SKI, J. (1968). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♂ - right copulatory organ, latero-ventral view - Uzbekistan © PRÓSZYŃ SKI, J. (1968). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19768.jpg" alt="Yllenus albocinctus - ♂ - right copulatory organ, ventro-lateral view - Uzbekistan © PRÓSZYŃ SKI, J. (1968). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♂ - right copulatory organ, ventro-lateral view - Uzbekistan © PRÓSZYŃ SKI, J. (1968). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19769.jpg" alt="Yllenus albocinctus - ♂ - right copulatory organ, articulating apparatus - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♂ - right copulatory organ, articulating apparatus - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3255.jpg" alt="Yllenus albocinctus - ♀ - epigyne - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne - Uzbekistan - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3256.jpg" alt="Yllenus albocinctus - ♀ - epigyne - Armenia © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne - Armenia © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3257.jpg" alt="Yllenus albocinctus - ♀ - epigyne after maceration - Armenia © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne after maceration - Armenia © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48947.jpg" alt="Yllenus albocinctus - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus albocinctus - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48948.jpg" alt="Yllenus albocinctus - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus albocinctus - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6772.jpg" alt="Yllenus albocinctus - ♀ - dorsum - Garavuti. Scale line: 1 mm - Tajikistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - dorsum - Garavuti. Scale line: 1 mm - Tajikistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6773.jpg" alt="Yllenus albocinctus - ♂ - general appearance - Babatagh Mt. Range. Scale line: 1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♂ - general appearance - Babatagh Mt. Range. Scale line: 1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6774.jpg" alt="Yllenus albocinctus - ♀ - general appearance - Toktogul Reservoir. Scale line: 1 mm - Kyrgyzstan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - general appearance - Toktogul Reservoir. Scale line: 1 mm - Kyrgyzstan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6763.jpg" alt="Yllenus albocinctus - ♂ - bulb, median view - Babatagh Mt. Range. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♂ - bulb, median view - Babatagh Mt. Range. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6764.jpg" alt="Yllenus albocinctus - ♂ - bulb, ventral view - Babatagh Mt. Range. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♂ - bulb, ventral view - Babatagh Mt. Range. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6765.jpg" alt="Yllenus albocinctus - ♂ - bulb, lateral view - Babatagh Mt. Range. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♂ - bulb, lateral view - Babatagh Mt. Range. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6767.jpg" alt="Yllenus albocinctus - ♀ - epigyne. Scale line: 0.1 mm - Uzbekistan - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 2891">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne. Scale line: 0.1 mm - Uzbekistan - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 2891</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6768.jpg" alt="Yllenus albocinctus - ♀ - epigyne - Sultanbent. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne - Sultanbent. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6770.jpg" alt="Yllenus albocinctus - ♀ - epigyne - Nargyz Isl. Scale line: 0.1 mm - Turkmenistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne - Nargyz Isl. Scale line: 0.1 mm - Turkmenistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6771.jpg" alt="Yllenus albocinctus - ♀ - epigyne - Garavuti. Scale line: 0.1 mm - Tajikistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - epigyne - Garavuti. Scale line: 0.1 mm - Tajikistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6766.jpg" alt="Yllenus albocinctus - ♀ - spermathecae - Kokand. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - spermathecae - Kokand. Scale line: 0.1 mm - Uzbekistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6769.jpg" alt="Yllenus albocinctus - ♀ - spermathecae - Nargyz Isl. Scale line: 0.1 mm - Turkmenistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus albocinctus - ♀ - spermathecae - Nargyz Isl. Scale line: 0.1 mm - Turkmenistan © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

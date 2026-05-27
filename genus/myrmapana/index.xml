@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Myrmapana on Jumping Spider World</title>
+    <link>https://example.org/genus/myrmapana/</link>
+    <description>Recent content in Myrmapana on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/myrmapana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Myrmapana brasiliensis</title>
+      <link>https://example.org/species/myrmapana-brasiliensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmapana-brasiliensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmapana centralis</title>
+      <link>https://example.org/species/myrmapana-centralis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmapana-centralis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmapana costaricaensis</title>
+      <link>https://example.org/species/myrmapana-costaricaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmapana-costaricaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmapana mocamboensis</title>
+      <link>https://example.org/species/myrmapana-mocamboensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmapana-mocamboensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmapana panamensis</title>
+      <link>https://example.org/species/myrmapana-panamensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmapana-panamensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmapana parallela</title>
+      <link>https://example.org/species/myrmapana-parallela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmapana-parallela/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

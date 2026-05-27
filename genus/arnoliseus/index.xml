@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arnoliseus on Jumping Spider World</title>
+    <link>https://example.org/genus/arnoliseus/</link>
+    <description>Recent content in Arnoliseus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/arnoliseus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arnoliseus calcarifer</title>
+      <link>https://example.org/species/arnoliseus-calcarifer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/arnoliseus-calcarifer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arnoliseus carioca</title>
+      <link>https://example.org/species/arnoliseus-carioca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/arnoliseus-carioca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arnoliseus falcatus</title>
+      <link>https://example.org/species/arnoliseus-falcatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/arnoliseus-falcatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arnoliseus graciosa</title>
+      <link>https://example.org/species/arnoliseus-graciosa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/arnoliseus-graciosa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arnoliseus hastatus</title>
+      <link>https://example.org/species/arnoliseus-hastatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/arnoliseus-hastatus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

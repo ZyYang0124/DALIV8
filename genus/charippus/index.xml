@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charippus on Jumping Spider World</title>
+    <link>https://example.org/genus/charippus/</link>
+    <description>Recent content in Charippus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/charippus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charippus asper</title>
+      <link>https://example.org/species/charippus-asper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-asper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus bukittimah</title>
+      <link>https://example.org/species/charippus-bukittimah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-bukittimah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus callainus</title>
+      <link>https://example.org/species/charippus-callainus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-callainus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus denjii</title>
+      <link>https://example.org/species/charippus-denjii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-denjii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus errans</title>
+      <link>https://example.org/species/charippus-errans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-errans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus heishiding</title>
+      <link>https://example.org/species/charippus-heishiding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-heishiding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus kubah</title>
+      <link>https://example.org/species/charippus-kubah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-kubah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus minotaurus</title>
+      <link>https://example.org/species/charippus-minotaurus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-minotaurus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus wangzuo</title>
+      <link>https://example.org/species/charippus-wangzuo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-wangzuo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus wanlessi</title>
+      <link>https://example.org/species/charippus-wanlessi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-wanlessi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus yinae</title>
+      <link>https://example.org/species/charippus-yinae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-yinae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charippus yunnanensis</title>
+      <link>https://example.org/species/charippus-yunnanensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/charippus-yunnanensis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

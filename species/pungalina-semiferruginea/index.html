@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pungalina semiferruginea</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Pungalina semiferruginea</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42273.jpg" alt="Icius semiferrugineus - ♂ - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42276.jpg" alt="Icius semiferrugineus - ♂ - Maxillen und Lippe - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Maxillen und Lippe - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42274.jpg" alt="Icius semiferrugineus - ♂ - Mandibeln und vorderste Augenreihe - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Mandibeln und vorderste Augenreihe - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42275.jpg" alt="Icius semiferrugineus - ♂ - Mandibeln (Rückseite) - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Mandibeln (Rückseite) - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42277.jpg" alt="Icius semiferrugineus - ♂ - Tibialglied der Palpen und Kopulationsorgane - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Tibialglied der Palpen und Kopulationsorgane - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42278.jpg" alt="Icius semiferrugineus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia - HOLOTYPE © KOCH, L. (1879). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17013.jpg" alt="Clynotis semiferrugineus - ♂ - palpal organ - Australia - HOLOTYPE © ŻABKA, M. (1987). RecId: 64522">
+            
+
+            <div>Clynotis semiferrugineus - ♂ - palpal organ - Australia - HOLOTYPE © ŻABKA, M. (1987). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17014.jpg" alt="Clynotis semiferrugineus - ♂ - palpal organ - Australia - HOLOTYPE © ŻABKA, M. (1987). RecId: 64522">
+            
+
+            <div>Clynotis semiferrugineus - ♂ - palpal organ - Australia - HOLOTYPE © ŻABKA, M. (1987). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17015.jpg" alt="Clynotis semiferrugineus - ♂ - palpal organ - Australia - HOLOTYPE © ŻABKA, M. (1987). RecId: 64522">
+            
+
+            <div>Clynotis semiferrugineus - ♂ - palpal organ - Australia - HOLOTYPE © ŻABKA, M. (1987). RecId: 64522</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38886.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38885.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6672.jpg" alt="Pungalina semiferruginea - ♂ - dorsal view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♂ - dorsal view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6673.jpg" alt="Pungalina semiferruginea - ♂ - lateral view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♂ - lateral view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6675.jpg" alt="Pungalina semiferruginea - ♂ - anterior view - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♂ - anterior view - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6676.jpg" alt="Pungalina semiferruginea - ♀ - dorsal view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♀ - dorsal view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6677.jpg" alt="Pungalina semiferruginea - ♀ - lateral view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♀ - lateral view. Scale: 2 mm - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6679.jpg" alt="Pungalina semiferruginea - ♀ - anterior view - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♀ - anterior view - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6674.jpg" alt="Pungalina semiferruginea - ♂ - ventral view - Australia © RICHARDSON, B. J. (2016)">
+            
+
+            <div>Pungalina semiferruginea - ♂ - ventral view - Australia © RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6678.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6680.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6681.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6682.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6683.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28560.jpg" alt="Icius semiferrugineus - ♂ - Australia - HOLOTYPE © HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64522">
+            
+
+            <div>Icius semiferrugineus - ♂ - Australia - HOLOTYPE © HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64522</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

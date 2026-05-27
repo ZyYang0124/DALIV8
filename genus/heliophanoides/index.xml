@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heliophanoides on Jumping Spider World</title>
+    <link>https://example.org/genus/heliophanoides/</link>
+    <description>Recent content in Heliophanoides on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/heliophanoides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heliophanoides bhutanicus</title>
+      <link>https://example.org/species/heliophanoides-bhutanicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-bhutanicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides epigynalis</title>
+      <link>https://example.org/species/heliophanoides-epigynalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-epigynalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides longlingensis</title>
+      <link>https://example.org/species/heliophanoides-longlingensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-longlingensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides moi</title>
+      <link>https://example.org/species/heliophanoides-moi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-moi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides proszynskii</title>
+      <link>https://example.org/species/heliophanoides-proszynskii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-proszynskii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides spermathecalis</title>
+      <link>https://example.org/species/heliophanoides-spermathecalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-spermathecalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides tengchongensis</title>
+      <link>https://example.org/species/heliophanoides-tengchongensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-tengchongensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heliophanoides ultramarine</title>
+      <link>https://example.org/species/heliophanoides-ultramarine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/heliophanoides-ultramarine/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

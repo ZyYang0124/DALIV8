@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proszynskiana on Jumping Spider World</title>
+    <link>https://example.org/genus/proszynskiana/</link>
+    <description>Recent content in Proszynskiana on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/proszynskiana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proszynskiana aeluriforma</title>
+      <link>https://example.org/species/proszynskiana-aeluriforma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-aeluriforma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana deserticola</title>
+      <link>https://example.org/species/proszynskiana-deserticola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-deserticola/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana iranica</title>
+      <link>https://example.org/species/proszynskiana-iranica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-iranica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana izadii</title>
+      <link>https://example.org/species/proszynskiana-izadii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-izadii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana logunovi</title>
+      <link>https://example.org/species/proszynskiana-logunovi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-logunovi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana mongolica</title>
+      <link>https://example.org/species/proszynskiana-mongolica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-mongolica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana starobogatovi</title>
+      <link>https://example.org/species/proszynskiana-starobogatovi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-starobogatovi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proszynskiana zonshteini</title>
+      <link>https://example.org/species/proszynskiana-zonshteini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/proszynskiana-zonshteini/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

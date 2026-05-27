@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Triggella on Jumping Spider World</title>
+    <link>https://example.org/genus/triggella/</link>
+    <description>Recent content in Triggella on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/triggella/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Triggella bifida</title>
+      <link>https://example.org/species/triggella-bifida/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/triggella-bifida/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Triggella infuscata</title>
+      <link>https://example.org/species/triggella-infuscata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/triggella-infuscata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Triggella minuta</title>
+      <link>https://example.org/species/triggella-minuta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/triggella-minuta/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

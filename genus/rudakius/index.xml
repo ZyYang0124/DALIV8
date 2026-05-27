@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rudakius on Jumping Spider World</title>
+    <link>https://example.org/genus/rudakius/</link>
+    <description>Recent content in Rudakius on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/rudakius/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rudakius afghanicus</title>
+      <link>https://example.org/species/rudakius-afghanicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-afghanicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudakius cinctus</title>
+      <link>https://example.org/species/rudakius-cinctus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-cinctus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudakius ludhianaensis</title>
+      <link>https://example.org/species/rudakius-ludhianaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-ludhianaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudakius maureri</title>
+      <link>https://example.org/species/rudakius-maureri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-maureri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudakius rudakii</title>
+      <link>https://example.org/species/rudakius-rudakii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-rudakii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudakius spasskyi</title>
+      <link>https://example.org/species/rudakius-spasskyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-spasskyi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudakius wenshanensis</title>
+      <link>https://example.org/species/rudakius-wenshanensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudakius-wenshanensis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

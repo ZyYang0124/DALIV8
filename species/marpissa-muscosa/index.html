@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Marpissa muscosa</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Marpissa muscosa</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44743.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21734.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21735.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21738.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21737.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21736.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40216.jpg" alt="Marptusa muscosa - ♂ - Hungary © CHYZER, K. &amp; KULCZYNSKI, U. (1891)">
+            
+
+            <div>Marptusa muscosa - ♂ - Hungary © CHYZER, K. &amp; KULCZYNSKI, U. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13899.jpg" alt="Marptusa muscosa - ♀ - dorsal view - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1894)">
+            
+
+            <div>Marptusa muscosa - ♀ - dorsal view - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13900.jpg" alt="Marptusa muscosa - ♀ - face and falces - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1894)">
+            
+
+            <div>Marptusa muscosa - ♀ - face and falces - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13901.jpg" alt="Marptusa muscosa - ♀ - side view of cephalothorax - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1894)">
+            
+
+            <div>Marptusa muscosa - ♀ - side view of cephalothorax - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21278.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40014.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40015.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34834.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34836.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34835.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48794.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48796.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49274.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49292.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49293.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48797.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48798.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49276.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49277.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48795.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49294.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49275.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18096.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18100.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18101.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18102.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18097.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18098.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18099.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18103.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18104.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18105.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18106.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18107.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18401.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18433.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18512.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18513.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18414.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18436.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-102.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-103.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-104.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-105.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-106.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49395.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49400.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49398.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49399.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49396.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49397.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6033.jpg" alt="SYNONYM: Salticus Rumpfii - ♀ - Germany © HAHN, C. W. (1832)">
+            
+
+            <div>SYNONYM: Salticus Rumpfii - ♀ - Germany © HAHN, C. W. (1832)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45304.jpg" alt="SYNONYM: Marpissa rumpfii - ♀ - Germany © DAHL, F. (1926)">
+            
+
+            <div>SYNONYM: Marpissa rumpfii - ♀ - Germany © DAHL, F. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35299.jpg" alt="SYNONYM: Attus tardigradus - France © WALCKENAER, C. A. (1826)">
+            
+
+            <div>SYNONYM: Attus tardigradus - France © WALCKENAER, C. A. (1826)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1824.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-131.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-132.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-133.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-134.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-70.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-613.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-614.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-369.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-811.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-816.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-932.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-933.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-934.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-935.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-936.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-939.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-937.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-938.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-940.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-941.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29496.jpg" alt="Macaroeris nidicolens - ♂ - Waret - © Pierre Oger - Belgium © OGER, P. (2024)">
+            
+
+            <div>Macaroeris nidicolens - ♂ - Waret - © Pierre Oger - Belgium © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29497.jpg" alt="Macaroeris nidicolens - ♂ - Waret - © Pierre Oger - Belgium © OGER, P. (2024)">
+            
+
+            <div>Macaroeris nidicolens - ♂ - Waret - © Pierre Oger - Belgium © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29498.jpg" alt="Macaroeris nidicolens - ♀ - Héron - © Pierre Oger - Belgium © OGER, P. (2024)">
+            
+
+            <div>Macaroeris nidicolens - ♀ - Héron - © Pierre Oger - Belgium © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29499.jpg" alt="Macaroeris nidicolens - ♀ - Héron - © Pierre Oger - Belgium © OGER, P. (2024)">
+            
+
+            <div>Macaroeris nidicolens - ♀ - Héron - © Pierre Oger - Belgium © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21835.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

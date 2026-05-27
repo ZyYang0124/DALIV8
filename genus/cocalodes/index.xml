@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocalodes on Jumping Spider World</title>
+    <link>https://example.org/genus/cocalodes/</link>
+    <description>Recent content in Cocalodes on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/cocalodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cocalodes cygnatus</title>
+      <link>https://example.org/species/cocalodes-cygnatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-cygnatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes expers</title>
+      <link>https://example.org/species/cocalodes-expers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-expers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes innotabilis</title>
+      <link>https://example.org/species/cocalodes-innotabilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-innotabilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes leptopus</title>
+      <link>https://example.org/species/cocalodes-leptopus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-leptopus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes longicornis</title>
+      <link>https://example.org/species/cocalodes-longicornis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-longicornis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes longipes</title>
+      <link>https://example.org/species/cocalodes-longipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-longipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes macellus</title>
+      <link>https://example.org/species/cocalodes-macellus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-macellus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes papuanus</title>
+      <link>https://example.org/species/cocalodes-papuanus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-papuanus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes platnicki</title>
+      <link>https://example.org/species/cocalodes-platnicki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-platnicki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes protervus</title>
+      <link>https://example.org/species/cocalodes-protervus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-protervus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes thoracicus</title>
+      <link>https://example.org/species/cocalodes-thoracicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-thoracicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalodes turgidus</title>
+      <link>https://example.org/species/cocalodes-turgidus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalodes-turgidus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

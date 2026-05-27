@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simaethula on Jumping Spider World</title>
+    <link>https://example.org/genus/simaethula/</link>
+    <description>Recent content in Simaethula on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/simaethula/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simaethula aurata</title>
+      <link>https://example.org/species/simaethula-aurata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-aurata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simaethula auronitens</title>
+      <link>https://example.org/species/simaethula-auronitens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-auronitens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simaethula chalcops</title>
+      <link>https://example.org/species/simaethula-chalcops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-chalcops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simaethula janthina</title>
+      <link>https://example.org/species/simaethula-janthina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-janthina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simaethula mutica</title>
+      <link>https://example.org/species/simaethula-mutica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-mutica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simaethula opulenta</title>
+      <link>https://example.org/species/simaethula-opulenta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-opulenta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simaethula violacea</title>
+      <link>https://example.org/species/simaethula-violacea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/simaethula-violacea/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

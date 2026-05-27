@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manzuma on Jumping Spider World</title>
+    <link>https://example.org/genus/manzuma/</link>
+    <description>Recent content in Manzuma on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/manzuma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manzuma botswana</title>
+      <link>https://example.org/species/manzuma-botswana/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/manzuma-botswana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manzuma jocquei</title>
+      <link>https://example.org/species/manzuma-jocquei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/manzuma-jocquei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manzuma kenyaensis</title>
+      <link>https://example.org/species/manzuma-kenyaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/manzuma-kenyaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manzuma nigritibiis</title>
+      <link>https://example.org/species/manzuma-nigritibiis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/manzuma-nigritibiis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manzuma petroae</title>
+      <link>https://example.org/species/manzuma-petroae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/manzuma-petroae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manzuma tanzanica</title>
+      <link>https://example.org/species/manzuma-tanzanica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/manzuma-tanzanica/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

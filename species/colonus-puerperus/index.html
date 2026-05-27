@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Colonus puerperus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Colonus puerperus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5994.jpg" alt="Attus puerperus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>Attus puerperus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5021.jpg" alt="Plexippus puerperus - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus puerperus - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15970.jpg" alt="Plexippus puerperus - ♀ - US © EMERTON, J. H. (1901)">
+            
+
+            <div>Plexippus puerperus - ♀ - US © EMERTON, J. H. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15971.jpg" alt="Plexippus puerperus - ♂ - US © EMERTON, J. H. (1901)">
+            
+
+            <div>Plexippus puerperus - ♂ - US © EMERTON, J. H. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15972.jpg" alt="Plexippus puerperus - ♂ - front head - US © EMERTON, J. H. (1901)">
+            
+
+            <div>Plexippus puerperus - ♂ - front head - US © EMERTON, J. H. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15695.jpg" alt="Thiodina puerpera - ♂ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina puerpera - ♂ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15696.jpg" alt="Thiodina puerpera - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina puerpera - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15697.jpg" alt="Thiodina puerpera - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina puerpera - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15698.jpg" alt="Thiodina puerpera - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina puerpera - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15699.jpg" alt="Thiodina puerpera - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina puerpera - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41932.jpg" alt="Thiodina puerpera - ♂ - chelicera - US © COMSTOCK, J. H. (1912)">
+            
+
+            <div>Thiodina puerpera - ♂ - chelicera - US © COMSTOCK, J. H. (1912)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41933.jpg" alt="Thiodina puerpera - ♀ - chelicera - US © COMSTOCK, J. H. (1912)">
+            
+
+            <div>Thiodina puerpera - ♀ - chelicera - US © COMSTOCK, J. H. (1912)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41934.jpg" alt="Thiodina puerpera - ♀ - chelicera - US © COMSTOCK, J. H. (1912)">
+            
+
+            <div>Thiodina puerpera - ♀ - chelicera - US © COMSTOCK, J. H. (1912)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14766.jpg" alt="Thiodina puerpera - ♂ - left palp, retrolateral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina puerpera - ♂ - left palp, retrolateral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14770.jpg" alt="Thiodina puerpera - ♀ - epigynum, ventral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina puerpera - ♀ - epigynum, ventral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14771.jpg" alt="Thiodina puerpera - ♀ - epigynum, dorsal view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina puerpera - ♀ - epigynum, dorsal view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5924.jpg" alt="SYNONYM: Attus agrestis - ♀ - dorsal markings - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus agrestis - ♀ - dorsal markings - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5925.jpg" alt="SYNONYM: Attus agrestis - ♀ - epigynum - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus agrestis - ♀ - epigynum - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-240.jpg" alt="Thiodina puerpera - ♂ - Florida - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♂ - Florida - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1493.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 15 May 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 15 May 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1494.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 15 May 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 15 May 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1495.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 15 May 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 15 May 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1496.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1497.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1498.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009. The two pairs of bulbous spines (or setae) near the bottom of the photograph are characteristic of the genus Thiodina. © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009. The two pairs of bulbous spines (or setae) near the bottom of the photograph are characteristic of the genus Thiodina. © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1499.jpg" alt="Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - Shelby Park in Nashville. 28 May 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1500.jpg" alt="Thiodina puerpera - ♀ - 15 June 2009 © Kaldari - country undefined © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina puerpera - ♀ - 15 June 2009 © Kaldari - country undefined © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2796.jpg" alt="Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2797.jpg" alt="Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2798.jpg" alt="Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2799.jpg" alt="Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2800.jpg" alt="Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2801.jpg" alt="Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2802.jpg" alt="Thiodina puerpera - ♀ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♀ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2803.jpg" alt="Thiodina puerpera - ♀ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♀ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2804.jpg" alt="Thiodina puerpera - ♀ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina puerpera - ♀ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22433.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22434.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6007.jpg" alt="Attus sylvanus - ♂ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>Attus sylvanus - ♂ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5679.jpg" alt="Plexippus puerperus - ♂ - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)">
+            
+
+            <div>Plexippus puerperus - ♂ - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5680.jpg" alt="Plexippus puerperus - ♀ - Abdomen - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)">
+            
+
+            <div>Plexippus puerperus - ♀ - Abdomen - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5681.jpg" alt="Plexippus puerperus - ♂ - palpus - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)">
+            
+
+            <div>Plexippus puerperus - ♂ - palpus - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5682.jpg" alt="Plexippus puerperus - ♀ - Epigynum - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)">
+            
+
+            <div>Plexippus puerperus - ♀ - Epigynum - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1885)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13461.jpg" alt="Plexippus puerperus - ♂ - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus puerperus - ♂ - Guatemala - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13462.jpg" alt="Plexippus puerperus - ♀ - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus puerperus - ♀ - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13463.jpg" alt="Plexippus puerperus - ♂ - palpus - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus puerperus - ♂ - palpus - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13464.jpg" alt="Plexippus puerperus - ♂ - tibia of palpus - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus puerperus - ♂ - tibia of palpus - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13465.jpg" alt="Plexippus puerperus - ♀ - Epigynum - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus puerperus - ♀ - Epigynum - country undefined - MISIDENTIFICATION © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50192.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4510.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4514.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50195.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50194.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50193.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4513.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4511.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4512.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4515.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4516.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15700.jpg" alt="Thiodina sylvana - ♂ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina sylvana - ♂ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15702.jpg" alt="Thiodina sylvana - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina sylvana - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15705.jpg" alt="Thiodina sylvana - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina sylvana - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15704.jpg" alt="Thiodina sylvana - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina sylvana - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15701.jpg" alt="Thiodina sylvana - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Thiodina sylvana - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14764.jpg" alt="Thiodina sylvana - ♂ - left palp, ventral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina sylvana - ♂ - left palp, ventral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14765.jpg" alt="Thiodina sylvana - ♂ - left palp, retrolateral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina sylvana - ♂ - left palp, retrolateral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14768.jpg" alt="Thiodina sylvana - ♀ - epigynum, ventral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina sylvana - ♀ - epigynum, ventral view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14769.jpg" alt="Thiodina sylvana - ♀ - epigynum, dorsal view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)">
+            
+
+            <div>Thiodina sylvana - ♀ - epigynum, dorsal view. Scale: 0.2 mm - US © RICHMAN, D. B. &amp; VETTER, R. S. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5970.jpg" alt="SYNONYM: Attus retiarius - ♀ - US - SYNTYPE © HENTZ, N. M. (1850)">
+            
+
+            <div>SYNONYM: Attus retiarius - ♀ - US - SYNTYPE © HENTZ, N. M. (1850)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-238.jpg" alt="Thiodina sylvana - ♂ - Florida - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina sylvana - ♂ - Florida - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-239.jpg" alt="Thiodina sylvana - ♀ - Florida - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina sylvana - ♀ - Florida - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1501.jpg" alt="Thiodina sylvana - ♀ - Shelby Park in Nashville. Body length: 10.2 mm. 21 August 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina sylvana - ♀ - Shelby Park in Nashville. Body length: 10.2 mm. 21 August 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1502.jpg" alt="Thiodina sylvana - ♀ - Shelby Park in Nashville. Body length: 10.2 mm. 21 August 2009 © Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina sylvana - ♀ - Shelby Park in Nashville. Body length: 10.2 mm. 21 August 2009 © Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1503.jpg" alt="Thiodina sylvana - ♀ - Shelby Park in Nashville. epigyne. 21 August 2009 © Ryan Kaldari - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Thiodina sylvana - ♀ - Shelby Park in Nashville. epigyne. 21 August 2009 © Ryan Kaldari - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2805.jpg" alt="Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2806.jpg" alt="Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2807.jpg" alt="Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2808.jpg" alt="Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2809.jpg" alt="Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2810.jpg" alt="Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♂ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2811.jpg" alt="Thiodina sylvana - ♀ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♀ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2812.jpg" alt="Thiodina sylvana - ♀ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♀ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2813.jpg" alt="Thiodina sylvana - ♀ - South Carolina - US © HILL, D. E. (2012)">
+            
+
+            <div>Thiodina sylvana - ♀ - South Carolina - US © HILL, D. E. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10185.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

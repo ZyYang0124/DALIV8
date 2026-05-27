@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anasaitis on Jumping Spider World</title>
+    <link>https://example.org/genus/anasaitis/</link>
+    <description>Recent content in Anasaitis on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/anasaitis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anasaitis adorabilis</title>
+      <link>https://example.org/species/anasaitis-adorabilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-adorabilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis banksi</title>
+      <link>https://example.org/species/anasaitis-banksi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-banksi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis canalis</title>
+      <link>https://example.org/species/anasaitis-canalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-canalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis champetera</title>
+      <link>https://example.org/species/anasaitis-champetera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-champetera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis decoris</title>
+      <link>https://example.org/species/anasaitis-decoris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-decoris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis emertoni</title>
+      <link>https://example.org/species/anasaitis-emertoni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-emertoni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis gloriae</title>
+      <link>https://example.org/species/anasaitis-gloriae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-gloriae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis locuples</title>
+      <link>https://example.org/species/anasaitis-locuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-locuples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis milesae</title>
+      <link>https://example.org/species/anasaitis-milesae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-milesae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis morgani</title>
+      <link>https://example.org/species/anasaitis-morgani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-morgani/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anasaitis peckhami</title>
+      <link>https://example.org/species/anasaitis-peckhami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/anasaitis-peckhami/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

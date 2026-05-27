@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Freya regia</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Freya regia</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44828.jpg" alt="Euophrys decorata - ♂ - Brazil - HOLOTYPE © KOCH, C. L. (1846)">
+            
+
+            <div>Euophrys decorata - ♂ - Brazil - HOLOTYPE © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21487.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10022.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30259.jpg" alt="Phiale nigrotaeniata - ♀ - epigino - Argentina - SYNTYPE © MELLO-LEITÃO, C. F. (1945)">
+            
+
+            <div>Phiale nigrotaeniata - ♀ - epigino - Argentina - SYNTYPE © MELLO-LEITÃO, C. F. (1945)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10026.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14277.jpg" alt="Heraclea regia - ♀ - dorsal view - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828">
+            
+
+            <div>Heraclea regia - ♀ - dorsal view - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14278.jpg" alt="Heraclea regia - ♀ - side view of cephalothorax - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828">
+            
+
+            <div>Heraclea regia - ♀ - side view of cephalothorax - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14279.jpg" alt="Heraclea regia - ♀ - face and falces - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828">
+            
+
+            <div>Heraclea regia - ♀ - face and falces - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14282.jpg" alt="Heraclea regia - ♂ - dorsal view - Guatemala - LECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12829">
+            
+
+            <div>Heraclea regia - ♂ - dorsal view - Guatemala - LECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12829</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14283.jpg" alt="Heraclea regia - ♂ - palpus - Guatemala - LECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12829">
+            
+
+            <div>Heraclea regia - ♂ - palpus - Guatemala - LECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12829</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14284.jpg" alt="Heraclea regia - ♂ - palpus - Guatemala - LECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12829">
+            
+
+            <div>Heraclea regia - ♂ - palpus - Guatemala - LECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12829</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14280.jpg" alt="Heraclea regia - ♀ - epigynum - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828">
+            
+
+            <div>Heraclea regia - ♀ - epigynum - Guatemala - PARALECTOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 12828</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3992.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3998.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3999.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4000.jpg" alt="Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4001.jpg" alt="Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4002.jpg" alt="Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3997.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4003.jpg" alt="Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3993.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3995.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3996.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3994.jpg" alt="Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4004.jpg" alt="Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>Cyrene regia - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10032.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10033.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10040.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10041.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10042.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10052.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10053.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10056.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10062.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23083.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23084.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23085.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23086.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23087.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23088.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

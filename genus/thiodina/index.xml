@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thiodina on Jumping Spider World</title>
+    <link>https://example.org/genus/thiodina/</link>
+    <description>Recent content in Thiodina on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/thiodina/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thiodina camilae</title>
+      <link>https://example.org/species/thiodina-camilae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-camilae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thiodina firme</title>
+      <link>https://example.org/species/thiodina-firme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-firme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thiodina minuta</title>
+      <link>https://example.org/species/thiodina-minuta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-minuta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thiodina nicoleti</title>
+      <link>https://example.org/species/thiodina-nicoleti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-nicoleti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thiodina perian</title>
+      <link>https://example.org/species/thiodina-perian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-perian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thiodina tefyta</title>
+      <link>https://example.org/species/thiodina-tefyta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-tefyta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thiodina tyrioni</title>
+      <link>https://example.org/species/thiodina-tyrioni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/thiodina-tyrioni/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panysinus on Jumping Spider World</title>
+    <link>https://example.org/genus/panysinus/</link>
+    <description>Recent content in Panysinus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/panysinus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Panysinus grammicus</title>
+      <link>https://example.org/species/panysinus-grammicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/panysinus-grammicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panysinus nicholsoni</title>
+      <link>https://example.org/species/panysinus-nicholsoni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/panysinus-nicholsoni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panysinus nitens</title>
+      <link>https://example.org/species/panysinus-nitens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/panysinus-nitens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panysinus semiargenteus</title>
+      <link>https://example.org/species/panysinus-semiargenteus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/panysinus-semiargenteus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panysinus semiermis</title>
+      <link>https://example.org/species/panysinus-semiermis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/panysinus-semiermis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

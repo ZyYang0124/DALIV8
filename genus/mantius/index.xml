@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mantius on Jumping Spider World</title>
+    <link>https://example.org/genus/mantius/</link>
+    <description>Recent content in Mantius on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/mantius/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mantius armipotens</title>
+      <link>https://example.org/species/mantius-armipotens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/mantius-armipotens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mantius difficilis</title>
+      <link>https://example.org/species/mantius-difficilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/mantius-difficilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mantius frontosus</title>
+      <link>https://example.org/species/mantius-frontosus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/mantius-frontosus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mantius ravidus</title>
+      <link>https://example.org/species/mantius-ravidus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/mantius-ravidus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mantius russatus</title>
+      <link>https://example.org/species/mantius-russatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/mantius-russatus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

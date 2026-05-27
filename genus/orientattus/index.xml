@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orientattus on Jumping Spider World</title>
+    <link>https://example.org/genus/orientattus/</link>
+    <description>Recent content in Orientattus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/orientattus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orientattus aurantius</title>
+      <link>https://example.org/species/orientattus-aurantius/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/orientattus-aurantius/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orientattus bicuspidatus</title>
+      <link>https://example.org/species/orientattus-bicuspidatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/orientattus-bicuspidatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orientattus chushu</title>
+      <link>https://example.org/species/orientattus-chushu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/orientattus-chushu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orientattus hongkong</title>
+      <link>https://example.org/species/orientattus-hongkong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/orientattus-hongkong/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orientattus minutus</title>
+      <link>https://example.org/species/orientattus-minutus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/orientattus-minutus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

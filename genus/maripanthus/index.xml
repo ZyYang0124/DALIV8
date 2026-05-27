@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maripanthus on Jumping Spider World</title>
+    <link>https://example.org/genus/maripanthus/</link>
+    <description>Recent content in Maripanthus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/maripanthus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maripanthus draconis</title>
+      <link>https://example.org/species/maripanthus-draconis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maripanthus-draconis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maripanthus gloria</title>
+      <link>https://example.org/species/maripanthus-gloria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maripanthus-gloria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maripanthus jubatus</title>
+      <link>https://example.org/species/maripanthus-jubatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maripanthus-jubatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maripanthus menghaiensis</title>
+      <link>https://example.org/species/maripanthus-menghaiensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maripanthus-menghaiensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maripanthus reinholdae</title>
+      <link>https://example.org/species/maripanthus-reinholdae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maripanthus-reinholdae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maripanthus smedleyi</title>
+      <link>https://example.org/species/maripanthus-smedleyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maripanthus-smedleyi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

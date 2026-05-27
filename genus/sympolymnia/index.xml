@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sympolymnia on Jumping Spider World</title>
+    <link>https://example.org/genus/sympolymnia/</link>
+    <description>Recent content in Sympolymnia on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/sympolymnia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sympolymnia cutleri</title>
+      <link>https://example.org/species/sympolymnia-cutleri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sympolymnia-cutleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sympolymnia edwardsi</title>
+      <link>https://example.org/species/sympolymnia-edwardsi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sympolymnia-edwardsi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sympolymnia lauretta</title>
+      <link>https://example.org/species/sympolymnia-lauretta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sympolymnia-lauretta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sympolymnia lucasi</title>
+      <link>https://example.org/species/sympolymnia-lucasi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sympolymnia-lucasi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sympolymnia shinahota</title>
+      <link>https://example.org/species/sympolymnia-shinahota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sympolymnia-shinahota/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

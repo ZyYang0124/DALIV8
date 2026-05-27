@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Breda on Jumping Spider World</title>
+    <link>https://example.org/genus/breda/</link>
+    <description>Recent content in Breda on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/breda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breda akypueruna</title>
+      <link>https://example.org/species/breda-akypueruna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-akypueruna/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda apicalis</title>
+      <link>https://example.org/species/breda-apicalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-apicalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda bicruciata</title>
+      <link>https://example.org/species/breda-bicruciata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-bicruciata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda bistriata</title>
+      <link>https://example.org/species/breda-bistriata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-bistriata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda lubomirskii</title>
+      <link>https://example.org/species/breda-lubomirskii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-lubomirskii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda milvina</title>
+      <link>https://example.org/species/breda-milvina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-milvina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda modesta</title>
+      <link>https://example.org/species/breda-modesta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-modesta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda nanica</title>
+      <link>https://example.org/species/breda-nanica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-nanica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda notata</title>
+      <link>https://example.org/species/breda-notata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-notata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda oserictops</title>
+      <link>https://example.org/species/breda-oserictops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-oserictops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda paraensis</title>
+      <link>https://example.org/species/breda-paraensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-paraensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda tristis</title>
+      <link>https://example.org/species/breda-tristis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-tristis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breda variolosa</title>
+      <link>https://example.org/species/breda-variolosa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/breda-variolosa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

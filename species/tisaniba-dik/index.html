@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tisaniba dik</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Tisaniba dik</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28357.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28358.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28359.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28360.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2974.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2975.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2976.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2977.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-2978.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22594.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22595.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22596.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47620.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - left chelicerae, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - left chelicerae, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47617.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - palp, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - palp, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47618.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47619.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - embolic division, dorsal view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - embolic division, dorsal view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47621.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47622.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - vulva, dorsal view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - vulva, dorsal view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47624.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - epigyne, diagrammatic course of insemination duct - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - epigyne, diagrammatic course of insemination duct - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15348.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - body, dorsal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - body, dorsal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15349.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - body, lateral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - body, lateral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15350.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - body, ventral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - body, ventral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15351.jpg" alt="Tisaniba (Loeblica) inusitata - ♂ - body, frontal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♂ - body, frontal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15352.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - body, dorsal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - body, dorsal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15353.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - body, lateral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - body, lateral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15354.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - body, ventral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - body, ventral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15355.jpg" alt="Tisaniba (Loeblica) inusitata - ♀ - body, frontal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) inusitata - ♀ - body, frontal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47652.jpg" alt="Tisaniba (Tisaniba) ligoforma - ♂ - labium and left endite, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) ligoforma - ♂ - labium and left endite, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47651.jpg" alt="Tisaniba (Tisaniba) ligoforma - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) ligoforma - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47650.jpg" alt="Tisaniba (Tisaniba) ligoforma - ♂ - palp, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) ligoforma - ♂ - palp, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47653.jpg" alt="Tisaniba (Tisaniba) ligoforma - ♂ - embolic division, dorsal view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) ligoforma - ♂ - embolic division, dorsal view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47654.jpg" alt="Tisaniba (Tisaniba) ligoforma - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Indonesia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) ligoforma - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Indonesia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47655.jpg" alt="Tisaniba (Tisaniba) ligoforma - ♀ - vulva, dorsal view. Scale bar: 0.1 mm - Indonesia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) ligoforma - ♀ - vulva, dorsal view. Scale bar: 0.1 mm - Indonesia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47630.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - labium and left endite, ventral view. Scale bar: 0.1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - labium and left endite, ventral view. Scale bar: 0.1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47632.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - labium and left endite, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - labium and left endite, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47633.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - left chelicerae, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - left chelicerae, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47627.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47626.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - palp, ventral view. Scale bar: 0.1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - palp, ventral view. Scale bar: 0.1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47631.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - diagrammatic course of sperm duct - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - diagrammatic course of sperm duct - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47628.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47629.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - vulva, dorsal view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - vulva, dorsal view. Scale bar: 0.1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15356.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - body, dorsal view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - body, dorsal view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15357.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - body, lateral view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - body, lateral view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15358.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - body, ventral view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - body, ventral view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15359.jpg" alt="Tisaniba (Loeblica) loebli - ♂ - body, frontal view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♂ - body, frontal view. Scale bar: 1 mm - Malaysia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15360.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - body, dorsal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - body, dorsal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15361.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - body, lateral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - body, lateral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15362.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - body, ventral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - body, ventral view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15363.jpg" alt="Tisaniba (Loeblica) loebli - ♀ - body, frontal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Loeblica) loebli - ♀ - body, frontal view. Scale bar: 1 mm - Malaysia - PARATYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47659.jpg" alt="Tisaniba (Tisaniba) mayang - ♂ - labium and left endite, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) mayang - ♂ - labium and left endite, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47656.jpg" alt="Tisaniba (Tisaniba) mayang - ♂ - palp, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) mayang - ♂ - palp, ventral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47657.jpg" alt="Tisaniba (Tisaniba) mayang - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) mayang - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47658.jpg" alt="Tisaniba (Tisaniba) mayang - ♂ - embolic division, dorsal view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)">
+            
+
+            <div>Tisaniba (Tisaniba) mayang - ♂ - embolic division, dorsal view. Scale bar: 0.1 mm - Indonesia - HOLOTYPE © LOGUNOV, D. V. (2020)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

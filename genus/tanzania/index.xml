@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tanzania on Jumping Spider World</title>
+    <link>https://example.org/genus/tanzania/</link>
+    <description>Recent content in Tanzania on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/tanzania/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tanzania meridionalis</title>
+      <link>https://example.org/species/tanzania-meridionalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-meridionalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanzania minutus</title>
+      <link>https://example.org/species/tanzania-minutus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-minutus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanzania mkomaziensis</title>
+      <link>https://example.org/species/tanzania-mkomaziensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-mkomaziensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanzania parvulus</title>
+      <link>https://example.org/species/tanzania-parvulus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-parvulus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanzania pusillus</title>
+      <link>https://example.org/species/tanzania-pusillus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-pusillus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanzania striatus</title>
+      <link>https://example.org/species/tanzania-striatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-striatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanzania yellapragadai</title>
+      <link>https://example.org/species/tanzania-yellapragadai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tanzania-yellapragadai/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

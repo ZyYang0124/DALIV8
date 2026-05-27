@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocalus on Jumping Spider World</title>
+    <link>https://example.org/genus/cocalus/</link>
+    <description>Recent content in Cocalus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/cocalus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cocalus concolor</title>
+      <link>https://example.org/species/cocalus-concolor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-concolor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalus gibbosus</title>
+      <link>https://example.org/species/cocalus-gibbosus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-gibbosus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalus lacinia</title>
+      <link>https://example.org/species/cocalus-lacinia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-lacinia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalus limbatus</title>
+      <link>https://example.org/species/cocalus-limbatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-limbatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalus menglaensis</title>
+      <link>https://example.org/species/cocalus-menglaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-menglaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalus murinus</title>
+      <link>https://example.org/species/cocalus-murinus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-murinus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cocalus shendurneyensis</title>
+      <link>https://example.org/species/cocalus-shendurneyensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cocalus-shendurneyensis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

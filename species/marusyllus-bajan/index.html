@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Marusyllus bajan</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Marusyllus bajan</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48954.jpg" alt="Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48955.jpg" alt="Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3237.jpg" alt="Yllenus bajan - ♂ - left copulatory organ - Mongolia - ALLOTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus bajan - ♂ - left copulatory organ - Mongolia - ALLOTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3238.jpg" alt="Yllenus bajan - ♂ - left copulatory organ - Mongolia - ALLOTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus bajan - ♂ - left copulatory organ - Mongolia - ALLOTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3239.jpg" alt="Yllenus bajan - ♂ - left copulatory organ - Mongolia - ALLOTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus bajan - ♂ - left copulatory organ - Mongolia - ALLOTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48958.jpg" alt="Yllenus bajan - ♂ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♂ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48959.jpg" alt="Yllenus bajan - ♂ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♂ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48960.jpg" alt="Yllenus bajan - ♂ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♂ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3240.jpg" alt="Yllenus bajan - ♀ - epigynum - Mongolia - HOLOTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus bajan - ♀ - epigynum - Mongolia - HOLOTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48956.jpg" alt="Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3241.jpg" alt="Yllenus bajan - ♀ - epigynum after maceration - Mongolia - HOLOTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus bajan - ♀ - epigynum after maceration - Mongolia - HOLOTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3242.jpg" alt="Yllenus bajan - ♀ - right spermatheca, dorsal view - Mongolia © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus bajan - ♀ - right spermatheca, dorsal view - Mongolia © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48957.jpg" alt="Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)">
+            
+
+            <div>Yllenus bajan - ♀ - China © HU, J. L. &amp; WU, W. G. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7108.jpg" alt="Yllenus bajan - ♂ - dorsum. Zoolon uul. Scale line: 1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - dorsum. Zoolon uul. Scale line: 1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7104.jpg" alt="Yllenus bajan - ♂ - palp, median view. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - palp, median view. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7109.jpg" alt="Yllenus bajan - ♂ - CTA ´s tip. Bor-Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - CTA ´s tip. Bor-Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7110.jpg" alt="Yllenus bajan - ♂ - palp, median view. Bor- Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - palp, median view. Bor- Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7112.jpg" alt="Yllenus bajan - ♂ - palp, ventral view. Bor- Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - palp, ventral view. Bor- Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7105.jpg" alt="Yllenus bajan - ♂ - tibial apophysis, lateral view. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - tibial apophysis, lateral view. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7111.jpg" alt="Yllenus bajan - ♂ - tibial apophysis, lateral view. Bor-Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♂ - tibial apophysis, lateral view. Bor-Tolgoi. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7106.jpg" alt="Yllenus bajan - ♀ - epigyne. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♀ - epigyne. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7107.jpg" alt="Yllenus bajan - ♀ - spermathecae. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus bajan - ♀ - spermathecae. Zoolon uul. Scale line: 0.1 mm - Mongolia © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Balmaceda on Jumping Spider World</title>
+    <link>https://example.org/genus/balmaceda/</link>
+    <description>Recent content in Balmaceda on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/balmaceda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Balmaceda abba</title>
+      <link>https://example.org/species/balmaceda-abba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-abba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda anulipes</title>
+      <link>https://example.org/species/balmaceda-anulipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-anulipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda biteniata</title>
+      <link>https://example.org/species/balmaceda-biteniata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-biteniata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda chickeringi</title>
+      <link>https://example.org/species/balmaceda-chickeringi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-chickeringi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda distans</title>
+      <link>https://example.org/species/balmaceda-distans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-distans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda minor</title>
+      <link>https://example.org/species/balmaceda-minor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-minor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda nigrosecta</title>
+      <link>https://example.org/species/balmaceda-nigrosecta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-nigrosecta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda picta</title>
+      <link>https://example.org/species/balmaceda-picta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-picta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda reducta</title>
+      <link>https://example.org/species/balmaceda-reducta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-reducta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda turneri</title>
+      <link>https://example.org/species/balmaceda-turneri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-turneri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balmaceda vera</title>
+      <link>https://example.org/species/balmaceda-vera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/balmaceda-vera/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

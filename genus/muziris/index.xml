@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muziris on Jumping Spider World</title>
+    <link>https://example.org/genus/muziris/</link>
+    <description>Recent content in Muziris on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/muziris/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Muziris calvipalpis</title>
+      <link>https://example.org/species/muziris-calvipalpis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-calvipalpis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muziris carinatus</title>
+      <link>https://example.org/species/muziris-carinatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-carinatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muziris doleschalli</title>
+      <link>https://example.org/species/muziris-doleschalli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-doleschalli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muziris epigynatus</title>
+      <link>https://example.org/species/muziris-epigynatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-epigynatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muziris gracilipalpis</title>
+      <link>https://example.org/species/muziris-gracilipalpis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-gracilipalpis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muziris leptochirus</title>
+      <link>https://example.org/species/muziris-leptochirus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-leptochirus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muziris wiehlei</title>
+      <link>https://example.org/species/muziris-wiehlei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/muziris-wiehlei/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

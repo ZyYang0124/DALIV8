@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Euryattus bleekeri</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Euryattus bleekeri</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43379.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43382.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43380.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43381.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43387.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43388.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1902.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1903.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1904.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16178.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16181.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16182.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16183.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16179.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16180.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32001.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31998.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31999.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32003.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32004.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2933.jpg" alt="SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2788.jpg" alt="SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2786.jpg" alt="SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-2787.jpg" alt="SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>SYNONYM: &#34;7685 Plotius curtus - ♂ - ES. Edkor&#34;, &#34;TYPUS? M.E. GALIANO IX.1959&#34; Coll. SIMON, MNHN-Paris - Halmahera - TYPE © PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17177.jpg" alt="SYNONYM: Plotius curtus - ♀ - epigyne - Moluccas - HOLOTYPE © ŻABKA, M. (1988). RecId: 19544">
+            
+
+            <div>SYNONYM: Plotius curtus - ♀ - epigyne - Moluccas - HOLOTYPE © ŻABKA, M. (1988). RecId: 19544</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17178.jpg" alt="SYNONYM: Plotius curtus - ♀ - epigyne, internal structures - Moluccas - HOLOTYPE © ŻABKA, M. (1988). RecId: 19544">
+            
+
+            <div>SYNONYM: Plotius curtus - ♀ - epigyne, internal structures - Moluccas - HOLOTYPE © ŻABKA, M. (1988). RecId: 19544</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42558.jpg" alt="SYNONYM: Hasarius albescens - ♀ - Australia - HOLOTYPE © KEYSERLING, E. (1881). RecId: 64509">
+            
+
+            <div>SYNONYM: Hasarius albescens - ♀ - Australia - HOLOTYPE © KEYSERLING, E. (1881). RecId: 64509</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42560.jpg" alt="SYNONYM: Hasarius albescens - ♀ - vordere Augenreihe - Australia - HOLOTYPE © KEYSERLING, E. (1881). RecId: 64509">
+            
+
+            <div>SYNONYM: Hasarius albescens - ♀ - vordere Augenreihe - Australia - HOLOTYPE © KEYSERLING, E. (1881). RecId: 64509</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42559.jpg" alt="SYNONYM: Hasarius albescens - ♀ - Epigyne - Australia - HOLOTYPE © KEYSERLING, E. (1881). RecId: 64509">
+            
+
+            <div>SYNONYM: Hasarius albescens - ♀ - Epigyne - Australia - HOLOTYPE © KEYSERLING, E. (1881). RecId: 64509</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46275.jpg" alt="SYNONYM: Hasarius chrysostomus - ♂ - Cephalothorax von der Seite - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♂ - Cephalothorax von der Seite - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42580.jpg" alt="SYNONYM: Hasarius chrysostomus - ♂ - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♂ - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42582.jpg" alt="SYNONYM: Hasarius chrysostomus - ♂ - Maxillen und Lippe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♂ - Maxillen und Lippe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42583.jpg" alt="SYNONYM: Hasarius chrysostomus - ♂ - Mandibeln - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♂ - Mandibeln - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42584.jpg" alt="SYNONYM: Hasarius chrysostomus - ♂ - vordere Augenreihe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♂ - vordere Augenreihe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42581.jpg" alt="SYNONYM: Hasarius chrysostomus - ♂ - Palpe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♂ - Palpe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64634</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42585.jpg" alt="SYNONYM: Hasarius chrysostomus - ♀ - Epigyne - Australia - SYNTYPE © KEYSERLING, E. (1881)">
+            
+
+            <div>SYNONYM: Hasarius chrysostomus - ♀ - Epigyne - Australia - SYNTYPE © KEYSERLING, E. (1881)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42561.jpg" alt="SYNONYM: Hasarius pauperatus - ♀ - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616">
+            
+
+            <div>SYNONYM: Hasarius pauperatus - ♀ - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42563.jpg" alt="SYNONYM: Hasarius pauperatus - ♀ - Cephalothotrax von der Seite - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616">
+            
+
+            <div>SYNONYM: Hasarius pauperatus - ♀ - Cephalothotrax von der Seite - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42564.jpg" alt="SYNONYM: Hasarius pauperatus - ♀ - vordere Augenreihe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616">
+            
+
+            <div>SYNONYM: Hasarius pauperatus - ♀ - vordere Augenreihe - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42562.jpg" alt="SYNONYM: Hasarius pauperatus - ♀ - Epigyne - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616">
+            
+
+            <div>SYNONYM: Hasarius pauperatus - ♀ - Epigyne - Australia - SYNTYPE © KEYSERLING, E. (1881). RecId: 64616</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4084.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4085.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15022.jpg" alt="Zenodorus urvillei - Queensland. © R. Whyte - Australia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Zenodorus urvillei - Queensland. © R. Whyte - Australia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15023.jpg" alt="Zenodorus urvillei - Queensland. © R. Whyte - Australia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Zenodorus urvillei - Queensland. © R. Whyte - Australia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14070.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14071.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14072.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14073.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14074.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24832.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24831.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24833.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24834.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24836.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24837.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24838.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24839.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24835.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14075.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14076.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28547.jpg" alt="Synonym: Hasarius albescens - ♀ - Australia - HOLOTYPE . HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64509">
+            
+
+            <div>Synonym: Hasarius albescens - ♀ - Australia - HOLOTYPE . HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64509</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

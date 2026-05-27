@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecuadattus on Jumping Spider World</title>
+    <link>https://example.org/genus/ecuadattus/</link>
+    <description>Recent content in Ecuadattus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/ecuadattus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ecuadattus elongatus</title>
+      <link>https://example.org/species/ecuadattus-elongatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ecuadattus-elongatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecuadattus napoensis</title>
+      <link>https://example.org/species/ecuadattus-napoensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ecuadattus-napoensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecuadattus pichincha</title>
+      <link>https://example.org/species/ecuadattus-pichincha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ecuadattus-pichincha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecuadattus typicus</title>
+      <link>https://example.org/species/ecuadattus-typicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ecuadattus-typicus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

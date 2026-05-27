@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maddisonia on Jumping Spider World</title>
+    <link>https://example.org/genus/maddisonia/</link>
+    <description>Recent content in Maddisonia on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/maddisonia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maddisonia berbekai</title>
+      <link>https://example.org/species/maddisonia-berbekai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maddisonia-berbekai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maddisonia richardsoni</title>
+      <link>https://example.org/species/maddisonia-richardsoni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maddisonia-richardsoni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maddisonia whytei</title>
+      <link>https://example.org/species/maddisonia-whytei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maddisonia-whytei/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

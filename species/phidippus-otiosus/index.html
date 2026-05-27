@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Phidippus otiosus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Phidippus otiosus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13445.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15654.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15656.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15657.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35472.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22409.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22410.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22411.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22412.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22413.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22414.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22407.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22408.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44794.jpg" alt="SYNONYM: Phidippus Carolinus - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45712">
+            
+
+            <div>SYNONYM: Phidippus Carolinus - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45712</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35125.jpg" alt="SYNONYM: Phidippus dorsalis - ♂ - left palpus - US - HOLOTYPE © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus dorsalis - ♂ - left palpus - US - HOLOTYPE © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35126.jpg" alt="SYNONYM: Phidippus dorsalis - ♂ - left tibial apophysis - US - HOLOTYPE © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus dorsalis - ♂ - left tibial apophysis - US - HOLOTYPE © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45170.jpg" alt="SYNONYM: Attus pulcher - ♀ - US © RICHMAN, D. B. (1978)">
+            
+
+            <div>SYNONYM: Attus pulcher - ♀ - US © RICHMAN, D. B. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51958.jpg" alt="SYNONYM: ABBOT´s Fig. No. 201 - ♀ - MCZ, London - US © ABBOT, J. (1792)">
+            
+
+            <div>SYNONYM: ABBOT´s Fig. No. 201 - ♀ - MCZ, London - US © ABBOT, J. (1792)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1281.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1282.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1283.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22218.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22219.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22220.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5908.jpg" alt="Attus putnamii - ♂ - dorsal markings - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883). RecId: 19096">
+            
+
+            <div>Attus putnamii - ♂ - dorsal markings - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883). RecId: 19096</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5910.jpg" alt="Attus putnamii - ♂ - anterior eyes and falces - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883). RecId: 19096">
+            
+
+            <div>Attus putnamii - ♂ - anterior eyes and falces - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883). RecId: 19096</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5909.jpg" alt="Attus putnamii - ♂ - palpus - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883). RecId: 19096">
+            
+
+            <div>Attus putnamii - ♂ - palpus - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883). RecId: 19096</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13466.jpg" alt="Plexippus putnamii - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>Plexippus putnamii - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5487.jpg" alt="Philaeus princeps - ♂ - US - MISIDENTIFICATION © BANKS, N. (1892)">
+            
+
+            <div>Philaeus princeps - ♂ - US - MISIDENTIFICATION © BANKS, N. (1892)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15631.jpg" alt="Phidippus Putnamii - ♂ - face - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Phidippus Putnamii - ♂ - face - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15632.jpg" alt="Phidippus Putnamii - ♂ - first leg in front - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Phidippus Putnamii - ♂ - first leg in front - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15633.jpg" alt="Phidippus Putnamii - ♂ - first leg from below - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Phidippus Putnamii - ♂ - first leg from below - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15647.jpg" alt="Phidippus Putnamii - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Phidippus Putnamii - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15648.jpg" alt="Phidippus Putnamii - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)">
+            
+
+            <div>Phidippus Putnamii - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1909)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15655.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15658.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35137.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1974.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

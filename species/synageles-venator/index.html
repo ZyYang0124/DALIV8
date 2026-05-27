@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Synageles venator</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Synageles venator</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51254.jpg" alt="Salticus hilarulus - ♀ - Germany - SYNTYPE © KOCH, C. L. (1846)">
+            
+
+            <div>Salticus hilarulus - ♀ - Germany - SYNTYPE © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51255.jpg" alt="Salticus hilarulus - ♀ - Germany - SYNTYPE © KOCH, C. L. (1846)">
+            
+
+            <div>Salticus hilarulus - ♀ - Germany - SYNTYPE © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39886.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8861.jpg" alt="Synageles subcingulatus - ♀ - epigyne. Scale: 0.1 mm - Russia - HOLOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (1999). RecId: 42051">
+            
+
+            <div>Synageles subcingulatus - ♀ - epigyne. Scale: 0.1 mm - Russia - HOLOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (1999). RecId: 42051</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8862.jpg" alt="Synageles subcingulatus - ♀ - spermathecae. Scale: 0.1 mm - Russia - HOLOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (1999). RecId: 42051">
+            
+
+            <div>Synageles subcingulatus - ♀ - spermathecae. Scale: 0.1 mm - Russia - HOLOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (1999). RecId: 42051</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8863.jpg" alt="Synageles subcingulatus - ♀ - spermathecae. Scale: 0.1 mm - Russia - HOLOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (1999). RecId: 42051">
+            
+
+            <div>Synageles subcingulatus - ♀ - spermathecae. Scale: 0.1 mm - Russia - HOLOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (1999). RecId: 42051</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45949.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Ramosch - Bulbus von ventral - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Ramosch - Bulbus von ventral - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45950.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Ramosch - Taster von retrolateral - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Ramosch - Taster von retrolateral - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45953.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Ramosch - Embolus von prolateral - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Ramosch - Embolus von prolateral - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45954.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Ramosch - Embolus von ventral - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Ramosch - Embolus von ventral - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45951.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Ramosch - Taster-Tibia von retrolateral - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Ramosch - Taster-Tibia von retrolateral - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45952.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Ramosch - Taster von dorsal - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Ramosch - Taster von dorsal - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45955.jpg" alt="SYNONYM: Synageles lepidus - ♀ - Ramosch - Epigyne ventral - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♀ - Ramosch - Epigyne ventral - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45956.jpg" alt="SYNONYM: Synageles lepidus - ♀ - Ramosch - Vulva von vorn - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♀ - Ramosch - Vulva von vorn - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45957.jpg" alt="SYNONYM: Synageles lepidus - ♀ - Ramosch - Vulva von dorsal - Switzerland © THALER, K. (1983)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♀ - Ramosch - Vulva von dorsal - Switzerland © THALER, K. (1983)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19243.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - general appearance. Scale: 0.5 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - general appearance. Scale: 0.5 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19239.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - first leg, prolateral view. Scale: 0.5 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - first leg, prolateral view. Scale: 0.5 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19240.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - fourth leg, retrolateral view. Scale: 0.5 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - fourth leg, retrolateral view. Scale: 0.5 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19241.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - palp, ventral view. Scale: 0.1 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - palp, ventral view. Scale: 0.1 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19242.jpg" alt="SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - palp, lateral view. Scale: 0.1 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♂ - Pavlodar Area, Maliy Kalkaman Lake - palp, lateral view. Scale: 0.1 mm - Kazakhstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19244.jpg" alt="SYNONYM: Synageles lepidus - ♀ - Bishkek - epigyne. Scale: 0.1 mm - Kyrgyzstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♀ - Bishkek - epigyne. Scale: 0.1 mm - Kyrgyzstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19245.jpg" alt="SYNONYM: Synageles lepidus - ♀ - Bishkek - spermathecae. Scale: 0.1 mm - Kyrgyzstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)">
+            
+
+            <div>SYNONYM: Synageles lepidus - ♀ - Bishkek - spermathecae. Scale: 0.1 mm - Kyrgyzstan © LOGUNOV, D. V. &amp; RAKOV, S. Y. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29738.jpg" alt="Synageles subcingulatus - ♂ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)">
+            
+
+            <div>Synageles subcingulatus - ♂ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29739.jpg" alt="Synageles subcingulatus - ♀ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)">
+            
+
+            <div>Synageles subcingulatus - ♀ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29736.jpg" alt="Synageles subcingulatus - ♂ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)">
+            
+
+            <div>Synageles subcingulatus - ♂ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29737.jpg" alt="Synageles subcingulatus - ♂ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)">
+            
+
+            <div>Synageles subcingulatus - ♂ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29740.jpg" alt="Synageles subcingulatus - ♀ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)">
+            
+
+            <div>Synageles subcingulatus - ♀ - Suc et Sentenac - © Pierre Oger - France © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29741.jpg" alt="Synageles subcingulatus - ♀ - © Pierre Oger - country undefined © OGER, P. (2024)">
+            
+
+            <div>Synageles subcingulatus - ♀ - © Pierre Oger - country undefined © OGER, P. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35700.jpg" alt="Attus venator - ♂ - France - SYNTYPE © LUCAS, M. H. (1836)">
+            
+
+            <div>Attus venator - ♂ - France - SYNTYPE © LUCAS, M. H. (1836)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35701.jpg" alt="Attus venator - ♂ - France - SYNTYPE © LUCAS, M. H. (1836)">
+            
+
+            <div>Attus venator - ♂ - France - SYNTYPE © LUCAS, M. H. (1836)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35699.jpg" alt="Attus venator - ♂ - France - SYNTYPE © LUCAS, M. H. (1836)">
+            
+
+            <div>Attus venator - ♂ - France - SYNTYPE © LUCAS, M. H. (1836)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21745.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21747.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21749.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21748.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21746.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40198.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13730.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13731.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13732.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39885.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45961.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45962.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45963.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45964.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45958.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45959.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45960.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34812.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34813.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34814.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34815.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48856.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48857.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19263.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19258.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19260.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19262.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19259.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19261.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19264.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18285.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18283.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18284.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18286.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18287.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48712.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48713.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48714.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49547.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49545.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49546.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49548.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49549.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44929.jpg" alt="SYNONYM: Synageles ludibundus - ♂ - France © SIMON, E. (1876)">
+            
+
+            <div>SYNONYM: Synageles ludibundus - ♂ - France © SIMON, E. (1876)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44923.jpg" alt="SYNONYM: Synageles confusus - ♀ - Germany - SYNTYPE © KULCZYNSKI, VL. (1884)">
+            
+
+            <div>SYNONYM: Synageles confusus - ♀ - Germany - SYNTYPE © KULCZYNSKI, VL. (1884)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40197.jpg" alt="SYNONYM: Synageles confusus - ♀ - Hungary © CHYZER, K. &amp; KULCZYNSKI, U. (1891)">
+            
+
+            <div>SYNONYM: Synageles confusus - ♀ - Hungary © CHYZER, K. &amp; KULCZYNSKI, U. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-74.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-617.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-149.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-150.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-793.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-794.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-840.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-841.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27261.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27262.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27263.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27264.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27265.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27266.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

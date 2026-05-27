@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Akela on Jumping Spider World</title>
+    <link>https://example.org/genus/akela/</link>
+    <description>Recent content in Akela on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/akela/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Akela charlottae</title>
+      <link>https://example.org/species/akela-charlottae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/akela-charlottae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Akela fulva</title>
+      <link>https://example.org/species/akela-fulva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/akela-fulva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Akela ruricola</title>
+      <link>https://example.org/species/akela-ruricola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/akela-ruricola/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Akela scaloneta</title>
+      <link>https://example.org/species/akela-scaloneta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/akela-scaloneta/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pungalina albobarbata</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Pungalina albobarbata</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42279.jpg" alt="Icius albo-barbatus - ♂ - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♂ - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42280.jpg" alt="Icius albo-barbatus - ♂ - Maxillen und Lippe - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♂ - Maxillen und Lippe - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42285.jpg" alt="Icius albo-barbatus - ♀ - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♀ - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42286.jpg" alt="Icius albo-barbatus - ♀ - Maxillen und Lipp - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♀ - Maxillen und Lipp - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42281.jpg" alt="Icius albo-barbatus - ♂ - Mandibeln und vorderste Augenreige - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♂ - Mandibeln und vorderste Augenreige - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42282.jpg" alt="Icius albo-barbatus - ♂ - Mandibeln (Rückseite) - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♂ - Mandibeln (Rückseite) - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42287.jpg" alt="Icius albo-barbatus - ♀ - Mandibeln und vorderste Augenreihe - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♀ - Mandibeln und vorderste Augenreihe - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42283.jpg" alt="Icius albo-barbatus - ♂ - Tibialglied der Palpen und Kopulationsorgane (von unten gesehen) - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♂ - Tibialglied der Palpen und Kopulationsorgane (von unten gesehen) - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42284.jpg" alt="Icius albo-barbatus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia - SYNTYPE © KOCH, L. (1879)">
+            
+
+            <div>Icius albo-barbatus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia - SYNTYPE © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42288.jpg" alt="Icius albo-barbatus - ♀ - Epigyne - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♀ - Epigyne - Australia - SYNTYPE © KOCH, L. (1879). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38915.jpg" alt="Clynotis albobarbatus - ♀ - general appearance - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♀ - general appearance - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38916.jpg" alt="Clynotis albobarbatus - ♀ - cheliceral dentition - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♀ - cheliceral dentition - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38910.jpg" alt="Clynotis albobarbatus - ♂ - palpal organ - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♂ - palpal organ - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38911.jpg" alt="Clynotis albobarbatus - ♂ - palpal organ - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♂ - palpal organ - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38912.jpg" alt="Clynotis albobarbatus - ♂ - palpal organ - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♂ - palpal organ - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38913.jpg" alt="Clynotis albobarbatus - ♀ - epigyne - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♀ - epigyne - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38914.jpg" alt="Clynotis albobarbatus - ♀ - epigyne, internal structures - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♀ - epigyne, internal structures - Australia - SYNTYPE © ŻABKA, M. (1987). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16294.jpg" alt="Clynotis albobarbatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Clynotis albobarbatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16297.jpg" alt="Clynotis albobarbatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Clynotis albobarbatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16300.jpg" alt="Clynotis albobarbatus - ♂ - labium and endite - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Clynotis albobarbatus - ♂ - labium and endite - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16298.jpg" alt="Clynotis albobarbatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Clynotis albobarbatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16299.jpg" alt="Clynotis albobarbatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Clynotis albobarbatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16295.jpg" alt="Clynotis albobarbatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Clynotis albobarbatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16296.jpg" alt="Clynotis albobarbatus - ♀ - Australia - SYNTYPE © DAVIES, V. T. &amp; ŻABKA, M. (1989). RecId: 64520">
+            
+
+            <div>Clynotis albobarbatus - ♀ - Australia - SYNTYPE © DAVIES, V. T. &amp; ŻABKA, M. (1989). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38891.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38892.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38889.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38890.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6697.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6698.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6699.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6700.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6702.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6703.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6704.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6701.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6705.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6706.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6707.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6708.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28558.jpg" alt="Icius albo-barbatus - ♀ - Australia - SYNTYPE © HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64520">
+            
+
+            <div>Icius albo-barbatus - ♀ - Australia - SYNTYPE © HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64520</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20494.jpg" alt="Pungalina FP-11618 - ♂ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-11618 - ♂ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20495.jpg" alt="Pungalina FP-11618 - ♂ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-11618 - ♂ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20496.jpg" alt="Pungalina FP-11618 - ♂ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-11618 - ♂ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20497.jpg" alt="Pungalina FP-11618 - ♂ - pedipalp, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-11618 - ♂ - pedipalp, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20498.jpg" alt="Pungalina FP-11618 - ♂ - pedipalp, retrolateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-11618 - ♂ - pedipalp, retrolateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20486.jpg" alt="Pungalina FP-283 - ♂ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♂ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20487.jpg" alt="Pungalina FP-283 - ♂ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♂ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20488.jpg" alt="Pungalina FP-283 - ♂ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♂ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20491.jpg" alt="Pungalina FP-283 - ♀ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♀ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20492.jpg" alt="Pungalina FP-283 - ♀ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♀ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20489.jpg" alt="Pungalina FP-283 - ♂ - pedipalp, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♂ - pedipalp, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20490.jpg" alt="Pungalina FP-283 - ♂ - pedipalp, retrolateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♂ - pedipalp, retrolateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20493.jpg" alt="Pungalina FP-283 - ♀ - epigyne, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-283 - ♀ - epigyne, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20499.jpg" alt="Pungalina FP-7618 - ♂ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♂ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20500.jpg" alt="Pungalina FP-7618 - ♂ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♂ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20502.jpg" alt="Pungalina FP-7618 - ♂ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♂ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20504.jpg" alt="Pungalina FP-7618 - ♀ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♀ - habitus, dorsal - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20505.jpg" alt="Pungalina FP-7618 - ♀ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♀ - habitus, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20506.jpg" alt="Pungalina FP-7618 - ♀ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♀ - habitus, lateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20501.jpg" alt="Pungalina FP-7618 - ♂ - pedipalp, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♂ - pedipalp, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20503.jpg" alt="Pungalina FP-7618 - ♂ - pedipalp, retrolateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♂ - pedipalp, retrolateral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20507.jpg" alt="Pungalina FP-7618 - ♀ - epigyne, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)">
+            
+
+            <div>Pungalina FP-7618 - ♀ - epigyne, ventral - Australia © FRAMENAU, V. &amp; METZNER, H. (2022)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

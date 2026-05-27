@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artabrus on Jumping Spider World</title>
+    <link>https://example.org/genus/artabrus/</link>
+    <description>Recent content in Artabrus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/artabrus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artabrus aurantipilosus</title>
+      <link>https://example.org/species/artabrus-aurantipilosus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/artabrus-aurantipilosus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artabrus erythrocephalus</title>
+      <link>https://example.org/species/artabrus-erythrocephalus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/artabrus-erythrocephalus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indomarengo on Jumping Spider World</title>
+    <link>https://example.org/genus/indomarengo/</link>
+    <description>Recent content in Indomarengo on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/indomarengo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indomarengo chandra</title>
+      <link>https://example.org/species/indomarengo-chandra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/indomarengo-chandra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indomarengo chavarapater</title>
+      <link>https://example.org/species/indomarengo-chavarapater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/indomarengo-chavarapater/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indomarengo likaliku</title>
+      <link>https://example.org/species/indomarengo-likaliku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/indomarengo-likaliku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indomarengo sarawakensis</title>
+      <link>https://example.org/species/indomarengo-sarawakensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/indomarengo-sarawakensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indomarengo thomsoni</title>
+      <link>https://example.org/species/indomarengo-thomsoni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/indomarengo-thomsoni/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

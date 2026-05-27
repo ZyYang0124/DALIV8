@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ligonipes on Jumping Spider World</title>
+    <link>https://example.org/genus/ligonipes/</link>
+    <description>Recent content in Ligonipes on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/ligonipes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ligonipes flavipes</title>
+      <link>https://example.org/species/ligonipes-flavipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ligonipes-flavipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ligonipes illustris</title>
+      <link>https://example.org/species/ligonipes-illustris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ligonipes-illustris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ligonipes lacertosus</title>
+      <link>https://example.org/species/ligonipes-lacertosus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ligonipes-lacertosus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ligonipes semitectus</title>
+      <link>https://example.org/species/ligonipes-semitectus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ligonipes-semitectus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ligonipes similis</title>
+      <link>https://example.org/species/ligonipes-similis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ligonipes-similis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ligonipes synageloides</title>
+      <link>https://example.org/species/ligonipes-synageloides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ligonipes-synageloides/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

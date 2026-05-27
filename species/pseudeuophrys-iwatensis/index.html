@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pseudeuophrys iwatensis</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Pseudeuophrys iwatensis</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20576.jpg" alt="Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20577.jpg" alt="Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20578.jpg" alt="Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20579.jpg" alt="Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palpal organ - Japan - HOLOTYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3125.jpg" alt="Euophrys iwatensis - ♀ - Epigyne - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♀ - Epigyne - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20580.jpg" alt="Euophrys iwatensis - ♀ - epigyne, posterior view - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♀ - epigyne, posterior view - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20581.jpg" alt="Euophrys iwatensis - ♀ - epigyne, ventral view - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♀ - epigyne, ventral view - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3126.jpg" alt="Euophrys iwatensis - ♀ - Epigyne after maceration - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♀ - Epigyne after maceration - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20582.jpg" alt="Euophrys iwatensis - ♀ - epigyne, ventral view after maceration - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Euophrys iwatensis - ♀ - epigyne, ventral view after maceration - Japan - PARATYPE © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20012.jpg" alt="Euophrys erratica - ♂ - copulatory organ - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)">
+            
+
+            <div>Euophrys erratica - ♂ - copulatory organ - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20013.jpg" alt="Euophrys erratica - ♂ - copulatory organ - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)">
+            
+
+            <div>Euophrys erratica - ♂ - copulatory organ - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20014.jpg" alt="Euophrys erratica - ♂ - copulatory organ - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)">
+            
+
+            <div>Euophrys erratica - ♂ - copulatory organ - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20010.jpg" alt="Euophrys erratica - ♀ - epigynum - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)">
+            
+
+            <div>Euophrys erratica - ♀ - epigynum - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20015.jpg" alt="Euophrys erratica - ♀ - epigynum, internal structure - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)">
+            
+
+            <div>Euophrys erratica - ♀ - epigynum, internal structure - Russia - MISIDENTIFICATION © PRÓSZYŃ SKI, J. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8004.jpg" alt="Euophrys iwatensis - ♂ - palp, ventral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palp, ventral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8005.jpg" alt="Euophrys iwatensis - ♂ - palp, lateral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palp, lateral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8006.jpg" alt="Euophrys iwatensis - ♀ - epigynum. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)">
+            
+
+            <div>Euophrys iwatensis - ♀ - epigynum. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8007.jpg" alt="Euophrys iwatensis - ♀ - internal genitalia. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)">
+            
+
+            <div>Euophrys iwatensis - ♀ - internal genitalia. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V., CUTLER, B. &amp; MARUSIK, Y. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39497.jpg" alt="Euophrys iwatensis - ♂ - dorsal view. Scale bar: 0.4 mm - Japan © IKEDA, H. (1996)">
+            
+
+            <div>Euophrys iwatensis - ♂ - dorsal view. Scale bar: 0.4 mm - Japan © IKEDA, H. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39498.jpg" alt="Euophrys iwatensis - ♀ - dorsal view. Scale bar: 0.4 mm - Japan © IKEDA, H. (1996)">
+            
+
+            <div>Euophrys iwatensis - ♀ - dorsal view. Scale bar: 0.4 mm - Japan © IKEDA, H. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39499.jpg" alt="Euophrys iwatensis - ♂ - palp, ventral view. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palp, ventral view. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39500.jpg" alt="Euophrys iwatensis - ♂ - palp, retrolateral view. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)">
+            
+
+            <div>Euophrys iwatensis - ♂ - palp, retrolateral view. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39501.jpg" alt="Euophrys iwatensis - ♀ - epigynum. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)">
+            
+
+            <div>Euophrys iwatensis - ♀ - epigynum. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39502.jpg" alt="Euophrys iwatensis - ♀ - genitalia, dorsal view. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)">
+            
+
+            <div>Euophrys iwatensis - ♀ - genitalia, dorsal view. Scale bar: 0.2 mm - Japan © IKEDA, H. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7358.jpg" alt="Pseudeuophrys iwatensis - ♂ - palp, ventral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)">
+            
+
+            <div>Pseudeuophrys iwatensis - ♂ - palp, ventral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7359.jpg" alt="Pseudeuophrys iwatensis - ♂ - palp, lateral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)">
+            
+
+            <div>Pseudeuophrys iwatensis - ♂ - palp, lateral view. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7362.jpg" alt="Pseudeuophrys iwatensis - ♀ - epigyne. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)">
+            
+
+            <div>Pseudeuophrys iwatensis - ♀ - epigyne. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7363.jpg" alt="Pseudeuophrys iwatensis - ♀ - spermathecae. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)">
+            
+
+            <div>Pseudeuophrys iwatensis - ♀ - spermathecae. Khabarovsk Province. Scale line: 0.1 mm - Russia © LOGUNOV, D. V. (1998)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17907.jpg" alt="Euophrys iwatensis - ♀ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Euophrys iwatensis - ♀ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17908.jpg" alt="Euophrys iwatensis - ♀ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Euophrys iwatensis - ♀ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Phidippus audax</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Phidippus audax</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40456.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40452.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40453.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40455.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35463.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12423.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12358.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12390.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21151.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21152.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26475.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26476.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26477.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26478.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26479.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26473.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26474.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5982.jpg" alt="SYNONYM: Attus fasciolatus - ♂ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Attus fasciolatus - ♂ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51972.jpg" alt="SYNONYM: ABBOT´s Fig. No. 89 - ♀ - MCZ, London - US © ABBOT, J. (1792)">
+            
+
+            <div>SYNONYM: ABBOT´s Fig. No. 89 - ♀ - MCZ, London - US © ABBOT, J. (1792)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13416.jpg" alt="SYNONYM: Phidippus morsitans - ♀ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♀ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13418.jpg" alt="SYNONYM: Phidippus morsitans - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♂ - palpus - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13417.jpg" alt="SYNONYM: Phidippus morsitans - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14246.jpg" alt="SYNONYM: Phidippus morsitans - ♀ - dorsal view - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♀ - dorsal view - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14247.jpg" alt="SYNONYM: Phidippus morsitans - ♀ - side view of cephalothorax - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♀ - side view of cephalothorax - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14248.jpg" alt="SYNONYM: Phidippus morsitans - ♀ - face and falces - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♀ - face and falces - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5891.jpg" alt="SYNONYM: Phidippus morsitans - ♀ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus morsitans - ♀ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44800.jpg" alt="SYNONYM: Phidippus elegans - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45838">
+            
+
+            <div>SYNONYM: Phidippus elegans - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45838</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44798.jpg" alt="SYNONYM: Phidippus personatus - ♀ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45837">
+            
+
+            <div>SYNONYM: Phidippus personatus - ♀ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45837</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44795.jpg" alt="SYNONYM: Phidippus mundulus - ♂ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45833">
+            
+
+            <div>SYNONYM: Phidippus mundulus - ♂ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45833</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44796.jpg" alt="SYNONYM: Phidippus mundulus - ♂ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45834">
+            
+
+            <div>SYNONYM: Phidippus mundulus - ♂ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45834</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41660.jpg" alt="SYNONYM: Phidippus audax var. bryantae - ♀ - Epigynum - US © KASTON, B. J. (1948)">
+            
+
+            <div>SYNONYM: Phidippus audax var. bryantae - ♀ - Epigynum - US © KASTON, B. J. (1948)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44792.jpg" alt="SYNONYM: Phidippus dubiosus - ♂ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45715">
+            
+
+            <div>SYNONYM: Phidippus dubiosus - ♂ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45715</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13446.jpg" alt="SYNONYM: Philaeus farneus - ♀ - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888). RecId: 17959">
+            
+
+            <div>SYNONYM: Philaeus farneus - ♀ - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888). RecId: 17959</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13447.jpg" alt="SYNONYM: Philaeus farneus - ♀ - epigynum - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888). RecId: 17959">
+            
+
+            <div>SYNONYM: Philaeus farneus - ♀ - epigynum - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888). RecId: 17959</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14253.jpg" alt="SYNONYM: Phidippus Howardii - ♂ - dorsal view - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 18514">
+            
+
+            <div>SYNONYM: Phidippus Howardii - ♂ - dorsal view - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 18514</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14254.jpg" alt="SYNONYM: Phidippus Howardii - ♂ - palpus - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 18514">
+            
+
+            <div>SYNONYM: Phidippus Howardii - ♂ - palpus - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 18514</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14255.jpg" alt="SYNONYM: Phidippus Howardii - ♂ - dorsal view of tibia of palpus - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 18514">
+            
+
+            <div>SYNONYM: Phidippus Howardii - ♂ - dorsal view of tibia of palpus - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 18514</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4415.jpg" alt="SYNONYM: Phidippus howardi - ♂ - Mexico - HOLOTYPE © PICKARD - CAMBRIDGE, F. O. (1901). RecId: 18514">
+            
+
+            <div>SYNONYM: Phidippus howardi - ♂ - Mexico - HOLOTYPE © PICKARD - CAMBRIDGE, F. O. (1901). RecId: 18514</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4416.jpg" alt="SYNONYM: Phidippus howardi - ♂ - Mexico - HOLOTYPE © PICKARD - CAMBRIDGE, F. O. (1901). RecId: 18514">
+            
+
+            <div>SYNONYM: Phidippus howardi - ♂ - Mexico - HOLOTYPE © PICKARD - CAMBRIDGE, F. O. (1901). RecId: 18514</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5898.jpg" alt="SYNONYM: Phidippus Howardii - ♂ - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus Howardii - ♂ - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13440.jpg" alt="SYNONYM: Phidippus mexicanus - ♂ - palpus - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888). RecId: 17960">
+            
+
+            <div>SYNONYM: Phidippus mexicanus - ♂ - palpus - Mexico - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888). RecId: 17960</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4424.jpg" alt="SYNONYM: Phidippus mexicanus - ♂ - Mexico - HOLOTYPE © PICKARD - CAMBRIDGE, F. O. (1901). RecId: 17960">
+            
+
+            <div>SYNONYM: Phidippus mexicanus - ♂ - Mexico - HOLOTYPE © PICKARD - CAMBRIDGE, F. O. (1901). RecId: 17960</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13438.jpg" alt="SYNONYM: Phidippus rauterbergii - ♀ - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus rauterbergii - ♀ - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13439.jpg" alt="SYNONYM: Phidippus rauterbergii - ♀ - epigynum - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus rauterbergii - ♀ - epigynum - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14846.jpg" alt="SYNONYM: Phidippus Rauterbergii - ♀ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus Rauterbergii - ♀ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14845.jpg" alt="SYNONYM: Phidippus Rauterbergii - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus Rauterbergii - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35132.jpg" alt="SYNONYM: Phidippus rauterbergi - ♂ - left palpus - US © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus rauterbergi - ♂ - left palpus - US © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35133.jpg" alt="SYNONYM: Phidippus rauterbergi - ♂ - left tibial apophysis - US © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus rauterbergi - ♂ - left tibial apophysis - US © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44787.jpg" alt="SYNONYM: Phidippus smaragdifer - ♀ - US - LECTOTYPE © KOCH, C. L. (1846). RecId: 45727">
+            
+
+            <div>SYNONYM: Phidippus smaragdifer - ♀ - US - LECTOTYPE © KOCH, C. L. (1846). RecId: 45727</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44788.jpg" alt="SYNONYM: Phidippus togatus - ♀ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45729">
+            
+
+            <div>SYNONYM: Phidippus togatus - ♀ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45729</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44790.jpg" alt="SYNONYM: Phidippus rufimanus - ♀ - US - SYNTYPE © KOCH, C. L. (1846)">
+            
+
+            <div>SYNONYM: Phidippus rufimanus - ♀ - US - SYNTYPE © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30608.jpg" alt="SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)">
+            
+
+            <div>SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30609.jpg" alt="SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)">
+            
+
+            <div>SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30610.jpg" alt="SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)">
+            
+
+            <div>SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30611.jpg" alt="SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)">
+            
+
+            <div>SYNONYM: Megatimus severus - ♀ - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30612.jpg" alt="SYNONYM: Megatimus severus - ♀ - epigyne - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)">
+            
+
+            <div>SYNONYM: Megatimus severus - ♀ - epigyne - Malaysia © WORKMAN, T. &amp; WORKMAN, M. E. (1894)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5892.jpg" alt="SYNONYM: Phidippus (Megatimus) severus - ♀ - Malaysia © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus (Megatimus) severus - ♀ - Malaysia © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5893.jpg" alt="SYNONYM: Phidippus (Megatimus) severus - ♀ - face view - Malaysia © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus (Megatimus) severus - ♀ - face view - Malaysia © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5894.jpg" alt="SYNONYM: Phidippus (Megatimus) severus - ♀ - side of cephalothorax - Malaysia © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus (Megatimus) severus - ♀ - side of cephalothorax - Malaysia © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44439.jpg" alt="SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)">
+            
+
+            <div>SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44440.jpg" alt="SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)">
+            
+
+            <div>SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44441.jpg" alt="SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)">
+            
+
+            <div>SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44442.jpg" alt="SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)">
+            
+
+            <div>SYNONYM: Salticus variegatus - ♂ - US - SYNTYPE © LUCAS, M. H. (1833)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44785.jpg" alt="SYNONYM: Phidippus variegatus - ♂ - US © KOCH, C. L. (1846)">
+            
+
+            <div>SYNONYM: Phidippus variegatus - ♂ - US © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5897.jpg" alt="SYNONYM: Phidippus variegatus - ♂ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)">
+            
+
+            <div>SYNONYM: Phidippus variegatus - ♂ - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35207.jpg" alt="SYNONYM: Phidippus variegatus - ♂ - palpus ventral view - US © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus variegatus - ♂ - palpus ventral view - US © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35121.jpg" alt="SYNONYM: Phidippus variegatus - ♂ - left tibial apophysis - US © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus variegatus - ♂ - left tibial apophysis - US © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35136.jpg" alt="SYNONYM: Phidippus variegatus - ♀ - epigynum - US © BRYANT, E. B. (1942)">
+            
+
+            <div>SYNONYM: Phidippus variegatus - ♀ - epigynum - US © BRYANT, E. B. (1942)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44789.jpg" alt="SYNONYM: Phidippus Alchymista - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45831">
+            
+
+            <div>SYNONYM: Phidippus Alchymista - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45831</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44791.jpg" alt="SYNONYM: Phidippus lunulatus - ♂ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45832">
+            
+
+            <div>SYNONYM: Phidippus lunulatus - ♂ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45832</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44801.jpg" alt="SYNONYM: Phidippus electus - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45839">
+            
+
+            <div>SYNONYM: Phidippus electus - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45839</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44802.jpg" alt="SYNONYM: Phidippus concinnatus - ♂ - US © KOCH, C. L. (1846)">
+            
+
+            <div>SYNONYM: Phidippus concinnatus - ♂ - US © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5979.jpg" alt="SYNONYM: Attus tripunctatus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Attus tripunctatus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5953.jpg" alt="SYNONYM: Attus tripunctatus - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus tripunctatus - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15996.jpg" alt="SYNONYM: Phidippus tripunctatus - white scales from the middle of abdomen - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus tripunctatus - white scales from the middle of abdomen - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15969.jpg" alt="SYNONYM: Phidippus tripunctatus - ♀ - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus tripunctatus - ♀ - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15561.jpg" alt="SYNONYM: Phidippus tripunctatus - ♂ - palpus - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus tripunctatus - ♂ - palpus - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15562.jpg" alt="SYNONYM: Phidippus tripunctatus - ♂ - patella and tibia of palpus - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus tripunctatus - ♂ - patella and tibia of palpus - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-201.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-202.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-203.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-204.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-205.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-519.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-520.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-521.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-522.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-523.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-524.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7601.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7602.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7603.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5147.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5103.jpg" alt="Synonym: Dendryphantes variegatus - Cuba. FRANGANILLO, B. P. (1935)">
+            
+
+            <div>Synonym: Dendryphantes variegatus - Cuba. FRANGANILLO, B. P. (1935)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

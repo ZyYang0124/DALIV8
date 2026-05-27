@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bavia sexpunctata</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Bavia sexpunctata</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1756.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1757.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39473.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19471.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19472.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19483.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19473.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19474.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38355.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38358.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38356.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38357.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38359.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47777.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47778.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47779.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-47780.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42308.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42309.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - Maxillen und Lippe - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - Maxillen und Lippe - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42312.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42313.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - Maxillen und Lippe - Palau - SYNTYPE © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - Maxillen und Lippe - Palau - SYNTYPE © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42315.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - Unterseite des Abdomens - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - Unterseite des Abdomens - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42310.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - Mandibeln und vorderste Augenreihe - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - Mandibeln und vorderste Augenreihe - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42314.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - Mandibeln - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - Mandibeln - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42311.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - Tibialglied der Palpen und Kopulationsorgane - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - Tibialglied der Palpen und Kopulationsorgane - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42316.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - Epigyne - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - Epigyne - Palau - SYNTYPE © KOCH, L. (1879). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17128.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - palpal organ - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - palpal organ - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17129.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - palpal organ - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - palpal organ - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17130.jpg" alt="SYNONYM: Acompse dulcinervis - ♂ - palpal organ - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♂ - palpal organ - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17131.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - epigyne - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - epigyne - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17132.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - epigyne, internal structures - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - epigyne, internal structures - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17133.jpg" alt="SYNONYM: Acompse dulcinervis - ♀ - epigyne, schematic course of internal canals - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478">
+            
+
+            <div>SYNONYM: Acompse dulcinervis - ♀ - epigyne, schematic course of internal canals - Palau - SYNTYPE © ŻABKA, M. (1988). RecId: 64478</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4489.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4490.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-13742.jpg" alt="Bavia cf. sexpunctata - ♂ - Venus drive. © Marcus Ng - Singapore © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Bavia cf. sexpunctata - ♂ - Venus drive. © Marcus Ng - Singapore © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-13743.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-13744.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17496.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17497.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17498.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17499.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15731.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15732.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15733.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-15734.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-16858.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-16859.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18893.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18894.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18895.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18896.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28514.jpg" alt="Synonym: Acompse dulcinervis - ♀ - Palau - SYNTYPE . HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64478">
+            
+
+            <div>Synonym: Acompse dulcinervis - ♀ - Palau - SYNTYPE . HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64478</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

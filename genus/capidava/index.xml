@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capidava on Jumping Spider World</title>
+    <link>https://example.org/genus/capidava/</link>
+    <description>Recent content in Capidava on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/capidava/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capidava annulipes</title>
+      <link>https://example.org/species/capidava-annulipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capidava-annulipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capidava auriculata</title>
+      <link>https://example.org/species/capidava-auriculata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capidava-auriculata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capidava biuncata</title>
+      <link>https://example.org/species/capidava-biuncata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capidava-biuncata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capidava dubia</title>
+      <link>https://example.org/species/capidava-dubia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capidava-dubia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capidava saxatilis</title>
+      <link>https://example.org/species/capidava-saxatilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capidava-saxatilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capidava uniformis</title>
+      <link>https://example.org/species/capidava-uniformis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capidava-uniformis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

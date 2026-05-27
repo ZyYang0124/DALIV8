@@ -1,0 +1,2249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menemerus bivittatus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Menemerus bivittatus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43339.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40023.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40024.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35458.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16660.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16665.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16656.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16657.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16658.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16659.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16661.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16663.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16662.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16664.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-681.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-686.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-682.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-683.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-684.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-685.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22775.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22776.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22777.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22778.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22770.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22771.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22772.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22773.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22774.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22779.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22780.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22781.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22782.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1243.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1244.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1246.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-1247.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45134.jpg" alt="SYNONYM: Attus attentus - ♀ - US © CHAMBERLIN, R. V. &amp; IVIE, W. (1944)">
+            
+
+            <div>SYNONYM: Attus attentus - ♀ - US © CHAMBERLIN, R. V. &amp; IVIE, W. (1944)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51979.jpg" alt="SYNONYM: ABBOT´s Fig. No. 157 - ♀ - MCZ, London - US © ABBOT, J. (1792)">
+            
+
+            <div>SYNONYM: ABBOT´s Fig. No. 157 - ♀ - MCZ, London - US © ABBOT, J. (1792)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45584.jpg" alt="SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © HOGG, H. R. (1914). RecId: 41805">
+            
+
+            <div>SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © HOGG, H. R. (1914). RecId: 41805</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45586.jpg" alt="SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © ŻABKA, M. (1994). RecId: 41805">
+            
+
+            <div>SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © ŻABKA, M. (1994). RecId: 41805</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45587.jpg" alt="SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © HOGG, H. R. (1914). RecId: 41805">
+            
+
+            <div>SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © HOGG, H. R. (1914). RecId: 41805</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45585.jpg" alt="SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © HOGG, H. R. (1914). RecId: 41805">
+            
+
+            <div>SYNONYM: Marpissa ridens - ♀ - Australia - SYNTYPE © HOGG, H. R. (1914). RecId: 41805</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32361.jpg" alt="SYNONYM: Menemerus acuminatus - ♀ - Australia - SYNTYPE © RAINBOW, W. J. (1912)">
+            
+
+            <div>SYNONYM: Menemerus acuminatus - ♀ - Australia - SYNTYPE © RAINBOW, W. J. (1912)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32362.jpg" alt="SYNONYM: Menemerus acuminatus - ♀ - Australia - SYNTYPE © RAINBOW, W. J. (1912)">
+            
+
+            <div>SYNONYM: Menemerus acuminatus - ♀ - Australia - SYNTYPE © RAINBOW, W. J. (1912)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45138.jpg" alt="SYNONYM: Icius maritus - ♀ - Angola - SYNTYPE © KARSCH, F. (1884). RecId: 45892">
+            
+
+            <div>SYNONYM: Icius maritus - ♀ - Angola - SYNTYPE © KARSCH, F. (1884). RecId: 45892</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32363.jpg" alt="SYNONYM: Salticus nigro-limbatus - ♀ - Saint Helena - HOLOTYPE © PICKARD - CAMBRIDGE, O. (1869)">
+            
+
+            <div>SYNONYM: Salticus nigro-limbatus - ♀ - Saint Helena - HOLOTYPE © PICKARD - CAMBRIDGE, O. (1869)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32364.jpg" alt="SYNONYM: Salticus nigro-limbatus - ♀ - Saint Helena - HOLOTYPE © PICKARD - CAMBRIDGE, O. (1869)">
+            
+
+            <div>SYNONYM: Salticus nigro-limbatus - ♀ - Saint Helena - HOLOTYPE © PICKARD - CAMBRIDGE, O. (1869)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-32365.jpg" alt="SYNONYM: Salticus nigro-limbatus - ♀ - Saint Helena - HOLOTYPE © PICKARD - CAMBRIDGE, O. (1869)">
+            
+
+            <div>SYNONYM: Salticus nigro-limbatus - ♀ - Saint Helena - HOLOTYPE © PICKARD - CAMBRIDGE, O. (1869)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42106.jpg" alt="SYNONYM: Menemerus foliatus - ♂ - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♂ - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42107.jpg" alt="SYNONYM: Menemerus foliatus - ♂ - Maxillen und Lippe - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♂ - Maxillen und Lippe - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42112.jpg" alt="SYNONYM: Menemerus foliatus - ♀ - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♀ - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42113.jpg" alt="SYNONYM: Menemerus foliatus - ♀ - Maxillen und Lippe - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♀ - Maxillen und Lippe - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42108.jpg" alt="SYNONYM: Menemerus foliatus - ♂ - Mandibeln (Rückseite) - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♂ - Mandibeln (Rückseite) - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42109.jpg" alt="SYNONYM: Menemerus foliatus - ♂ - Mandibeln und vordertse Augenreihe - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♂ - Mandibeln und vordertse Augenreihe - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42114.jpg" alt="SYNONYM: Menemerus foliatus - ♀ - Mandibeln und vorderste Augenreihe - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♀ - Mandibeln und vorderste Augenreihe - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42115.jpg" alt="SYNONYM: Menemerus foliatus - ♀ - Mandibeln (Rückseite) - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♀ - Mandibeln (Rückseite) - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42110.jpg" alt="SYNONYM: Menemerus foliatus - ♂ - Tibialglied der Palpen und Kopulationsorgane (von Unten gesehen) - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♂ - Tibialglied der Palpen und Kopulationsorgane (von Unten gesehen) - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42111.jpg" alt="SYNONYM: Menemerus foliatus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42116.jpg" alt="SYNONYM: Menemerus foliatus - ♀ - Epigyne - Australia © KOCH, L. (1879)">
+            
+
+            <div>SYNONYM: Menemerus foliatus - ♀ - Epigyne - Australia © KOCH, L. (1879)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45135.jpg" alt="SYNONYM: Salticus convergens - ♀ - Java - SYNTYPE © DOLESCHALL, C. L. (1859)">
+            
+
+            <div>SYNONYM: Salticus convergens - ♀ - Java - SYNTYPE © DOLESCHALL, C. L. (1859)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31094.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31096.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31097.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31098.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31095.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-27868.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - general appearance - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - general appearance - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-27869.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - cheliceral dentition - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - cheliceral dentition - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-27870.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - copulatory organ - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - copulatory organ - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-27871.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - copulatory organ - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - copulatory organ - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-27872.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - copulatory organ - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - copulatory organ - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-27873.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - tibial apophysis - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - tibial apophysis - China - HOLOTYPE © WESOŁ OWSKA, W. (1981)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37631.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - body. Scale: 1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - body. Scale: 1 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37632.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - palpal organ. Scale: 0.2 mm - China © BÖSENBERG, W. &amp; LENZ, H. (1895)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - palpal organ. Scale: 0.2 mm - China © BÖSENBERG, W. &amp; LENZ, H. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37633.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - palpal organ. Scale: 0.2 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - palpal organ. Scale: 0.2 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37634.jpg" alt="SYNONYM: Menemerus bonneti - ♂ - palpal organ. Scale: 0.2 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)">
+            
+
+            <div>SYNONYM: Menemerus bonneti - ♂ - palpal organ. Scale: 0.2 mm - China © PENG, X. J., XIE, L. P., XIAO, Q. X. &amp; YIN, C. M. (1993)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30464.jpg" alt="SYNONYM: Attus melanognathus - ♀ - Canary Islands - SYNTYPE © LUCAS, M. H. (1838)">
+            
+
+            <div>SYNONYM: Attus melanognathus - ♀ - Canary Islands - SYNTYPE © LUCAS, M. H. (1838)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30465.jpg" alt="SYNONYM: Attus melanognathus - ♀ - Canary Islands - SYNTYPE © LUCAS, M. H. (1838)">
+            
+
+            <div>SYNONYM: Attus melanognathus - ♀ - Canary Islands - SYNTYPE © LUCAS, M. H. (1838)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13581.jpg" alt="SYNONYM: Menemerus melanognathus - ♂ - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Menemerus melanognathus - ♂ - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13582.jpg" alt="SYNONYM: Menemerus melanognathus - ♀ - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Menemerus melanognathus - ♀ - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13583.jpg" alt="SYNONYM: Menemerus melanognathus - ♂ - palpus - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Menemerus melanognathus - ♂ - palpus - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13584.jpg" alt="SYNONYM: Menemerus melanognathus - ♀ - epigynum - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Menemerus melanognathus - ♀ - epigynum - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6127.jpg" alt="SYNONYM: Menemerus melanognathus - ♂ - Bermuda © MARX, G. (1889)">
+            
+
+            <div>SYNONYM: Menemerus melanognathus - ♂ - Bermuda © MARX, G. (1889)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6128.jpg" alt="SYNONYM: Menemerus melanognathus - ♂ - Palpus - Bermuda © MARX, G. (1889)">
+            
+
+            <div>SYNONYM: Menemerus melanognathus - ♂ - Palpus - Bermuda © MARX, G. (1889)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4181.jpg" alt="SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4182.jpg" alt="SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4189.jpg" alt="SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4190.jpg" alt="SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4185.jpg" alt="SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4186.jpg" alt="SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4187.jpg" alt="SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4188.jpg" alt="SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♂ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4183.jpg" alt="SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4184.jpg" alt="SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Marpissa melanognatha - ♀ - country undefined © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35323.jpg" alt="SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)">
+            
+
+            <div>SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35324.jpg" alt="SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)">
+            
+
+            <div>SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35325.jpg" alt="SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)">
+            
+
+            <div>SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35326.jpg" alt="SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)">
+            
+
+            <div>SYNONYM: Stridulattus stridulans - ♂ - Virgin Islands - HOLOTYPE © PETRUNKEVITCH, A. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44746.jpg" alt="SYNONYM: Marpissa balteata - ♂ - Senegal - HOLOTYPE © KOCH, C. L. (1846). RecId: 45808">
+            
+
+            <div>SYNONYM: Marpissa balteata - ♂ - Senegal - HOLOTYPE © KOCH, C. L. (1846). RecId: 45808</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45136.jpg" alt="SYNONYM: Marpissa dissimilis - ♀ - country undefined - SYNTYPE © KOCH, C. L. (1846). RecId: 45809">
+            
+
+            <div>SYNONYM: Marpissa dissimilis - ♀ - country undefined - SYNTYPE © KOCH, C. L. (1846). RecId: 45809</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45137.jpg" alt="SYNONYM: Marpissa dissimilis - ♂ - country undefined - SYNTYPE © KOCH, C. L. (1846). RecId: 45809">
+            
+
+            <div>SYNONYM: Marpissa dissimilis - ♂ - country undefined - SYNTYPE © KOCH, C. L. (1846). RecId: 45809</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44749.jpg" alt="SYNONYM: Marpissa incerta - ♀ - Saint Thomas - SYNTYPE © KOCH, C. L. (1846). RecId: 45811">
+            
+
+            <div>SYNONYM: Marpissa incerta - ♀ - Saint Thomas - SYNTYPE © KOCH, C. L. (1846). RecId: 45811</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5946.jpg" alt="SYNONYM: Attus manii (lapsus) - ♂ - palpus - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus manii (lapsus) - ♂ - palpus - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35078.jpg" alt="SYNONYM: Camponia lineata - ♂ - from above - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - from above - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35079.jpg" alt="SYNONYM: Camponia lineata - ♂ - profile - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - profile - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35081.jpg" alt="SYNONYM: Camponia lineata - ♂ - maxilla and labium - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - maxilla and labium - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35080.jpg" alt="SYNONYM: Camponia lineata - ♂ - palpus - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - palpus - Paraguay - SYNTYPE © BADCOCK, H. D. (1932)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19730.jpg" alt="SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19726.jpg" alt="SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19727.jpg" alt="SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-19728.jpg" alt="SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Camponia lineata - ♂ - Campo Grande, Paraguayan Chaco - Paraguay - TYPE © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44060.jpg" alt="SYNONYM: Attus muscivorus - ♀ - Reunion - SYNTYPE © VINSON, A. (1863)">
+            
+
+            <div>SYNONYM: Attus muscivorus - ♀ - Reunion - SYNTYPE © VINSON, A. (1863)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-370.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-371.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-372.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-373.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-374.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-375.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-376.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-377.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3497.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3498.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-9088.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-9089.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10197.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17641.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17642.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17643.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17644.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18439.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18440.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18442.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18443.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18445.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18446.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18447.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18441.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18448.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18444.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18449.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19030.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19031.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19032.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19033.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19034.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19035.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22231.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23706.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23707.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23708.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23709.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23710.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23711.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24479.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24480.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24901.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24902.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24903.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30458.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30459.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30461.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30462.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30460.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30463.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5432.jpg" alt="Synonym: Marpissa ridens - ♀ - dorsal - Australia - SYNTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Marpissa ridens - ♀ - dorsal - Australia - SYNTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5433.jpg" alt="Synonym: Marpissa ridens - ♀ - lateral - Australia - SYNTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Marpissa ridens - ♀ - lateral - Australia - SYNTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5435.jpg" alt="Synonym: Marpissa ridens - ♀ - anterior - Australia - SYNTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Marpissa ridens - ♀ - anterior - Australia - SYNTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5434.jpg" alt="Synonym: Marpissa ridens - ♀ - ventral - Australia - SYNTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Marpissa ridens - ♀ - ventral - Australia - SYNTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5436.jpg" alt="Synonym: Marpissa ridens - ♀ - epigyne ventral - Australia - SYNTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Marpissa ridens - ♀ - epigyne ventral - Australia - SYNTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5429.jpg" alt="Synonym: Menemerus acuminatus - ♀ - dorsal - Australia - HOLOTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Menemerus acuminatus - ♀ - dorsal - Australia - HOLOTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5430.jpg" alt="Synonym: Menemerus acuminatus - ♀ - anterior - Australia - HOLOTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Menemerus acuminatus - ♀ - anterior - Australia - HOLOTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5431.jpg" alt="Synonym: Menemerus acuminatus - ♀ - epigyne dorsal - Australia - HOLOTYPE . RICHARDSON, B. J. (2016)">
+            
+
+            <div>Synonym: Menemerus acuminatus - ♀ - epigyne dorsal - Australia - HOLOTYPE . RICHARDSON, B. J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28531.jpg" alt="Synonym: Attus foliatus - ♀ - Upolu - HOLOTYPE . HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64494">
+            
+
+            <div>Synonym: Attus foliatus - ♀ - Upolu - HOLOTYPE . HARMS, D. &amp; DUPÉRRÉ, N. (2024). RecId: 64494</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

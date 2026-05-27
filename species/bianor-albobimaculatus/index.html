@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bianor albobimaculatus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Bianor albobimaculatus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4632.jpg" alt="Salticus albobimaculatus - ♀ - Algeria - SYNTYPE © LUCAS, M. H. (1846)">
+            
+
+            <div>Salticus albobimaculatus - ♀ - Algeria - SYNTYPE © LUCAS, M. H. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4633.jpg" alt="Salticus albobimaculatus - ♀ - Algeria - SYNTYPE © LUCAS, M. H. (1846)">
+            
+
+            <div>Salticus albobimaculatus - ♀ - Algeria - SYNTYPE © LUCAS, M. H. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4634.jpg" alt="Salticus albobimaculatus - ♀ - Algeria - SYNTYPE © LUCAS, M. H. (1846)">
+            
+
+            <div>Salticus albobimaculatus - ♀ - Algeria - SYNTYPE © LUCAS, M. H. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14151.jpg" alt="Eris albo-bimaculata - ♂ - dorsal view - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)">
+            
+
+            <div>Eris albo-bimaculata - ♂ - dorsal view - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14152.jpg" alt="Eris albo-bimaculata - ♀ - dorsal view - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)">
+            
+
+            <div>Eris albo-bimaculata - ♀ - dorsal view - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14153.jpg" alt="Eris albo-bimaculata - ♀ - face and falces - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)">
+            
+
+            <div>Eris albo-bimaculata - ♀ - face and falces - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14154.jpg" alt="Eris albo-bimaculata - ♀ - side view of cephalothorax - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)">
+            
+
+            <div>Eris albo-bimaculata - ♀ - side view of cephalothorax - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14155.jpg" alt="Eris albo-bimaculata - ♂ - face and falces - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)">
+            
+
+            <div>Eris albo-bimaculata - ♂ - face and falces - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14156.jpg" alt="Eris albo-bimaculata - ♂ - side view of cephalothorax - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)">
+            
+
+            <div>Eris albo-bimaculata - ♂ - side view of cephalothorax - country undefined © PECKHAM, G. W. &amp; PECKHAM, E. G. (1895)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40043.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40044.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-354.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-355.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-356.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-357.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-358.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7678.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7670.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7671.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7703.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7705.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7702.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7704.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7706.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7707.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7708.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7709.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7710.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7711.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7712.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-954.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-955.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7669.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-957.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-958.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-959.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-960.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-961.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26585.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26586.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-26587.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51140.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51141.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51142.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51143.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51656.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7672.jpg" alt="SYNONYM: Attus putus - ♂ - palp, ventral view - Israel. Scale: 0.1 mm - Syria - HOLOTYPE © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Attus putus - ♂ - palp, ventral view - Israel. Scale: 0.1 mm - Syria - HOLOTYPE © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7673.jpg" alt="SYNONYM: Attus putus - ♂ - palp, retrolateral view - Israel. Scale: 0.1 mm - Syria - HOLOTYPE © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Attus putus - ♂ - palp, retrolateral view - Israel. Scale: 0.1 mm - Syria - HOLOTYPE © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28158.jpg" alt="SYNONYM: Bianor pulchellus - ♀ - abdominal pattern - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)">
+            
+
+            <div>SYNONYM: Bianor pulchellus - ♀ - abdominal pattern - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28159.jpg" alt="SYNONYM: Bianor pulchellus - ♀ - epigyne - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)">
+            
+
+            <div>SYNONYM: Bianor pulchellus - ♀ - epigyne - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28160.jpg" alt="SYNONYM: Bianor pulchellus - ♀ - internal structure of epigyne - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)">
+            
+
+            <div>SYNONYM: Bianor pulchellus - ♀ - internal structure of epigyne - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28161.jpg" alt="SYNONYM: Bianor pulchellus - ♀ - internal structure of epigyne - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)">
+            
+
+            <div>SYNONYM: Bianor pulchellus - ♀ - internal structure of epigyne - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15423.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - epigynum - South Africa - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1903). RecId: 6938">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - epigynum - South Africa - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1903). RecId: 6938</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7681.jpg" alt="SYNONYM: Bianor rusticulus - ♂ - Maxilla, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♂ - Maxilla, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7682.jpg" alt="SYNONYM: Bianor rusticulus - ♂ - face. Scale: 0.5 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♂ - face. Scale: 0.5 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7683.jpg" alt="SYNONYM: Bianor rusticulus - ♂ - dorsum. Scale: 1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♂ - dorsum. Scale: 1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7684.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - dorsum. Scale: 1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - dorsum. Scale: 1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7679.jpg" alt="SYNONYM: Bianor rusticulus - ♂ - palp, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♂ - palp, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7680.jpg" alt="SYNONYM: Bianor rusticulus - ♂ - palp, retrolateral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♂ - palp, retrolateral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7685.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - epigyne, ventral view - Clanwilliam. Scale: 0.1 mm - South Africa - HOLOTYPE © LOGUNOV, D. V. (2000). RecId: 6938">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - epigyne, ventral view - Clanwilliam. Scale: 0.1 mm - South Africa - HOLOTYPE © LOGUNOV, D. V. (2000). RecId: 6938</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7687.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - epigyne, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - epigyne, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7688.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - epigyne, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - epigyne, ventral view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7686.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - spermathecae, dorsal view - Clanwilliam. Scale: 0.1 mm - South Africa - HOLOTYPE © LOGUNOV, D. V. (2000). RecId: 6938">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - spermathecae, dorsal view - Clanwilliam. Scale: 0.1 mm - South Africa - HOLOTYPE © LOGUNOV, D. V. (2000). RecId: 6938</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7689.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - receptacles, ventral view - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - receptacles, ventral view - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7690.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - receptacles, dorsal view - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - receptacles, dorsal view - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7691.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - spermathecae, dorsal view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - spermathecae, dorsal view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7692.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - spermathecae, dorsal view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - spermathecae, dorsal view. Scale: 0.1 mm - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7693.jpg" alt="SYNONYM: Bianor rusticulus - ♀ - insemination duct, dorsal view - Kenya © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor rusticulus - ♀ - insemination duct, dorsal view - Kenya © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28162.jpg" alt="SYNONYM: Bianor scutatus - ♂ - general appearance - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)">
+            
+
+            <div>SYNONYM: Bianor scutatus - ♂ - general appearance - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28163.jpg" alt="SYNONYM: Bianor scutatus - ♂ - general appearance - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)">
+            
+
+            <div>SYNONYM: Bianor scutatus - ♂ - general appearance - Yemen - HOLOTYPE © WESOŁ OWSKA, W. &amp; VAN HARTEN, A. (1994)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-28164.jpg" alt="SYNONYM:">
+            
+
+            <div>SYNONYM:</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-12129.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23444.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23445.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23446.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23447.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23448.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23449.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23450.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23451.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23452.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23453.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24366.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24367.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26703.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26706.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26704.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26705.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26707.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26708.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26761.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26762.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26763.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26766.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26765.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-26767.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29181.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29177.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29178.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29179.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29180.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

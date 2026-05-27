@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omoedus on Jumping Spider World</title>
+    <link>https://example.org/genus/omoedus/</link>
+    <description>Recent content in Omoedus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/omoedus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Omoedus baloghi</title>
+      <link>https://example.org/species/omoedus-baloghi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-baloghi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus bunbi</title>
+      <link>https://example.org/species/omoedus-bunbi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-bunbi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus cordatus</title>
+      <link>https://example.org/species/omoedus-cordatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-cordatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus danyii</title>
+      <link>https://example.org/species/omoedus-danyii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-danyii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus insultans</title>
+      <link>https://example.org/species/omoedus-insultans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-insultans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus koehalmii</title>
+      <link>https://example.org/species/omoedus-koehalmii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-koehalmii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus kulczynskii</title>
+      <link>https://example.org/species/omoedus-kulczynskii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-kulczynskii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus niger</title>
+      <link>https://example.org/species/omoedus-niger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-niger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus piceus</title>
+      <link>https://example.org/species/omoedus-piceus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-piceus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus sexualis</title>
+      <link>https://example.org/species/omoedus-sexualis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-sexualis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omoedus torquatus</title>
+      <link>https://example.org/species/omoedus-torquatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/omoedus-torquatus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

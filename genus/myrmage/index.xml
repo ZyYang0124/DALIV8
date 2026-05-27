@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Myrmage on Jumping Spider World</title>
+    <link>https://example.org/genus/myrmage/</link>
+    <description>Recent content in Myrmage on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/myrmage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Myrmage dishani</title>
+      <link>https://example.org/species/myrmage-dishani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmage-dishani/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmage gedongensis</title>
+      <link>https://example.org/species/myrmage-gedongensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmage-gedongensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmage imbellis</title>
+      <link>https://example.org/species/myrmage-imbellis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmage-imbellis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myrmage lii</title>
+      <link>https://example.org/species/myrmage-lii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/myrmage-lii/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

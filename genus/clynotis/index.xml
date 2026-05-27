@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clynotis on Jumping Spider World</title>
+    <link>https://example.org/genus/clynotis/</link>
+    <description>Recent content in Clynotis on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/clynotis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clynotis archeyi</title>
+      <link>https://example.org/species/clynotis-archeyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/clynotis-archeyi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clynotis barresi</title>
+      <link>https://example.org/species/clynotis-barresi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/clynotis-barresi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clynotis knoxi</title>
+      <link>https://example.org/species/clynotis-knoxi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/clynotis-knoxi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clynotis saxatilis</title>
+      <link>https://example.org/species/clynotis-saxatilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/clynotis-saxatilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clynotis severus</title>
+      <link>https://example.org/species/clynotis-severus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/clynotis-severus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

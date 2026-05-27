@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cobanus on Jumping Spider World</title>
+    <link>https://example.org/genus/cobanus/</link>
+    <description>Recent content in Cobanus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/cobanus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cobanus bifurcatus</title>
+      <link>https://example.org/species/cobanus-bifurcatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-bifurcatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus cambridgei</title>
+      <link>https://example.org/species/cobanus-cambridgei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-cambridgei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus chocquibtown</title>
+      <link>https://example.org/species/cobanus-chocquibtown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-chocquibtown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus electus</title>
+      <link>https://example.org/species/cobanus-electus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-electus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus extensus</title>
+      <link>https://example.org/species/cobanus-extensus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-extensus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus mandibularis</title>
+      <link>https://example.org/species/cobanus-mandibularis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-mandibularis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus muelona</title>
+      <link>https://example.org/species/cobanus-muelona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-muelona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobanus unicolor</title>
+      <link>https://example.org/species/cobanus-unicolor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cobanus-unicolor/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

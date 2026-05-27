@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tomomingi on Jumping Spider World</title>
+    <link>https://example.org/genus/tomomingi/</link>
+    <description>Recent content in Tomomingi on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/tomomingi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tomomingi blicki</title>
+      <link>https://example.org/species/tomomingi-blicki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-blicki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi holmi</title>
+      <link>https://example.org/species/tomomingi-holmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-holmi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi keinoi</title>
+      <link>https://example.org/species/tomomingi-keinoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-keinoi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi kikuyu</title>
+      <link>https://example.org/species/tomomingi-kikuyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-kikuyu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi nywele</title>
+      <link>https://example.org/species/tomomingi-nywele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-nywele/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi silvae</title>
+      <link>https://example.org/species/tomomingi-silvae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-silvae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi szutsi</title>
+      <link>https://example.org/species/tomomingi-szutsi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-szutsi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tomomingi wastani</title>
+      <link>https://example.org/species/tomomingi-wastani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/tomomingi-wastani/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

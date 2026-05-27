@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stenaelurillus termitophagus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Stenaelurillus termitophagus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29661.jpg" alt="Microheros termitophagus - ♂ - general appearance. Scale line = 2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - general appearance. Scale line = 2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29662.jpg" alt="Microheros termitophagus - ♀ - general appearance. Scale line = 2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♀ - general appearance. Scale line = 2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29663.jpg" alt="Microheros termitophagus - ♂ - general appearance - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - general appearance - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29664.jpg" alt="Microheros termitophagus - juv. - abdominal pattern. Scale line = 1 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - juv. - abdominal pattern. Scale line = 1 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29665.jpg" alt="Microheros termitophagus - ♂ - face colour - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - face colour - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29666.jpg" alt="Microheros termitophagus - ♀ - face colour. Scale line = 0.5 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♀ - face colour. Scale line = 0.5 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29667.jpg" alt="Microheros termitophagus - cheliceral dentition. Scale line = 0.2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - cheliceral dentition. Scale line = 0.2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29668.jpg" alt="Microheros termitophagus - Tarsus. Scale line = 0.3 mm - country undefined - PARATYPE © HANSEN, H. (1986)">
+            
+
+            <div>Microheros termitophagus - Tarsus. Scale line = 0.3 mm - country undefined - PARATYPE © HANSEN, H. (1986)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29669.jpg" alt="Microheros termitophagus - ♂ - palpal organ. Scale line = 0.4 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - palpal organ. Scale line = 0.4 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29670.jpg" alt="Microheros termitophagus - ♂ - palpal organ - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - palpal organ - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29671.jpg" alt="Microheros termitophagus - ♂ - palpal organ - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - palpal organ - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29672.jpg" alt="Microheros termitophagus - ♂ - palpal organ - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - palpal organ - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29673.jpg" alt="Microheros termitophagus - ♂ - palpal femur - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - palpal femur - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29674.jpg" alt="Microheros termitophagus - ♂ - Embolus - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - Embolus - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29675.jpg" alt="Microheros termitophagus - ♂ - Embolus. Scale line = 0.2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - Embolus. Scale line = 0.2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29676.jpg" alt="Microheros termitophagus - ♂ - Tibial apophysis. Scale line = 0.2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♂ - Tibial apophysis. Scale line = 0.2 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29677.jpg" alt="Microheros termitophagus - ♀ - epigyne. Scale line = 0.1 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♀ - epigyne. Scale line = 0.1 mm - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29678.jpg" alt="Microheros termitophagus - ♀ - internal structure of epigyne, ventral view - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♀ - internal structure of epigyne, ventral view - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29679.jpg" alt="Microheros termitophagus - ♀ - internal structure of epigyne, dorsal view - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♀ - internal structure of epigyne, dorsal view - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29680.jpg" alt="Microheros termitophagus - ♀ - digrammatic course of seminal duct - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)">
+            
+
+            <div>Microheros termitophagus - ♀ - digrammatic course of seminal duct - country undefined - PARATYPE © WESOŁ OWSKA, W. &amp; CUMMING, M. S. (1999)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41164.jpg" alt="Stenaelurillus termitophagus - ♀ - left chelicera. Scale bar: 0.25 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - left chelicera. Scale bar: 0.25 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41383.jpg" alt="Stenaelurillus termitophagus - ♂ - palp, ventral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - palp, ventral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41384.jpg" alt="Stenaelurillus termitophagus - ♂ - palp, ventro-retrolateral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - palp, ventro-retrolateral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41385.jpg" alt="Stenaelurillus termitophagus - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41386.jpg" alt="Stenaelurillus termitophagus - ♂ - embolic division, apical view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - embolic division, apical view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41387.jpg" alt="Stenaelurillus termitophagus - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - epigyne, ventral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41388.jpg" alt="Stenaelurillus termitophagus - ♀ - spermathecae, dorsal view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - spermathecae, dorsal view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41389.jpg" alt="Stenaelurillus termitophagus - ♀ - spermathecae, ventral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - spermathecae, ventral view. Scale bar: 0.1 mm - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41390.jpg" alt="Stenaelurillus termitophagus - ♀ - Diagrammatic course of the insemination ducts - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - Diagrammatic course of the insemination ducts - Botswana © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14368.jpg" alt="Microheros termitophagus - ♀ - © S. Cumming - country undefined © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Microheros termitophagus - ♀ - © S. Cumming - country undefined © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8323.jpg" alt="Stenaelurillus termitophagus - ♀ - leg I tarsal claw, retrolateral. Scale bar: 0.1 mm - country undefined © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - leg I tarsal claw, retrolateral. Scale bar: 0.1 mm - country undefined © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8324.jpg" alt="Stenaelurillus termitophagus - ♀ - leg I tarsal claw, prolateral. Scale bar: 0.1 mm - country undefined © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - leg I tarsal claw, prolateral. Scale bar: 0.1 mm - country undefined © LOGUNOV, D. V. &amp; AZARKINA, G. N. (2018)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24569.jpg" alt="Stenaelurillus termitophagus - ♀ - South Africa © VANDER WALT, V. (2023)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - South Africa © VANDER WALT, V. (2023)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24570.jpg" alt="Stenaelurillus termitophagus - ♀ - South Africa © VANDER WALT, V. (2023)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - South Africa © VANDER WALT, V. (2023)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-24571.jpg" alt="Stenaelurillus termitophagus - ♀ - South Africa © VANDER WALT, V. (2023)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - South Africa © VANDER WALT, V. (2023)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-25136.jpg" alt="Stenaelurillus termitophagus - ♀ - Hatfield, Harare © Jonathan Whitaker - Zimbabwe © METZNER, H. (1996-2025)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - Hatfield, Harare © Jonathan Whitaker - Zimbabwe © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31434.jpg" alt="Stenaelurillus termitophagus - ♂ - general appearance, dorsal view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - general appearance, dorsal view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31435.jpg" alt="Stenaelurillus termitophagus - ♂ - general appearance, ventral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - general appearance, ventral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31438.jpg" alt="Stenaelurillus termitophagus - ♀ - general appearance, dorsal view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - general appearance, dorsal view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31439.jpg" alt="Stenaelurillus termitophagus - ♀ - general appearance, ventral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - general appearance, ventral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31436.jpg" alt="Stenaelurillus termitophagus - ♂ - palpal organ, ventral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - palpal organ, ventral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31437.jpg" alt="Stenaelurillus termitophagus - ♂ - palpal organ, ventrolateral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♂ - palpal organ, ventrolateral view - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31440.jpg" alt="Stenaelurillus termitophagus - ♀ - epigyne - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)">
+            
+
+            <div>Stenaelurillus termitophagus - ♀ - epigyne - Mozambique © HADDAD, C. R., WIŚ NIEWSKI, K. &amp; WESOŁ OWSKA, W. (2024)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

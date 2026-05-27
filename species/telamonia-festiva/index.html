@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Telamonia festiva</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Telamonia festiva</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21170.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21167.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21168.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21169.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16974.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16961.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16962.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16963.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16964.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16965.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16966.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16968.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16969.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16970.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16971.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16975.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16976.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16972.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16973.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38134.jpg" alt="SYNONYM: Lyssomanes sikkimensis - ♀ - dorsal view - India - HOLOTYPE © TIKADER, B. K. (1967)">
+            
+
+            <div>SYNONYM: Lyssomanes sikkimensis - ♀ - dorsal view - India - HOLOTYPE © TIKADER, B. K. (1967)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38135.jpg" alt="SYNONYM: Lyssomanes sikkimensis - ♀ - epigyne - India - HOLOTYPE © TIKADER, B. K. (1967)">
+            
+
+            <div>SYNONYM: Lyssomanes sikkimensis - ♀ - epigyne - India - HOLOTYPE © TIKADER, B. K. (1967)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8445.jpg" alt="SYNONYM: Telamonia terebrifera - ♂ - palpal organ - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♂ - palpal organ - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8446.jpg" alt="SYNONYM: Telamonia terebrifera - ♂ - palpal organ - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♂ - palpal organ - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8447.jpg" alt="SYNONYM: Telamonia terebrifera - ♂ - tibial apophysis, dorsal view - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♂ - tibial apophysis, dorsal view - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8448.jpg" alt="SYNONYM: Telamonia terebrifera - ♀ - Epigyne - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♀ - Epigyne - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8449.jpg" alt="SYNONYM: Telamonia terebrifera - ♀ - Epigyne - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♀ - Epigyne - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8450.jpg" alt="SYNONYM: Telamonia terebrifera - ♀ - Single Spermatheca - foreign body - presumably embolus within coils of twisted canals - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♀ - Single Spermatheca - foreign body - presumably embolus within coils of twisted canals - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8451.jpg" alt="SYNONYM: Telamonia terebrifera - ♀ - Single Spermatheca - Java © PRÓSZYŃ SKI, J. (1984)">
+            
+
+            <div>SYNONYM: Telamonia terebrifera - ♀ - Single Spermatheca - Java © PRÓSZYŃ SKI, J. (1984)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46913.jpg" alt="SYNONYM: Telamonia shepardi - ♀ - China - HOLOTYPE © BARRION, A. T., BARRION-DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)">
+            
+
+            <div>SYNONYM: Telamonia shepardi - ♀ - China - HOLOTYPE © BARRION, A. T., BARRION-DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46916.jpg" alt="SYNONYM: Telamonia shepardi - ♂ - palpal organ - China - PARATYPE © BARRION, A. T., BARRION- DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)">
+            
+
+            <div>SYNONYM: Telamonia shepardi - ♂ - palpal organ - China - PARATYPE © BARRION, A. T., BARRION- DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46917.jpg" alt="SYNONYM: Telamonia shepardi - ♂ - inner tip of RTA - China - PARATYPE © BARRION, A. T., BARRION- DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)">
+            
+
+            <div>SYNONYM: Telamonia shepardi - ♂ - inner tip of RTA - China - PARATYPE © BARRION, A. T., BARRION- DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46914.jpg" alt="SYNONYM: Telamonia shepardi - ♀ - epigynum, ventral view - China - HOLOTYPE © BARRION, A. T., BARRION-DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)">
+            
+
+            <div>SYNONYM: Telamonia shepardi - ♀ - epigynum, ventral view - China - HOLOTYPE © BARRION, A. T., BARRION-DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46915.jpg" alt="SYNONYM: Telamonia shepardi - ♀ - epigynum, dorsal view - China - HOLOTYPE © BARRION, A. T., BARRION-DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)">
+            
+
+            <div>SYNONYM: Telamonia shepardi - ♀ - epigynum, dorsal view - China - HOLOTYPE © BARRION, A. T., BARRION-DUPO, A. L. A., CATINDIG, J. L. A., VILLAREAL, S. C., CAI, D., YUAN, Q. &amp; HEONG, K. L. (2012)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18547.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31110.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31112.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31113.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31114.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31115.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31116.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31117.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31118.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31119.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31120.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31123.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31127.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31128.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31129.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31130.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31131.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31132.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31111.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31124.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31125.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31126.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

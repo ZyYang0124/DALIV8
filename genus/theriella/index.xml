@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theriella on Jumping Spider World</title>
+    <link>https://example.org/genus/theriella/</link>
+    <description>Recent content in Theriella on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/theriella/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theriella bertoncelloi</title>
+      <link>https://example.org/species/theriella-bertoncelloi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/theriella-bertoncelloi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theriella galianoae</title>
+      <link>https://example.org/species/theriella-galianoae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/theriella-galianoae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theriella tenuistyli</title>
+      <link>https://example.org/species/theriella-tenuistyli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/theriella-tenuistyli/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

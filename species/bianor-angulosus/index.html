@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bianor angulosus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Bianor angulosus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17148.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-17149.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7722.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7728.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7729.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7730.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7734.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7724.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7727.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7735.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7736.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7725.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7726.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7731.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7732.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7721.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7740.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7717.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7718.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7719.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7723.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7733.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7737.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7738.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7739.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7741.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7742.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48982.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48985.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48986.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48983.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48984.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48361.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48362.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31101.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31102.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31104.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31105.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31099.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31100.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - China - HOLOTYPE © SCHENKEL, E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44299.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - cephalothorax, frontal view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - cephalothorax, frontal view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44300.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - whole specimen, dorsal view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - whole specimen, dorsal view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44301.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - chelicerae and sternum - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - chelicerae and sternum - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44302.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - leg I ― prolateral surface - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - leg I ― prolateral surface - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44303.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - leg I ― retrolateral surface - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - leg I ― retrolateral surface - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44304.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - left tibia, ventral view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - left tibia, ventral view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44305.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - tarsus and metatarsus I, ventral view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - tarsus and metatarsus I, ventral view - China - HOLOTYPE © BOHDANOWICZ, A. &amp; HĘ CIAK, S. (1980)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16409.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - abdominal pattern - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - abdominal pattern - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16416.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - abdominal pattern - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - abdominal pattern - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16407.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - cheliceral dentition - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - cheliceral dentition - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16408.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - cheliceral dentition - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - cheliceral dentition - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16417.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - cheliceral dentition - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - cheliceral dentition - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16418.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - leg I - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - leg I - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16404.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - palpal organ - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - palpal organ - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16405.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - palpal organ - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - palpal organ - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16406.jpg" alt="SYNONYM: Bianor hotingchiehi - ♂ - palpal organ - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♂ - palpal organ - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16410.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16411.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16412.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16413.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - epigyne - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16414.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - epigyne, internal structures - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - epigyne, internal structures - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16415.jpg" alt="SYNONYM: Bianor hotingchiehi - ♀ - epigyne, diagrammatic course - Vietnam © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor hotingchiehi - ♀ - epigyne, diagrammatic course - Vietnam © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16437.jpg" alt="SYNONYM: Bianor simoni - ♂ - general appearance - Vietnam - HOLOTYPE © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor simoni - ♂ - general appearance - Vietnam - HOLOTYPE © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16436.jpg" alt="SYNONYM: Bianor simoni - ♂ - cheliceral dentition - Vietnam - HOLOTYPE © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor simoni - ♂ - cheliceral dentition - Vietnam - HOLOTYPE © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16433.jpg" alt="SYNONYM: Bianor simoni - ♂ - palpal organ - Vietnam - HOLOTYPE © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor simoni - ♂ - palpal organ - Vietnam - HOLOTYPE © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16434.jpg" alt="SYNONYM: Bianor simoni - ♂ - palpal organ - Vietnam - HOLOTYPE © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor simoni - ♂ - palpal organ - Vietnam - HOLOTYPE © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16435.jpg" alt="SYNONYM: Bianor simoni - ♂ - palpal organ - Vietnam - HOLOTYPE © ŻABKA, M. (1985)">
+            
+
+            <div>SYNONYM: Bianor simoni - ♂ - palpal organ - Vietnam - HOLOTYPE © ŻABKA, M. (1985)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7713.jpg" alt="SYNONYM: Bianor trepidans - ♀ - spermathecae, ventral view. Scale: 0.1 mm - Myanmar - SYNTYPE © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor trepidans - ♀ - spermathecae, ventral view. Scale: 0.1 mm - Myanmar - SYNTYPE © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7715.jpg" alt="SYNONYM: Bianor trepidans - ♀ - spermathecae, ventral view. Scale: 0.1 mm - Myanmar - SYNTYPE © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor trepidans - ♀ - spermathecae, ventral view. Scale: 0.1 mm - Myanmar - SYNTYPE © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-7716.jpg" alt="SYNONYM: Bianor trepidans - ♀ - diagrammatic course of spermathecae - Myanmar - SYNTYPE © LOGUNOV, D. V. (2000)">
+            
+
+            <div>SYNONYM: Bianor trepidans - ♀ - diagrammatic course of spermathecae - Myanmar - SYNTYPE © LOGUNOV, D. V. (2000)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45449.jpg" alt="SYNONYM: Bianor leucostictus - ♂ - right chelicera, ventral view. Scale bar: 0.25 mm - Sumatra - HOLOTYPE © LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>SYNONYM: Bianor leucostictus - ♂ - right chelicera, ventral view. Scale bar: 0.25 mm - Sumatra - HOLOTYPE © LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45447.jpg" alt="SYNONYM: Bianor leucostictus - ♂ - palp, ventral view. Scale bar: 0.1 mm - Sumatra - HOLOTYPE © LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>SYNONYM: Bianor leucostictus - ♂ - palp, ventral view. Scale bar: 0.1 mm - Sumatra - HOLOTYPE © LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45448.jpg" alt="SYNONYM: Bianor leucostictus - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Sumatra - HOLOTYPE © LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>SYNONYM: Bianor leucostictus - ♂ - palp, retrolateral view. Scale bar: 0.1 mm - Sumatra - HOLOTYPE © LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46354.jpg" alt="SYNONYM: Rhene haldanei - ♀ - India - HOLOTYPE © GAJBE, P. U. (2004)">
+            
+
+            <div>SYNONYM: Rhene haldanei - ♀ - India - HOLOTYPE © GAJBE, P. U. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46355.jpg" alt="SYNONYM: Rhene haldanei - ♀ - epigyne - India - HOLOTYPE © GAJBE, P. U. (2004)">
+            
+
+            <div>SYNONYM: Rhene haldanei - ♀ - epigyne - India - HOLOTYPE © GAJBE, P. U. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-46356.jpg" alt="SYNONYM: Rhene haldanei - ♀ - internal genitalia - India - HOLOTYPE © GAJBE, P. U. (2004)">
+            
+
+            <div>SYNONYM: Rhene haldanei - ♀ - internal genitalia - India - HOLOTYPE © GAJBE, P. U. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17195.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17196.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17197.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17198.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18382.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18384.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18383.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10303.jpg" alt="Synonym: Stichius albo-maculatus - juv. - label - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649">
+            
+
+            <div>Synonym: Stichius albo-maculatus - juv. - label - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10304.jpg" alt="Synonym: Stichius albo-maculatus - juv. - carapace, dorsal view. Scale bar: 0.5 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649">
+            
+
+            <div>Synonym: Stichius albo-maculatus - juv. - carapace, dorsal view. Scale bar: 0.5 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10305.jpg" alt="Synonym: Stichius albo-maculatus - juv. - carapace, ventral view. Scale bar: 0.5 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649">
+            
+
+            <div>Synonym: Stichius albo-maculatus - juv. - carapace, ventral view. Scale bar: 0.5 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10306.jpg" alt="Synonym: Stichius albo-maculatus - juv. - abdomen, dorsal view. Scale bar: 0.5 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649">
+            
+
+            <div>Synonym: Stichius albo-maculatus - juv. - abdomen, dorsal view. Scale bar: 0.5 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4649</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10299.jpg" alt="Synonym: Bianor leucostictus - ♂ - label - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>Synonym: Bianor leucostictus - ♂ - label - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10300.jpg" alt="Synonym: Bianor leucostictus - ♂ - general appearance, dorsal view. Scale bar: 1 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>Synonym: Bianor leucostictus - ♂ - general appearance, dorsal view. Scale bar: 1 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10301.jpg" alt="Synonym: Bianor leucostictus - ♂ - general appearance, ventral view. Scale bar: 1 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>Synonym: Bianor leucostictus - ♂ - general appearance, ventral view. Scale bar: 1 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10302.jpg" alt="Synonym: Bianor leucostictus - ♂ - general appearance, lateral view. Scale bar: 1 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648">
+            
+
+            <div>Synonym: Bianor leucostictus - ♂ - general appearance, lateral view. Scale bar: 1 mm - Sumatra - HOLOTYPE . LOGUNOV, D. V. (2019). RecId: 4648</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19455.jpg" alt="Synonym: Rhene haldanei - ♀ - habitus, dorsal view. Scale bar: 1 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - habitus, dorsal view. Scale bar: 1 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19456.jpg" alt="Synonym: Rhene haldanei - ♀ - habitus, front view. Scale bar: 0.5 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - habitus, front view. Scale bar: 0.5 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19458.jpg" alt="Synonym: Rhene haldanei - ♀ - habitus, lateral view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - habitus, lateral view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19457.jpg" alt="Synonym: Rhene haldanei - ♀ - leg I, retrolateral view. Scale bar: 1 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - leg I, retrolateral view. Scale bar: 1 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19459.jpg" alt="Synonym: Rhene haldanei - ♀ - epigyne, ventral view. Scale bar: 0.2 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - epigyne, ventral view. Scale bar: 0.2 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19460.jpg" alt="Synonym: Rhene haldanei - ♀ - vulva, dorsal view. Scale bar: 0.2 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - vulva, dorsal view. Scale bar: 0.2 mm - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-19461.jpg" alt="Synonym: Rhene haldanei - ♀ - label - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Rhene haldanei - ♀ - label - India - HOLOTYPE . CALEB, J. T. D., SANAP, R. V., TRIPATHI, R., SAMPATHKUMAR, M., DHARMARA, J. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

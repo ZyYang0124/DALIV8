@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emathis on Jumping Spider World</title>
+    <link>https://example.org/genus/emathis/</link>
+    <description>Recent content in Emathis on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/emathis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emathis armillata</title>
+      <link>https://example.org/species/emathis-armillata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-armillata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emathis astorgasensis</title>
+      <link>https://example.org/species/emathis-astorgasensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-astorgasensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emathis coprea</title>
+      <link>https://example.org/species/emathis-coprea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-coprea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emathis gombak</title>
+      <link>https://example.org/species/emathis-gombak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-gombak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emathis makilingensis</title>
+      <link>https://example.org/species/emathis-makilingensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-makilingensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emathis sobara</title>
+      <link>https://example.org/species/emathis-sobara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-sobara/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emathis weyersi</title>
+      <link>https://example.org/species/emathis-weyersi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/emathis-weyersi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

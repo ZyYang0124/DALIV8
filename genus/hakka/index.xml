@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hakka on Jumping Spider World</title>
+    <link>https://example.org/genus/hakka/</link>
+    <description>Recent content in Hakka on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/hakka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hakka himeshimensis</title>
+      <link>https://example.org/species/hakka-himeshimensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/hakka-himeshimensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hakka rugosa</title>
+      <link>https://example.org/species/hakka-rugosa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/hakka-rugosa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

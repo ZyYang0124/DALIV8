@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pseudomogrus univittatus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Pseudomogrus univittatus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39977.jpg" alt="Pseudomogrus univittatus - ♀ - France © SIMON, E. (1937)">
+            
+
+            <div>Pseudomogrus univittatus - ♀ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39978.jpg" alt="Pseudomogrus univittatus - ♂ - France © SIMON, E. (1937)">
+            
+
+            <div>Pseudomogrus univittatus - ♂ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39979.jpg" alt="Pseudomogrus univittatus - ♂ - France © SIMON, E. (1937)">
+            
+
+            <div>Pseudomogrus univittatus - ♂ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39980.jpg" alt="Pseudomogrus univittatus - ♀ - France © SIMON, E. (1937)">
+            
+
+            <div>Pseudomogrus univittatus - ♀ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3258.jpg" alt="Yllenus univittatus - ♂ - right copulatory organ - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus univittatus - ♂ - right copulatory organ - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3259.jpg" alt="Yllenus univittatus - ♂ - right copulatory organ - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus univittatus - ♂ - right copulatory organ - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3261.jpg" alt="Yllenus univittatus - ♂ - pedipal femur - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus univittatus - ♂ - pedipal femur - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3260.jpg" alt="Yllenus univittatus - ♂ - right copulatory organ - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus univittatus - ♂ - right copulatory organ - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3262.jpg" alt="Yllenus univittatus - ♀ - epigynum - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus univittatus - ♀ - epigynum - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3263.jpg" alt="Yllenus univittatus - ♀ - epigynum after maceration - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)">
+            
+
+            <div>Yllenus univittatus - ♀ - epigynum after maceration - country undefined - SYNTYPE © PRÓSZYŃ SKI, J. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22729.jpg" alt="Yllenus univittatus - ♂ - palp, ventral view - Turkmenistan © WESOŁ OWSKA, W. (1996)">
+            
+
+            <div>Yllenus univittatus - ♂ - palp, ventral view - Turkmenistan © WESOŁ OWSKA, W. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22730.jpg" alt="Yllenus univittatus - ♂ - palp, lateral view - Turkmenistan © WESOŁ OWSKA, W. (1996)">
+            
+
+            <div>Yllenus univittatus - ♂ - palp, lateral view - Turkmenistan © WESOŁ OWSKA, W. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22731.jpg" alt="Yllenus univittatus - ♂ - palp, dorsal view - Turkmenistan © WESOŁ OWSKA, W. (1996)">
+            
+
+            <div>Yllenus univittatus - ♂ - palp, dorsal view - Turkmenistan © WESOŁ OWSKA, W. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6942.jpg" alt="Yllenus univittatus - ♂ - dorsum. Scale line: 1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♂ - dorsum. Scale line: 1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6943.jpg" alt="Yllenus univittatus - ♂ - palp, median view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♂ - palp, median view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6944.jpg" alt="Yllenus univittatus - ♂ - palp, lateral view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♂ - palp, lateral view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6946.jpg" alt="Yllenus univittatus - ♂ - palp, ventral view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♂ - palp, ventral view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6945.jpg" alt="Yllenus univittatus - ♂ - tibial apophysis, lateral view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♂ - tibial apophysis, lateral view. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6947.jpg" alt="Yllenus univittatus - ♀ - epigyne. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♀ - epigyne. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6948.jpg" alt="Yllenus univittatus - ♀ - epigyne. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♀ - epigyne. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6949.jpg" alt="Yllenus univittatus - ♀ - spermathecae. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)">
+            
+
+            <div>Yllenus univittatus - ♀ - spermathecae. Scale line: 0.1 mm - France © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22732.jpg" alt="Yllenus univittatus - ♂ - palpal femur - Turkmenistan © WESOŁ OWSKA, W. (1996)">
+            
+
+            <div>Yllenus univittatus - ♂ - palpal femur - Turkmenistan © WESOŁ OWSKA, W. (1996)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14289.jpg" alt="Yllenus univittatus - ♂ . © B. Knoflach - country undefined © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Yllenus univittatus - ♂ . © B. Knoflach - country undefined © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14290.jpg" alt="Yllenus univittatus - ♀ . © A. Senglet - country undefined © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Yllenus univittatus - ♀ . © A. Senglet - country undefined © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14291.jpg" alt="Yllenus univittatus - ♀ . © A. Senglet - country undefined © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Yllenus univittatus - ♀ . © A. Senglet - country undefined © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29649.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29650.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29651.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3268.jpg" alt="Yllenus vittatus - ♂ - right copulatory organ - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - right copulatory organ - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3269.jpg" alt="Yllenus vittatus - ♂ - right copulatory organ - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - right copulatory organ - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3270.jpg" alt="Yllenus vittatus - ♂ - right copulatory organ, articulating apparatus - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - right copulatory organ, articulating apparatus - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3271.jpg" alt="Yllenus vittatus - ♂ - right copulatory organ, articulating apparatus anterio-lateral view - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - right copulatory organ, articulating apparatus anterio-lateral view - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3272.jpg" alt="Yllenus vittatus - ♀ - epigynum - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♀ - epigynum - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-3273.jpg" alt="Yllenus vittatus - ♀ - epigynum after maceration - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♀ - epigynum after maceration - Russia - SYNTYPE © PRÓSZYŃ SKI, J. (1968). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6966.jpg" alt="Yllenus vittatus - ♂ - palp, median view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - palp, median view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6969.jpg" alt="Yllenus vittatus - ♂ - palp, lateral view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - palp, lateral view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6967.jpg" alt="Yllenus vittatus - ♂ - palp, median view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - palp, median view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6968.jpg" alt="Yllenus vittatus - ♂ - tibial apophysis, lateral view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♂ - tibial apophysis, lateral view. Scale line: 0.1 mm - Russia - LECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6963.jpg" alt="Yllenus vittatus - ♀ - epigyne. Scale line: 0.1 mm - Russia - PARALECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♀ - epigyne. Scale line: 0.1 mm - Russia - PARALECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6964.jpg" alt="Yllenus vittatus - ♀ - epigyne. Scale line: 0.1 mm - Russia - PARALECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♀ - epigyne. Scale line: 0.1 mm - Russia - PARALECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6965.jpg" alt="Yllenus vittatus - ♀ - spermathecae. Scale line: 0.1 mm - Russia - PARALECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025">
+            
+
+            <div>Yllenus vittatus - ♀ - spermathecae. Scale line: 0.1 mm - Russia - PARALECTOTYPE © LOGUNOV, D. V. &amp; MARUSIK, Y. M. (2003). RecId: 3025</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48730.jpg" alt="Pseudomogrus univittatus - ♂ - Romania - MISIDENTIFICATION © GHERASIM, V. (1970)">
+            
+
+            <div>Pseudomogrus univittatus - ♂ - Romania - MISIDENTIFICATION © GHERASIM, V. (1970)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48731.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48729.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6227.jpg" alt="Yllenus vittatus - ♀ - Austria © MADDISON, W. P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♀ - Austria © MADDISON, W. P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6470.jpg" alt="Yllenus vittatus - ♂ - Drösing - habitus dorsal - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♂ - Drösing - habitus dorsal - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6473.jpg" alt="Yllenus vittatus - ♀ - Drösing - habitus dorsal - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♀ - Drösing - habitus dorsal - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6471.jpg" alt="Yllenus vittatus - ♂ - Drösing - palp: prolateral view - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♂ - Drösing - palp: prolateral view - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6472.jpg" alt="Yllenus vittatus - ♂ - Drösing - palp: retrolateral view - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♂ - Drösing - palp: retrolateral view - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6474.jpg" alt="Yllenus vittatus - ♀ - Drösing - epigyne - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♀ - Drösing - epigyne - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6475.jpg" alt="Yllenus vittatus - ♀ - Illmitz - epigyne - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)">
+            
+
+            <div>Yllenus vittatus - ♀ - Illmitz - epigyne - Austria © MILASOWSZKY, N., BAUCHHENSS, E., FREUDENSCHUSS, M., HEPNER, M., KOMPOSCH, C. &amp; ZULKA, K- P. (2015)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14292.jpg" alt="Yllenus vittatus - ♂ . © J. Nigl - Austria © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Yllenus vittatus - ♂ . © J. Nigl - Austria © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14293.jpg" alt="Yllenus vittatus - ♀ . © J. Nigl - Austria © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Yllenus vittatus - ♀ . © J. Nigl - Austria © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27300.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

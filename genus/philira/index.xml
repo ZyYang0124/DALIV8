@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philira on Jumping Spider World</title>
+    <link>https://example.org/genus/philira/</link>
+    <description>Recent content in Philira on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/philira/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philira micans</title>
+      <link>https://example.org/species/philira-micans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/philira-micans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philira superba</title>
+      <link>https://example.org/species/philira-superba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/philira-superba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philira toroi</title>
+      <link>https://example.org/species/philira-toroi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/philira-toroi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

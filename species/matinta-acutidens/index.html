@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Matinta acutidens</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Matinta acutidens</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40638.jpg" alt="Mago acutidens - ♀ - epigyne - Guyana © CAPORIACCO, L. DI (1948)">
+            
+
+            <div>Mago acutidens - ♀ - epigyne - Guyana © CAPORIACCO, L. DI (1948)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13185.jpg" alt="Mago acutidens - ♂ - quelicero dorsal - Brazil - LECTOTYPE © GALIANO, M. E. (1963)">
+            
+
+            <div>Mago acutidens - ♂ - quelicero dorsal - Brazil - LECTOTYPE © GALIANO, M. E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13186.jpg" alt="Mago acutidens - ♂ - palpo, retrolateral - Brazil - LECTOTYPE © GALIANO, M. E. (1963)">
+            
+
+            <div>Mago acutidens - ♂ - palpo, retrolateral - Brazil - LECTOTYPE © GALIANO, M. E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13187.jpg" alt="Mago acutidens - ♂ - palpo, retroventral - Brazil - LECTOTYPE © GALIANO, M. E. (1963)">
+            
+
+            <div>Mago acutidens - ♂ - palpo, retroventral - Brazil - LECTOTYPE © GALIANO, M. E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13188.jpg" alt="Mago acutidens - ♂ - palpo, ventral - Brazil - LECTOTYPE © GALIANO, M. E. (1963)">
+            
+
+            <div>Mago acutidens - ♂ - palpo, ventral - Brazil - LECTOTYPE © GALIANO, M. E. (1963)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45759.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45760.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3590.jpg" alt="Mago acutidens - ♂ - bulb of palp, ventral view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♂ - bulb of palp, ventral view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3594.jpg" alt="Mago acutidens - ♂ - Palp. Scale bar: 0,5 mm - Brazil - LECTOTYPE © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♂ - Palp. Scale bar: 0,5 mm - Brazil - LECTOTYPE © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3595.jpg" alt="Mago acutidens - ♂ - Palp - Brazil - LECTOTYPE © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♂ - Palp - Brazil - LECTOTYPE © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3621.jpg" alt="Mago acutidens - ♂ - detail of embolus, ventral view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♂ - detail of embolus, ventral view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3593.jpg" alt="Mago acutidens - ♂ - RTA, dorsoretrolateral view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♂ - RTA, dorsoretrolateral view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3596.jpg" alt="Mago acutidens - ♀ - epigynal plate, ventral view. Scale bar: 0,25 mm - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♀ - epigynal plate, ventral view. Scale bar: 0,25 mm - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-3597.jpg" alt="Mago acutidens - ♀ - epigynal plate, dissected and cleared, dorsal view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)">
+            
+
+            <div>Mago acutidens - ♀ - epigynal plate, dissected and cleared, dorsal view - Brazil © PATELLO, T. J. C. &amp; RUIZ, G. R. S. (2014)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22134.jpg" alt="Mago acutidens - ♂ . Scale bar: 2 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)">
+            
+
+            <div>Mago acutidens - ♂ . Scale bar: 2 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22136.jpg" alt="Mago acutidens - ♀ . Scale bar: 2 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)">
+            
+
+            <div>Mago acutidens - ♀ . Scale bar: 2 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22135.jpg" alt="Mago acutidens - ♂ . Scale bar: 0.5 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)">
+            
+
+            <div>Mago acutidens - ♂ . Scale bar: 0.5 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22137.jpg" alt="Mago acutidens - ♀ . Scale bar: 0.5 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)">
+            
+
+            <div>Mago acutidens - ♀ . Scale bar: 0.5 mm - Brazil © CARVALHO, T. G. &amp; GASNIER, T. R. (2019)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

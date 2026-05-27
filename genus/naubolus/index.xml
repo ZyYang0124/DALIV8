@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Naubolus on Jumping Spider World</title>
+    <link>https://example.org/genus/naubolus/</link>
+    <description>Recent content in Naubolus on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/naubolus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Naubolus albopunctatus</title>
+      <link>https://example.org/species/naubolus-albopunctatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-albopunctatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus melloleitaoi</title>
+      <link>https://example.org/species/naubolus-melloleitaoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-melloleitaoi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus micans</title>
+      <link>https://example.org/species/naubolus-micans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-micans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus pallidus</title>
+      <link>https://example.org/species/naubolus-pallidus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-pallidus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus posticatus</title>
+      <link>https://example.org/species/naubolus-posticatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-posticatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus sawayai</title>
+      <link>https://example.org/species/naubolus-sawayai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-sawayai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus simplex</title>
+      <link>https://example.org/species/naubolus-simplex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-simplex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus trifasciatus</title>
+      <link>https://example.org/species/naubolus-trifasciatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-trifasciatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naubolus tristis</title>
+      <link>https://example.org/species/naubolus-tristis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/naubolus-tristis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

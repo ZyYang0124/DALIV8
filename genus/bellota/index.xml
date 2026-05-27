@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bellota on Jumping Spider World</title>
+    <link>https://example.org/genus/bellota/</link>
+    <description>Recent content in Bellota on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/bellota/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bellota fascialis</title>
+      <link>https://example.org/species/bellota-fascialis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-fascialis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota formicina</title>
+      <link>https://example.org/species/bellota-formicina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-formicina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota livida</title>
+      <link>https://example.org/species/bellota-livida/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-livida/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota micans</title>
+      <link>https://example.org/species/bellota-micans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-micans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota modesta</title>
+      <link>https://example.org/species/bellota-modesta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-modesta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota peckhami</title>
+      <link>https://example.org/species/bellota-peckhami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-peckhami/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota violacea</title>
+      <link>https://example.org/species/bellota-violacea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-violacea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota wheeleri</title>
+      <link>https://example.org/species/bellota-wheeleri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-wheeleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bellota yacui</title>
+      <link>https://example.org/species/bellota-yacui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/bellota-yacui/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

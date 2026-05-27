@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Phidippus cardinalis</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Phidippus cardinalis</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15568.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15569.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15567.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22450.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22453.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22454.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22455.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22451.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22452.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4396.jpg" alt="SYNONYM: Phidippus aureopilosus - ♀ - Panama © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Phidippus aureopilosus - ♀ - Panama © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4397.jpg" alt="SYNONYM: Phidippus foveolatus - ♀ - Panama © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Phidippus foveolatus - ♀ - Panama © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5983.jpg" alt="SYNONYM: Attus rufus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Attus rufus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5984.jpg" alt="SYNONYM: Attus rufus - ♂ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Attus rufus - ♂ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13420.jpg" alt="SYNONYM: Phidippus rufus - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus rufus - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5930.jpg" alt="SYNONYM: Attus m ´cookii - ♀ - epigynum - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus m ´cookii - ♀ - epigynum - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-13428.jpg" alt="SYNONYM: Phidippus mc´coocki - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)">
+            
+
+            <div>SYNONYM: Phidippus mc´coocki - ♀ - epigynum - US © PECKHAM, G. W. &amp; PECKHAM, E. G. (1888)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41656.jpg" alt="SYNONYM: Phidippus mccoocki - ♂ - ventral aspect of palp - US © KASTON, B. J. (1948)">
+            
+
+            <div>SYNONYM: Phidippus mccoocki - ♂ - ventral aspect of palp - US © KASTON, B. J. (1948)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41657.jpg" alt="SYNONYM: Phidippus mccoocki - ♂ - lateral aspect of palp - US © KASTON, B. J. (1948)">
+            
+
+            <div>SYNONYM: Phidippus mccoocki - ♂ - lateral aspect of palp - US © KASTON, B. J. (1948)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41654.jpg" alt="SYNONYM: Phidippus mccoocki - ♀ - epigynum - US © KASTON, B. J. (1948)">
+            
+
+            <div>SYNONYM: Phidippus mccoocki - ♀ - epigynum - US © KASTON, B. J. (1948)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-51397.jpg" alt="SYNONYM: Plexippus bivittatus - juv. - US - HOLOTYPE © KOCH, C. L. (1846)">
+            
+
+            <div>SYNONYM: Plexippus bivittatus - juv. - US - HOLOTYPE © KOCH, C. L. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44027.jpg" alt="SYNONYM: Phidippus ruber - ♂ - palpe von unten - US - HOLOTYPE © KEYSERLING, E. (1884). RecId: 19114">
+            
+
+            <div>SYNONYM: Phidippus ruber - ♂ - palpe von unten - US - HOLOTYPE © KEYSERLING, E. (1884). RecId: 19114</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44028.jpg" alt="SYNONYM: Phidippus ruber - ♂ - palpe von der Seite - US - HOLOTYPE © KEYSERLING, E. (1884). RecId: 19114">
+            
+
+            <div>SYNONYM: Phidippus ruber - ♂ - palpe von der Seite - US - HOLOTYPE © KEYSERLING, E. (1884). RecId: 19114</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44030.jpg" alt="SYNONYM: Phidippus ruber - ♀ - epigyne - US - SYNTYPE © KEYSERLING, E. (1884). RecId: 42105">
+            
+
+            <div>SYNONYM: Phidippus ruber - ♀ - epigyne - US - SYNTYPE © KEYSERLING, E. (1884). RecId: 42105</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15563.jpg" alt="SYNONYM: Phidippus ruber - ♂ - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus ruber - ♂ - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15565.jpg" alt="SYNONYM:">
+            
+
+            <div>SYNONYM:</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-217.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7584.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7585.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7586.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

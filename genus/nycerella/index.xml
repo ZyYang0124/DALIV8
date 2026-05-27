@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nycerella on Jumping Spider World</title>
+    <link>https://example.org/genus/nycerella/</link>
+    <description>Recent content in Nycerella on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/nycerella/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nycerella aprica</title>
+      <link>https://example.org/species/nycerella-aprica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-aprica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella decorata</title>
+      <link>https://example.org/species/nycerella-decorata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-decorata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella delecta</title>
+      <link>https://example.org/species/nycerella-delecta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-delecta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella donaldi</title>
+      <link>https://example.org/species/nycerella-donaldi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-donaldi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella melanopygia</title>
+      <link>https://example.org/species/nycerella-melanopygia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-melanopygia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella neglecta</title>
+      <link>https://example.org/species/nycerella-neglecta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-neglecta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella sanguinea</title>
+      <link>https://example.org/species/nycerella-sanguinea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-sanguinea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella vestita</title>
+      <link>https://example.org/species/nycerella-vestita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-vestita/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nycerella volucripes</title>
+      <link>https://example.org/species/nycerella-volucripes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nycerella-volucripes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

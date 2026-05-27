@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rogmocrypta on Jumping Spider World</title>
+    <link>https://example.org/genus/rogmocrypta/</link>
+    <description>Recent content in Rogmocrypta on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/rogmocrypta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rogmocrypta elegans</title>
+      <link>https://example.org/species/rogmocrypta-elegans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-elegans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta karolinae</title>
+      <link>https://example.org/species/rogmocrypta-karolinae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-karolinae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta koniambo</title>
+      <link>https://example.org/species/rogmocrypta-koniambo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-koniambo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta nigella</title>
+      <link>https://example.org/species/rogmocrypta-nigella/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-nigella/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta patryki</title>
+      <link>https://example.org/species/rogmocrypta-patryki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-patryki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta puta</title>
+      <link>https://example.org/species/rogmocrypta-puta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-puta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta raveni</title>
+      <link>https://example.org/species/rogmocrypta-raveni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-raveni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rogmocrypta rollardae</title>
+      <link>https://example.org/species/rogmocrypta-rollardae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rogmocrypta-rollardae/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

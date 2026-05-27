@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Attidops on Jumping Spider World</title>
+    <link>https://example.org/genus/attidops/</link>
+    <description>Recent content in Attidops on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/attidops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attidops cinctipes</title>
+      <link>https://example.org/species/attidops-cinctipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/attidops-cinctipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attidops cutleri</title>
+      <link>https://example.org/species/attidops-cutleri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/attidops-cutleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attidops nickersoni</title>
+      <link>https://example.org/species/attidops-nickersoni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/attidops-nickersoni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attidops youngi</title>
+      <link>https://example.org/species/attidops-youngi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/attidops-youngi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

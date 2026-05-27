@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rudra on Jumping Spider World</title>
+    <link>https://example.org/genus/rudra/</link>
+    <description>Recent content in Rudra on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/rudra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rudra avitoides</title>
+      <link>https://example.org/species/rudra-avitoides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-avitoides/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra brescoviti</title>
+      <link>https://example.org/species/rudra-brescoviti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-brescoviti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra geniculata</title>
+      <link>https://example.org/species/rudra-geniculata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-geniculata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra humilis</title>
+      <link>https://example.org/species/rudra-humilis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-humilis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra minensis</title>
+      <link>https://example.org/species/rudra-minensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-minensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra multispina</title>
+      <link>https://example.org/species/rudra-multispina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-multispina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra oriximina</title>
+      <link>https://example.org/species/rudra-oriximina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-oriximina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra polita</title>
+      <link>https://example.org/species/rudra-polita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-polita/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra tenera</title>
+      <link>https://example.org/species/rudra-tenera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-tenera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rudra wagae</title>
+      <link>https://example.org/species/rudra-wagae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/rudra-wagae/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maeota on Jumping Spider World</title>
+    <link>https://example.org/genus/maeota/</link>
+    <description>Recent content in Maeota on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/maeota/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maeota betancuri</title>
+      <link>https://example.org/species/maeota-betancuri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-betancuri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota dichrura</title>
+      <link>https://example.org/species/maeota-dichrura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-dichrura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota dorsalis</title>
+      <link>https://example.org/species/maeota-dorsalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-dorsalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota flava</title>
+      <link>https://example.org/species/maeota-flava/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-flava/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota galeanoae</title>
+      <link>https://example.org/species/maeota-galeanoae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-galeanoae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota glauca</title>
+      <link>https://example.org/species/maeota-glauca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-glauca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota ibargueni</title>
+      <link>https://example.org/species/maeota-ibargueni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-ibargueni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota serrapophysis</title>
+      <link>https://example.org/species/maeota-serrapophysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-serrapophysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota setastrobilaris</title>
+      <link>https://example.org/species/maeota-setastrobilaris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-setastrobilaris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maeota tuberculotibiata</title>
+      <link>https://example.org/species/maeota-tuberculotibiata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/maeota-tuberculotibiata/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

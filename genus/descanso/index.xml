@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Descanso on Jumping Spider World</title>
+    <link>https://example.org/genus/descanso/</link>
+    <description>Recent content in Descanso on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/descanso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Descanso chapoda</title>
+      <link>https://example.org/species/descanso-chapoda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-chapoda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descanso discicollis</title>
+      <link>https://example.org/species/descanso-discicollis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-discicollis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descanso insolitus</title>
+      <link>https://example.org/species/descanso-insolitus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-insolitus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descanso peregrinus</title>
+      <link>https://example.org/species/descanso-peregrinus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-peregrinus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descanso sobrius</title>
+      <link>https://example.org/species/descanso-sobrius/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-sobrius/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descanso vagus</title>
+      <link>https://example.org/species/descanso-vagus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-vagus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descanso ventrosus</title>
+      <link>https://example.org/species/descanso-ventrosus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/descanso-ventrosus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

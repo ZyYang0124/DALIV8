@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandalodes on Jumping Spider World</title>
+    <link>https://example.org/genus/sandalodes/</link>
+    <description>Recent content in Sandalodes on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/sandalodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sandalodes albovittatus</title>
+      <link>https://example.org/species/sandalodes-albovittatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-albovittatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes bernsteini</title>
+      <link>https://example.org/species/sandalodes-bernsteini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-bernsteini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes bipenicillatus</title>
+      <link>https://example.org/species/sandalodes-bipenicillatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-bipenicillatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes celebensis</title>
+      <link>https://example.org/species/sandalodes-celebensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-celebensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes joannae</title>
+      <link>https://example.org/species/sandalodes-joannae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-joannae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes minahassae</title>
+      <link>https://example.org/species/sandalodes-minahassae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-minahassae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes pumicatus</title>
+      <link>https://example.org/species/sandalodes-pumicatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-pumicatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes scopifer</title>
+      <link>https://example.org/species/sandalodes-scopifer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-scopifer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandalodes superbus</title>
+      <link>https://example.org/species/sandalodes-superbus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/sandalodes-superbus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

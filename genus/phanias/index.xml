@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phanias on Jumping Spider World</title>
+    <link>https://example.org/genus/phanias/</link>
+    <description>Recent content in Phanias on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/phanias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phanias albeolus</title>
+      <link>https://example.org/species/phanias-albeolus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-albeolus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias concoloratus</title>
+      <link>https://example.org/species/phanias-concoloratus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-concoloratus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias dominatus</title>
+      <link>https://example.org/species/phanias-dominatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-dominatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias flavostriatus</title>
+      <link>https://example.org/species/phanias-flavostriatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-flavostriatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias furcifer</title>
+      <link>https://example.org/species/phanias-furcifer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-furcifer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias furcillatus</title>
+      <link>https://example.org/species/phanias-furcillatus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-furcillatus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias harfordi</title>
+      <link>https://example.org/species/phanias-harfordi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-harfordi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias monticola</title>
+      <link>https://example.org/species/phanias-monticola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-monticola/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias neomexicanus</title>
+      <link>https://example.org/species/phanias-neomexicanus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-neomexicanus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias salvadorensis</title>
+      <link>https://example.org/species/phanias-salvadorensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-salvadorensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phanias watonus</title>
+      <link>https://example.org/species/phanias-watonus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phanias-watonus/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

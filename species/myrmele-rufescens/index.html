@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Myrmele rufescens</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Myrmele rufescens</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45112.jpg" alt="Emertonius rufescens - ♀ - Körper in Dorsalansicht - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)">
+            
+
+            <div>Emertonius rufescens - ♀ - Körper in Dorsalansicht - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45113.jpg" alt="Emertonius rufescens - ♀ - Cephalothorax in linker Seitenansicht - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)">
+            
+
+            <div>Emertonius rufescens - ♀ - Cephalothorax in linker Seitenansicht - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45114.jpg" alt="Emertonius rufescens - ♀ - Tibia und Metatarsus des I. Beines - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)">
+            
+
+            <div>Emertonius rufescens - ♀ - Tibia und Metatarsus des I. Beines - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45115.jpg" alt="Emertonius rufescens - ♀ - Epigyne - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)">
+            
+
+            <div>Emertonius rufescens - ♀ - Epigyne - Madagascar - HOLOTYPE © ROEWER, C. Fr. (1965)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34718.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - maxillae, labium and sternum - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - maxillae, labium and sternum - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34717.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - dorsal view - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - dorsal view - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34722.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - lateral view - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - lateral view - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34723.jpg" alt="Myrmarachne eugenei - ♀ - dorsal view - Madagascar - LECTOTYPE © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♀ - dorsal view - Madagascar - LECTOTYPE © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34719.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - chelicera dorsal view - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - chelicera dorsal view - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34720.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - chelicera ventral view - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - chelicera ventral view - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34721.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - fang - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - fang - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34724.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - palp - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - palp - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34726.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - palp - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - palp - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34725.jpg" alt="Myrmarachne eugenei - ♂ - Antongil Bay - palpal tibia - Madagascar © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♂ - Antongil Bay - palpal tibia - Madagascar © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34727.jpg" alt="Myrmarachne eugenei - ♀ - epigyne ventral view - Madagascar - LECTOTYPE © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♀ - epigyne ventral view - Madagascar - LECTOTYPE © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-34728.jpg" alt="Myrmarachne eugenei - ♀ - vulva ventral view - Madagascar - LECTOTYPE © WANLESS, F. R. (1978)">
+            
+
+            <div>Myrmarachne eugenei - ♀ - vulva ventral view - Madagascar - LECTOTYPE © WANLESS, F. R. (1978)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

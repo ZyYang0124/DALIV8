@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cylistella on Jumping Spider World</title>
+    <link>https://example.org/genus/cylistella/</link>
+    <description>Recent content in Cylistella on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/cylistella/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cylistella adjacens</title>
+      <link>https://example.org/species/cylistella-adjacens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-adjacens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella castanea</title>
+      <link>https://example.org/species/cylistella-castanea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-castanea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella coccinelloides</title>
+      <link>https://example.org/species/cylistella-coccinelloides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-coccinelloides/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella cuprea</title>
+      <link>https://example.org/species/cylistella-cuprea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-cuprea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella daphneae</title>
+      <link>https://example.org/species/cylistella-daphneae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-daphneae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella fulva</title>
+      <link>https://example.org/species/cylistella-fulva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-fulva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella sanctipauli</title>
+      <link>https://example.org/species/cylistella-sanctipauli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-sanctipauli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cylistella scarabaeoides</title>
+      <link>https://example.org/species/cylistella-scarabaeoides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/cylistella-scarabaeoides/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

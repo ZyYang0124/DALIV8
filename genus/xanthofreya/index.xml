@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xanthofreya on Jumping Spider World</title>
+    <link>https://example.org/genus/xanthofreya/</link>
+    <description>Recent content in Xanthofreya on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/xanthofreya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xanthofreya albosignata</title>
+      <link>https://example.org/species/xanthofreya-albosignata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/xanthofreya-albosignata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xanthofreya arraijanica</title>
+      <link>https://example.org/species/xanthofreya-arraijanica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/xanthofreya-arraijanica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xanthofreya bicuspidata</title>
+      <link>https://example.org/species/xanthofreya-bicuspidata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/xanthofreya-bicuspidata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xanthofreya chionopogon</title>
+      <link>https://example.org/species/xanthofreya-chionopogon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/xanthofreya-chionopogon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xanthofreya rustica</title>
+      <link>https://example.org/species/xanthofreya-rustica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/xanthofreya-rustica/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

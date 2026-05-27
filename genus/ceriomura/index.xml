@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ceriomura on Jumping Spider World</title>
+    <link>https://example.org/genus/ceriomura/</link>
+    <description>Recent content in Ceriomura on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/ceriomura/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ceriomura casanare</title>
+      <link>https://example.org/species/ceriomura-casanare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-casanare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceriomura cruenta</title>
+      <link>https://example.org/species/ceriomura-cruenta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-cruenta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceriomura damborskyae</title>
+      <link>https://example.org/species/ceriomura-damborskyae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-damborskyae/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceriomura intaca</title>
+      <link>https://example.org/species/ceriomura-intaca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-intaca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceriomura lacinia</title>
+      <link>https://example.org/species/ceriomura-lacinia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-lacinia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceriomura momilensis</title>
+      <link>https://example.org/species/ceriomura-momilensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-momilensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceriomura perita</title>
+      <link>https://example.org/species/ceriomura-perita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/ceriomura-perita/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

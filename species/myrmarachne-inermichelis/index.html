@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Myrmarachne inermichelis</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Myrmarachne inermichelis</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31181.jpg" alt="Myrmarachne inermichelis - ♂ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 43909">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 43909</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31182.jpg" alt="Myrmarachne inermichelis - ♂ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 43909">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 43909</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48734.jpg" alt="Myrmarachne innermichelis - ♀ - Japan © YUHARA, S. (1931)">
+            
+
+            <div>Myrmarachne innermichelis - ♀ - Japan © YUHARA, S. (1931)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20841.jpg" alt="Myrmarachne inermichelis - ♂ - palpal organ - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - palpal organ - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20842.jpg" alt="Myrmarachne inermichelis - ♂ - palpal organ - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - palpal organ - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20843.jpg" alt="Myrmarachne inermichelis - ♂ - palpal organ - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - palpal organ - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20844.jpg" alt="Myrmarachne inermichelis - ♀ - epigyne - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♀ - epigyne - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20847.jpg" alt="Myrmarachne inermichelis - ♀ - epigyne, membraneous entrance part of the canals - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♀ - epigyne, membraneous entrance part of the canals - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20845.jpg" alt="Myrmarachne inermichelis - ♀ - epigyne after maceration - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♀ - epigyne after maceration - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20846.jpg" alt="Myrmarachne inermichelis - ♀ - epigyne diagrammatic course of its canals - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)">
+            
+
+            <div>Myrmarachne inermichelis - ♀ - epigyne diagrammatic course of its canals - Japan © BOHDANOWICZ, A. &amp; PRÓSZYŃ SKI, J. (1987)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48550.jpg" alt="Myrmarachne inermichelis - ♂ - South Korea © NAMKUNG, J. (2002)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - South Korea © NAMKUNG, J. (2002)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48551.jpg" alt="Myrmarachne inermichelis - ♀ - South Korea © NAMKUNG, J. (2002)">
+            
+
+            <div>Myrmarachne inermichelis - ♀ - South Korea © NAMKUNG, J. (2002)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38331.jpg" alt="Myrmarachne inermichelis - ♀ - Japan © ONO, H., IKEDA, H. &amp; KONO, R. (2009)">
+            
+
+            <div>Myrmarachne inermichelis - ♀ - Japan © ONO, H., IKEDA, H. &amp; KONO, R. (2009)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38333.jpg" alt="Myrmarachne inermichelis - ♂ - Japan © ONO, H., IKEDA, H. &amp; KONO, R. (2009)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - Japan © ONO, H., IKEDA, H. &amp; KONO, R. (2009)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38334.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38335.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38336.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38332.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18009.jpg" alt="Myrmarachne innermichelis - ♂ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Myrmarachne innermichelis - ♂ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18012.jpg" alt="Myrmarachne innermichelis - ♀ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Myrmarachne innermichelis - ♀ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18010.jpg" alt="Myrmarachne innermichelis - ♂ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Myrmarachne innermichelis - ♂ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18011.jpg" alt="Myrmarachne innermichelis - ♂ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Myrmarachne innermichelis - ♂ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18013.jpg" alt="Myrmarachne innermichelis - ♀ - Japan © CHIKUNI, Y. (1989)">
+            
+
+            <div>Myrmarachne innermichelis - ♀ - Japan © CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17440.jpg" alt="Myrmarachne inermichelis - ♂ - South Korea © NAMKUNG, J. (2002)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - South Korea © NAMKUNG, J. (2002)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14432.jpg" alt="Myrmarachne inermichelis - ♂ - Japan © ONO, H., IKEDA, H. &amp; KONO, R. (2009)">
+            
+
+            <div>Myrmarachne inermichelis - ♂ - Japan © ONO, H., IKEDA, H. &amp; KONO, R. (2009)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17657.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17658.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17659.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17660.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

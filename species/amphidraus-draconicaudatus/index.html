@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Amphidraus draconicaudatus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Amphidraus draconicaudatus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39087.jpg" alt="Amphidraus draconicaudatus - ♂ - left palp, prolateral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - left palp, prolateral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39088.jpg" alt="Amphidraus draconicaudatus - ♂ - left palp, dorsal view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - left palp, dorsal view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39089.jpg" alt="Amphidraus draconicaudatus - ♂ - left palp, ventral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - left palp, ventral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39090.jpg" alt="Amphidraus draconicaudatus - ♂ - left palp, retrolateral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - left palp, retrolateral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39092.jpg" alt="Amphidraus draconicaudatus - ♀ - epigyne, ventral view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407">
+            
+
+            <div>Amphidraus draconicaudatus - ♀ - epigyne, ventral view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39093.jpg" alt="Amphidraus draconicaudatus - ♀ - epigyne, cleared, ventral view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407">
+            
+
+            <div>Amphidraus draconicaudatus - ♀ - epigyne, cleared, ventral view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45377.jpg" alt="Amphidraus draconicaudatus - ♂ - bulb, ventral - Brazil - HOLOTYPE © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - bulb, ventral - Brazil - HOLOTYPE © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45378.jpg" alt="Amphidraus draconicaudatus - ♂ - bulb, retroventral - Brazil - HOLOTYPE © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - bulb, retroventral - Brazil - HOLOTYPE © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45380.jpg" alt="Amphidraus draconicaudatus - ♂ - bulb, ventral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - bulb, ventral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45381.jpg" alt="Amphidraus draconicaudatus - ♂ - bulb, retroventral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - bulb, retroventral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45379.jpg" alt="Amphidraus draconicaudatus - ♂ - tibia, retrolateral - Brazil - HOLOTYPE © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - tibia, retrolateral - Brazil - HOLOTYPE © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6995.jpg" alt="Amphidraus draconicaudatus - ♂ - dorsal view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - dorsal view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6996.jpg" alt="Amphidraus draconicaudatus - ♂ - ventral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - ventral view - Brazil - HOLOTYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6997.jpg" alt="Amphidraus draconicaudatus - ♀ - dorsal view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407">
+            
+
+            <div>Amphidraus draconicaudatus - ♀ - dorsal view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6998.jpg" alt="Amphidraus draconicaudatus - ♀ - ventral view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407">
+            
+
+            <div>Amphidraus draconicaudatus - ♀ - ventral view - Brazil - PARATYPE © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3407</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6999.jpg" alt="Amphidraus draconicaudatus - ♂ - Aembolic disc, dorsal view (unnamed white arrow shows branchy projection of the embolic disc) - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - Aembolic disc, dorsal view (unnamed white arrow shows branchy projection of the embolic disc) - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7000.jpg" alt="Amphidraus draconicaudatus - ♂ - femur &#43; patella &#43; tibia, proventral view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - femur &#43; patella &#43; tibia, proventral view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7001.jpg" alt="Amphidraus draconicaudatus - ♂ - tegulum &#43; embolic disc &#43; embolus, dorsal view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - tegulum &#43; embolic disc &#43; embolus, dorsal view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7002.jpg" alt="Amphidraus draconicaudatus - ♂ - cymbium, ventral view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - cymbium, ventral view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7003.jpg" alt="Amphidraus draconicaudatus - ♂ - cymbial conductor, ventral view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - cymbial conductor, ventral view - Brazil © SALGADO, A. &amp; RUIZ, G. R. S. (2017). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-9588.jpg" alt="Amphidraus draconicaudatus - ♂ - right chelicera, retrolateral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - right chelicera, retrolateral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019). RecId: 3406</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-9589.jpg" alt="Amphidraus draconicaudatus - ♂ - left chelicera, retrolateral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - left chelicera, retrolateral - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-9590.jpg" alt="Amphidraus draconicaudatus - ♂ - left chelicera, retrolateral, detail of pocket - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)">
+            
+
+            <div>Amphidraus draconicaudatus - ♂ - left chelicera, retrolateral, detail of pocket - Brazil © SALDAGO, A. &amp; RUIZ, G. R. S. (2019)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

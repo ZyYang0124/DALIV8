@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chira trivittata</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Chira trivittata</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12322.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12320.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12321.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44400.jpg" alt="SYNONYM: Corythalia albovittata - ♂ - Guyana - SYNTYPE © MELLO-LEITÃO, C. F. (1948). RecId: 42119">
+            
+
+            <div>SYNONYM: Corythalia albovittata - ♂ - Guyana - SYNTYPE © MELLO-LEITÃO, C. F. (1948). RecId: 42119</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-14374.jpg" alt="SYNONYM: Shira designata - ♀ - face and falces - Panama - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 20590">
+            
+
+            <div>SYNONYM: Shira designata - ♀ - face and falces - Panama - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1896). RecId: 20590</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29072.jpg" alt="SYNONYM: Chira designata - ♂ - carapace - Panama - ALLOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♂ - carapace - Panama - ALLOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29074.jpg" alt="SYNONYM: Chira designata - ♂ - maxilla - Panama - ALLOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♂ - maxilla - Panama - ALLOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29073.jpg" alt="SYNONYM: Chira designata - ♂ - cheliceral teeth - Panama - ALLOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♂ - cheliceral teeth - Panama - ALLOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29077.jpg" alt="SYNONYM: Chira designata - ♀ - cheliceral teeth - Panama - HYPOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♀ - cheliceral teeth - Panama - HYPOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29075.jpg" alt="SYNONYM: Chira designata - ♂ - palp - Panama - ALLOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♂ - palp - Panama - ALLOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29076.jpg" alt="SYNONYM: Chira designata - ♂ - palpal tibia - Panama - ALLOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♂ - palpal tibia - Panama - ALLOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-29078.jpg" alt="SYNONYM: Chira designata - ♀ - epigynum, ventral teeth - Panama - HYPOTYPE © CHICKERING, A. M. (1946)">
+            
+
+            <div>SYNONYM: Chira designata - ♀ - epigynum, ventral teeth - Panama - HYPOTYPE © CHICKERING, A. M. (1946)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10370.jpg" alt="SYNONYM: Chira designata - ♀ . Scale: 0.5 mm - Panama - HOLOTYPE © GALIANO, M. E. (1968)">
+            
+
+            <div>SYNONYM: Chira designata - ♀ . Scale: 0.5 mm - Panama - HOLOTYPE © GALIANO, M. E. (1968)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-10371.jpg" alt="SYNONYM:">
+            
+
+            <div>SYNONYM:</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4287.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4291.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4292.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4293.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4294.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4295.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4288.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4289.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-4290.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22094.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22095.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27883.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27884.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27885.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27886.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27887.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27888.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

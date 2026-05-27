@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Phidippus clarus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Phidippus clarus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41650.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15578.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15579.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15580.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15581.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15582.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15588.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15586.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15587.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15583.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15584.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15585.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40465.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40464.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40462.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40463.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40466.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41649.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41648.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48670.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48671.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48672.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22439.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22440.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22441.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22442.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22443.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22437.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-22438.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5501.jpg" alt="SYNONYM: Phidippus minutus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 18341">
+            
+
+            <div>SYNONYM: Phidippus minutus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 18341</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5502.jpg" alt="SYNONYM: Phidippus minutus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 18341">
+            
+
+            <div>SYNONYM: Phidippus minutus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 18341</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5985.jpg" alt="SYNONYM: Phidippus podagrosus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Phidippus podagrosus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30550.jpg" alt="SYNONYM: Phidippus clarconensis - ♀ - vulva - US - HOLOTYPE © TULLGREN, A. (1901). RecId: 40537">
+            
+
+            <div>SYNONYM: Phidippus clarconensis - ♀ - vulva - US - HOLOTYPE © TULLGREN, A. (1901). RecId: 40537</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40856.jpg" alt="SYNONYM: Phidippus clarconensis - ♀ - epigynum - US © WALLACE, H. K. (1950)">
+            
+
+            <div>SYNONYM: Phidippus clarconensis - ♀ - epigynum - US © WALLACE, H. K. (1950)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30548.jpg" alt="SYNONYM: Phidippus bilineatus - ♀ - vulva - US - HOLOTYPE © TULLGREN, A. (1901). RecId: 40536">
+            
+
+            <div>SYNONYM: Phidippus bilineatus - ♀ - vulva - US - HOLOTYPE © TULLGREN, A. (1901). RecId: 40536</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44810.jpg" alt="SYNONYM: Phidippus testaceus - ♀ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45844">
+            
+
+            <div>SYNONYM: Phidippus testaceus - ♀ - US - SYNTYPE © KOCH, C. L. (1846). RecId: 45844</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15995.jpg" alt="SYNONYM: Phidippus multiformis - young ♀ - brown scales (left two) &amp; yellow scale (right) - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - young ♀ - brown scales (left two) &amp; yellow scale (right) - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15965.jpg" alt="SYNONYM: Phidippus multiformis - ♀ - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♀ - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15966.jpg" alt="SYNONYM: Phidippus multiformis - ♂ - US - SYNTYPE © EMERTON, J. H. (1891). RecId: 18783">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♂ - US - SYNTYPE © EMERTON, J. H. (1891). RecId: 18783</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15987.jpg" alt="SYNONYM: Phidippus multiformis - ♀ - nearly full grown - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♀ - nearly full grown - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15988.jpg" alt="SYNONYM: Phidippus multiformis - young - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - young - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15989.jpg" alt="SYNONYM: Phidippus multiformis - young soon after leaving the cocoon - US © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - young soon after leaving the cocoon - US © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15993.jpg" alt="SYNONYM: Phidippus multiformis - ♂ - palpus - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♂ - palpus - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15994.jpg" alt="SYNONYM: Phidippus multiformis - ♂ - palpus - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♂ - palpus - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15990.jpg" alt="SYNONYM: Phidippus multiformis - ♀ - epigynum - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♀ - epigynum - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15991.jpg" alt="SYNONYM: Phidippus multiformis - ♀ - epigynum - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♀ - epigynum - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-15992.jpg" alt="SYNONYM: Phidippus multiformis - ♀ - immature epigynum - US - SYNTYPE © EMERTON, J. H. (1891)">
+            
+
+            <div>SYNONYM: Phidippus multiformis - ♀ - immature epigynum - US - SYNTYPE © EMERTON, J. H. (1891)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5920.jpg" alt="SYNONYM: Attus flavus - ♂ - palpus - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus flavus - ♂ - palpus - US - SYNTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5938.jpg" alt="SYNONYM: Attus formosus - ♀ - abdomen - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)">
+            
+
+            <div>SYNONYM: Attus formosus - ♀ - abdomen - US - HOLOTYPE © PECKHAM, G. W. &amp; PECKHAM, E. G. (1883)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-214.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-215.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-525.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-526.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-527.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-528.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-529.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-530.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-531.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-532.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-685.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-686.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-687.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-688.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-689.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-690.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1504.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1975.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7590.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7591.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7592.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22214.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

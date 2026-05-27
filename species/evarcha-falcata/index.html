@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Evarcha falcata</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Evarcha falcata</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48849.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8326.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8327.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8347.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8348.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8352.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8354.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8353.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8355.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8356.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-252.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-253.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-254.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-255.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-256.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49345.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49346.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49347.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49348.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49349.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6023.jpg" alt="SYNONYM: Salticus Blancardii - ♂ - country undefined © HAHN, C. W. (1832)">
+            
+
+            <div>SYNONYM: Salticus Blancardii - ♂ - country undefined © HAHN, C. W. (1832)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45311.jpg" alt="SYNONYM: Evarcha blancardi - ♂ - Germany © DAHL, F. (1926)">
+            
+
+            <div>SYNONYM: Evarcha blancardi - ♂ - Germany © DAHL, F. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45312.jpg" alt="SYNONYM: Evarcha blancardi - ♀ - Germany © DAHL, F. (1926)">
+            
+
+            <div>SYNONYM: Evarcha blancardi - ♀ - Germany © DAHL, F. (1926)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30500.jpg" alt="SYNONYM: Evarcha blancardi - ♀ - Epigyne - Great Britain © SMITH, F. P. (1908)">
+            
+
+            <div>SYNONYM: Evarcha blancardi - ♀ - Epigyne - Great Britain © SMITH, F. P. (1908)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35335.jpg" alt="SYNONYM: Attus Napoleon - juv. - Germany - HOLOTYPE © KARSCH, F. (1873)">
+            
+
+            <div>SYNONYM: Attus Napoleon - juv. - Germany - HOLOTYPE © KARSCH, F. (1873)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44989.jpg" alt="SYNONYM: Attus limbatus - ♂ - Germany - SYNTYPE © HAHN, C. W. (1826)">
+            
+
+            <div>SYNONYM: Attus limbatus - ♂ - Germany - SYNTYPE © HAHN, C. W. (1826)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45293.jpg" alt="SYNONYM: Salticus coronatus - ♀ - Great Britain © BLACKWALL, J. (1861)">
+            
+
+            <div>SYNONYM: Salticus coronatus - ♀ - Great Britain © BLACKWALL, J. (1861)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45294.jpg" alt="SYNONYM: Salticus coronatus - ♂ - Great Britain © BLACKWALL, J. (1861)">
+            
+
+            <div>SYNONYM: Salticus coronatus - ♂ - Great Britain © BLACKWALL, J. (1861)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45295.jpg" alt="SYNONYM: Salticus coronatus - ♂ - Great Britain © BLACKWALL, J. (1861)">
+            
+
+            <div>SYNONYM: Salticus coronatus - ♂ - Great Britain © BLACKWALL, J. (1861)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-35288.jpg" alt="SYNONYM: Attus capreolus - ♀ - France - SYNTYPE © WALCKENAER, C. A. (1826)">
+            
+
+            <div>SYNONYM: Attus capreolus - ♀ - France - SYNTYPE © WALCKENAER, C. A. (1826)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6020.jpg" alt="SYNONYM: Salticus abietis - ♀ - Germany - SYNTYPE © HAHN, C. W. (1832)">
+            
+
+            <div>SYNONYM: Salticus abietis - ♀ - Germany - SYNTYPE © HAHN, C. W. (1832)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-6121.jpg" alt="SYNONYM: Araneus flammatus - ♀ - Sweden - SYNTYPE © CLERCK, C. (1757)">
+            
+
+            <div>SYNONYM: Araneus flammatus - ♀ - Sweden - SYNTYPE © CLERCK, C. (1757)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40108.jpg" alt="SYNONYM: Evarcha flammata - ♂ - France © SIMON, E. (1937)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♂ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40109.jpg" alt="SYNONYM: Evarcha flammata - ♂ - France © SIMON, E. (1937)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♂ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-40110.jpg" alt="SYNONYM: Evarcha flammata - ♀ - France © SIMON, E. (1937)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♀ - France © SIMON, E. (1937)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18020.jpg" alt="SYNONYM: Evarcha flammata - ♂ - Poland © ŻABKA, M. (1997)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♂ - Poland © ŻABKA, M. (1997)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18023.jpg" alt="SYNONYM: Evarcha flammata - ♀ - Poland © ŻABKA, M. (1997)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♀ - Poland © ŻABKA, M. (1997)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18021.jpg" alt="SYNONYM: Evarcha flammata - ♂ - Poland © ŻABKA, M. (1997)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♂ - Poland © ŻABKA, M. (1997)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18022.jpg" alt="SYNONYM: Evarcha flammata - ♂ - Poland © ŻABKA, M. (1997)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♂ - Poland © ŻABKA, M. (1997)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18024.jpg" alt="SYNONYM: Evarcha flammata - ♀ - Poland © ŻABKA, M. (1997)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♀ - Poland © ŻABKA, M. (1997)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-18025.jpg" alt="SYNONYM: Evarcha flammata - ♀ - Poland © ŻABKA, M. (1997)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♀ - Poland © ŻABKA, M. (1997)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-49602.jpg" alt="SYNONYM: Evarcha flammata - ♀ - Epigyne - Germany © SACHER, P. (2004)">
+            
+
+            <div>SYNONYM: Evarcha flammata - ♀ - Epigyne - Germany © SACHER, P. (2004)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-87.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-100.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1023.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1024.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1025.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1026.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1027.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-474.jpg" alt="Evarche falcata - ♀ - 18.06.2005, Harvard, Ma. - US © METZNER, H. (1996-2025)">
+            
+
+            <div>Evarche falcata - ♀ - 18.06.2005, Harvard, Ma. - US © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-880.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-882.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-883.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-884.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-886.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-881.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-885.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-10487.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17293.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17294.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17295.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17298.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17299.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17300.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17296.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17297.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29329.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-29330.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17919.jpg" alt="Synonym: Evarcha flammata - ♂ - Japan. CHIKUNI, Y. (1989)">
+            
+
+            <div>Synonym: Evarcha flammata - ♂ - Japan. CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17922.jpg" alt="Synonym: Evarcha flammata - ♀ - Japan. CHIKUNI, Y. (1989)">
+            
+
+            <div>Synonym: Evarcha flammata - ♀ - Japan. CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17920.jpg" alt="Synonym: Evarcha flammata - ♂ - Japan. CHIKUNI, Y. (1989)">
+            
+
+            <div>Synonym: Evarcha flammata - ♂ - Japan. CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17921.jpg" alt="Synonym: Evarcha flammata - ♂ - Japan. CHIKUNI, Y. (1989)">
+            
+
+            <div>Synonym: Evarcha flammata - ♂ - Japan. CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17923.jpg" alt="Synonym: Evarcha flammata - ♀ - Japan. CHIKUNI, Y. (1989)">
+            
+
+            <div>Synonym: Evarcha flammata - ♀ - Japan. CHIKUNI, Y. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38169.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38170.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38171.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

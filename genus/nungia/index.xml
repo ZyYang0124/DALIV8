@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nungia on Jumping Spider World</title>
+    <link>https://example.org/genus/nungia/</link>
+    <description>Recent content in Nungia on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/nungia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nungia epigynalis</title>
+      <link>https://example.org/species/nungia-epigynalis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nungia-epigynalis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nungia hatamensis</title>
+      <link>https://example.org/species/nungia-hatamensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nungia-hatamensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nungia modesta</title>
+      <link>https://example.org/species/nungia-modesta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nungia-modesta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nungia papakula</title>
+      <link>https://example.org/species/nungia-papakula/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nungia-papakula/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nungia tangi</title>
+      <link>https://example.org/species/nungia-tangi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nungia-tangi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nungia xiaolonghaensis</title>
+      <link>https://example.org/species/nungia-xiaolonghaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/nungia-xiaolonghaensis/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

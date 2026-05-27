@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Plexippus petersi</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Plexippus petersi</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16839.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16840.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16841.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16843.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16844.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16845.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16846.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16847.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4851.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4852.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4853.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4854.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4855.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-4856.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38941.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38942.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38943.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38944.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37103.jpg" alt="SYNONYM: Marpissa calcutaensis - ♀ - dorsal view - India - HOLOTYPE © TIKADER, B. K. (1973)">
+            
+
+            <div>SYNONYM: Marpissa calcutaensis - ♀ - dorsal view - India - HOLOTYPE © TIKADER, B. K. (1973)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-37104.jpg" alt="SYNONYM: Marpissa calcutaensis - ♀ - Epigyne - India - HOLOTYPE © TIKADER, B. K. (1973)">
+            
+
+            <div>SYNONYM: Marpissa calcutaensis - ♀ - Epigyne - India - HOLOTYPE © TIKADER, B. K. (1973)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43903.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - dorsal view of carapace - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - dorsal view of carapace - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43904.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - lateral view of carapace - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - lateral view of carapace - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43905.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - abdomen - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - abdomen - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43906.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - sternum, labium, and maxillae - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - sternum, labium, and maxillae - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43909.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - pedicel - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - pedicel - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43907.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - cheliceral teeth - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - cheliceral teeth - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43908.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - leg I - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - leg I - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43910.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - epigyne ventral - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - epigyne ventral - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-43911.jpg" alt="SYNONYM: Plexippus calcuttaensis - ♀ - epigyne dorsal - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)">
+            
+
+            <div>SYNONYM: Plexippus calcuttaensis - ♀ - epigyne dorsal - Luzon © BARRION, A. T. &amp; LITSINGER, J. A. (1995)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-31.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-403.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-404.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-405.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-406.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-407.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-5090.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6247.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23147.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23148.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23149.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23152.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23153.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23150.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23151.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6837.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6838.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6839.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6841.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6842.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6843.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6840.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-6844.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27492.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27495.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27493.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27494.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27496.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-27497.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-13312.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18460.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18461.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18462.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18468.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18467.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18469.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18470.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18471.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18463.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18464.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18465.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18472.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21157.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21161.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21158.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21159.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21160.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21162.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-21163.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30468.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30469.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30470.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30471.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30580.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30581.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-30582.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20577.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - label - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - label - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20578.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - label - India - PARATYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - label - India - PARATYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20571.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - habitus, dorsal view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - habitus, dorsal view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20572.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - habitus, ventral view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - habitus, ventral view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20573.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - habitus, front view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - habitus, front view. Scale bar: 2 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20575.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - habitus, dorsal view. Scale bar: 2 mm - India - PARATYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - habitus, dorsal view. Scale bar: 2 mm - India - PARATYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20576.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - habitus, dorsal view. Scale bar: 2 mm - India - PARATYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - habitus, dorsal view. Scale bar: 2 mm - India - PARATYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20574.jpg" alt="Synonym: Marpissa calcutaensis - ♀ - epigyne, ventral view. Scale bar: 0.5 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)">
+            
+
+            <div>Synonym: Marpissa calcutaensis - ♀ - epigyne, ventral view. Scale bar: 0.5 mm - India - HOLOTYPE . CALEB, J. T. D., FRANCIS, C., BHAT, V. K. &amp; PACKIAM, S. M. (2022)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

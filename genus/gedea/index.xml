@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gedea on Jumping Spider World</title>
+    <link>https://example.org/genus/gedea/</link>
+    <description>Recent content in Gedea on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/gedea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gedea daoxianensis</title>
+      <link>https://example.org/species/gedea-daoxianensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-daoxianensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea flavogularis</title>
+      <link>https://example.org/species/gedea-flavogularis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-flavogularis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea fungiformis</title>
+      <link>https://example.org/species/gedea-fungiformis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-fungiformis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea liangweii</title>
+      <link>https://example.org/species/gedea-liangweii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-liangweii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea okinawaensis</title>
+      <link>https://example.org/species/gedea-okinawaensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-okinawaensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea pinguis</title>
+      <link>https://example.org/species/gedea-pinguis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-pinguis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea sinensis</title>
+      <link>https://example.org/species/gedea-sinensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-sinensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea tibialis</title>
+      <link>https://example.org/species/gedea-tibialis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-tibialis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea typica</title>
+      <link>https://example.org/species/gedea-typica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-typica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea unguiformis</title>
+      <link>https://example.org/species/gedea-unguiformis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-unguiformis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gedea zabkai</title>
+      <link>https://example.org/species/gedea-zabkai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/gedea-zabkai/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

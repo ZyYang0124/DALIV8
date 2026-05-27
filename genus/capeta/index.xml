@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capeta on Jumping Spider World</title>
+    <link>https://example.org/genus/capeta/</link>
+    <description>Recent content in Capeta on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/capeta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capeta cachimbo</title>
+      <link>https://example.org/species/capeta-cachimbo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capeta-cachimbo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capeta tridens</title>
+      <link>https://example.org/species/capeta-tridens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/capeta-tridens/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

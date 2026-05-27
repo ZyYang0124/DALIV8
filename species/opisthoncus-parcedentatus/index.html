@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Opisthoncus parcedentatus</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Opisthoncus parcedentatus</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42399.jpg" alt="Opisthoncus parcedentatus - ♀ - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42403.jpg" alt="Opisthoncus parcedentatus - ♂ - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42404.jpg" alt="Opisthoncus parcedentatus - ♂ - Mandibeln und Lippe - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Mandibeln und Lippe - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42400.jpg" alt="Opisthoncus parcedentatus - ♀ - Mandibeln und vorderste Augenreihe - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Mandibeln und vorderste Augenreihe - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42401.jpg" alt="Opisthoncus parcedentatus - ♀ - Mandibel (Rückseite) - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Mandibel (Rückseite) - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42405.jpg" alt="Opisthoncus parcedentatus - ♂ - Mandibeln und vorderste Augenreihe - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Mandibeln und vorderste Augenreihe - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42406.jpg" alt="Opisthoncus parcedentatus - ♂ - Mandibel (Rückseite) - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Mandibel (Rückseite) - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42407.jpg" alt="Opisthoncus parcedentatus - ♂ - Tibialglied der Palpen und Kopulationsorgane - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Tibialglied der Palpen und Kopulationsorgane - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42408.jpg" alt="Opisthoncus parcedentatus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Tibialglied der Palpen (Aussenseite) - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-42402.jpg" alt="Opisthoncus parcedentatus - ♀ - Epigyne - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Epigyne - Australia - SYNTYPE © KOCH, L. (1880). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16128.jpg" alt="Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16132.jpg" alt="Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16135.jpg" alt="Opisthoncus parcedentatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16133.jpg" alt="Opisthoncus parcedentatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16134.jpg" alt="Opisthoncus parcedentatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16129.jpg" alt="Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16130.jpg" alt="Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-16131.jpg" alt="Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Australia © DAVIES, V. T. &amp; ŻABKA, M. (1989)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41843.jpg" alt="Opisthoncus parcedentatus - ♀ - shape of cephalothorax - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - shape of cephalothorax - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41845.jpg" alt="Opisthoncus parcedentatus - ♂ - shape of cephalothorax - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - shape of cephalothorax - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41846.jpg" alt="Opisthoncus parcedentatus - ♂ - chelicera, frontal view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - chelicera, frontal view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41847.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41848.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41849.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-41844.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8872.jpg" alt="Opisthoncus parcedentatus - ♀ - general appearance, dorsal view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - general appearance, dorsal view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8873.jpg" alt="Opisthoncus parcedentatus - ♀ - general appearance, lateral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - general appearance, lateral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8874.jpg" alt="Opisthoncus parcedentatus - ♀ - cephalothorax, frontal view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - cephalothorax, frontal view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8875.jpg" alt="Opisthoncus parcedentatus - ♀ - cephalothorax, lateral view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - cephalothorax, lateral view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8877.jpg" alt="Opisthoncus parcedentatus - ♀ - abdomen, ventral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - abdomen, ventral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8881.jpg" alt="Opisthoncus parcedentatus - ♂ - general appearance, dorsal view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - general appearance, dorsal view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8882.jpg" alt="Opisthoncus parcedentatus - ♂ - general appearance, ventral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - general appearance, ventral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8883.jpg" alt="Opisthoncus parcedentatus - ♂ - general appearance, lateral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - general appearance, lateral view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8884.jpg" alt="Opisthoncus parcedentatus - ♂ - cephalothorax, frontal view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - cephalothorax, frontal view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8887.jpg" alt="Opisthoncus parcedentatus - ♂ - abdomen, dorsal view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - abdomen, dorsal view. Scale bar: 1 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8876.jpg" alt="Opisthoncus parcedentatus - ♀ - chelicera, ventral view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - chelicera, ventral view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8885.jpg" alt="Opisthoncus parcedentatus - ♂ - chelicerae, lateral (with frontal spur, see arrow) view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - chelicerae, lateral (with frontal spur, see arrow) view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8886.jpg" alt="Opisthoncus parcedentatus - ♂ - chelicerae, ventral view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - chelicerae, ventral view - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8879.jpg" alt="Opisthoncus parcedentatus - ♂ - palpal organ, ventral view. Scale bar: 0.2 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - palpal organ, ventral view. Scale bar: 0.2 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8880.jpg" alt="Opisthoncus parcedentatus - ♂ - palpal organ, retrolateral view. Scale bar: 0.2 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - palpal organ, retrolateral view. Scale bar: 0.2 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-8878.jpg" alt="Opisthoncus parcedentatus - ♀ - epigyne. Scale bar: 0.15 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - epigyne. Scale bar: 0.15 mm - Australia - SYNTYPE © GARDZIŃ SKA, J. &amp; ŻABKA, M. (2013). RecId: 64565</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14528.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14527.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14529.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14536.jpg" alt="Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14537.jpg" alt="Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14532.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14533.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14534.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14538.jpg" alt="Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14539.jpg" alt="Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14531.jpg" alt="Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♀ - Queensland. © R. Whyte, 2010 - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14535.jpg" alt="Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)">
+            
+
+            <div>Opisthoncus parcedentatus - ♂ - © R. Whyte - Australia © PRÓSZYŃ SKI, J. (2016)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14530.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28600.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-28601.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

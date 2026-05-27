@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pelegrina galathea</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Pelegrina galathea</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12487.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12492.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12489.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12353.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12439.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12488.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12393.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12491.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-12490.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44839.jpg" alt="SYNONYM: Euophrys leucophaea - ♂ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45613">
+            
+
+            <div>SYNONYM: Euophrys leucophaea - ♂ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45613</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44040.jpg" alt="SYNONYM: Icius crassiventer - ♀ - epigyne - US - HOLOTYPE © KEYSERLING, E. (1884). RecId: 12888">
+            
+
+            <div>SYNONYM: Icius crassiventer - ♀ - epigyne - US - HOLOTYPE © KEYSERLING, E. (1884). RecId: 12888</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5495.jpg" alt="SYNONYM: Dendryphantes ornatus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 15921">
+            
+
+            <div>SYNONYM: Dendryphantes ornatus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 15921</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5494.jpg" alt="SYNONYM: Dendryphantes ornatus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 15921">
+            
+
+            <div>SYNONYM: Dendryphantes ornatus - ♀ - US - HOLOTYPE © BANKS, N. (1892). RecId: 15921</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5989.jpg" alt="SYNONYM: Attus parvus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Attus parvus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-44799.jpg" alt="SYNONYM: Phidippus asinarius - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45835">
+            
+
+            <div>SYNONYM: Phidippus asinarius - ♀ - US - HOLOTYPE © KOCH, C. L. (1846). RecId: 45835</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-5987.jpg" alt="SYNONYM: Attus nubilus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)">
+            
+
+            <div>SYNONYM: Attus nubilus - ♀ - US - SYNTYPE © HENTZ, N. M. (1846)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45157.jpg" alt="SYNONYM: Metaphidippus digitatus - ♂ - dorsal view, legs removed - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Metaphidippus digitatus - ♂ - dorsal view, legs removed - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45160.jpg" alt="SYNONYM: Metaphidippus digitatus - ♂ - mandible from beneath - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Metaphidippus digitatus - ♂ - mandible from beneath - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45158.jpg" alt="SYNONYM: Metaphidippus digitatus - ♂ - palpus from the outer side - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Metaphidippus digitatus - ♂ - palpus from the outer side - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45161.jpg" alt="SYNONYM: Metaphidippus digitatus - ♂ - palpal bulb from beneath - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Metaphidippus digitatus - ♂ - palpal bulb from beneath - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45162.jpg" alt="SYNONYM: Metaphidippus digitatus - ♂ - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Metaphidippus digitatus - ♂ - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-45159.jpg" alt="SYNONYM: Metaphidippus digitatus - ♂ - palpus from the outer side - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)">
+            
+
+            <div>SYNONYM: Metaphidippus digitatus - ♂ - palpus from the outer side - country undefined - SYNTYPE © PICKARD - CAMBRIDGE, F. O. (1901)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1505.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1506.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1507.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1508.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1509.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-1510.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7571.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7572.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-7573.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22770.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-22771.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-20427.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23669.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23670.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-23671.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-25371.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-25372.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-25373.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-25374.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

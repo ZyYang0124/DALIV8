@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Habrocestoides on Jumping Spider World</title>
+    <link>https://example.org/genus/habrocestoides/</link>
+    <description>Recent content in Habrocestoides on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/habrocestoides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Habrocestoides bengalensis</title>
+      <link>https://example.org/species/habrocestoides-bengalensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-bengalensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habrocestoides darjeelingus</title>
+      <link>https://example.org/species/habrocestoides-darjeelingus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-darjeelingus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habrocestoides indicus</title>
+      <link>https://example.org/species/habrocestoides-indicus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-indicus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habrocestoides micans</title>
+      <link>https://example.org/species/habrocestoides-micans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-micans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habrocestoides nitidus</title>
+      <link>https://example.org/species/habrocestoides-nitidus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-nitidus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habrocestoides phulchokiensis</title>
+      <link>https://example.org/species/habrocestoides-phulchokiensis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-phulchokiensis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habrocestoides shuqiangi</title>
+      <link>https://example.org/species/habrocestoides-shuqiangi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/habrocestoides-shuqiangi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

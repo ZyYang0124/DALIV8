@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Theriella tenuistyli</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Theriella tenuistyli</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11917.jpg" alt="Yepoella tenuistyli - ♂ - vista dorsal - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - vista dorsal - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11918.jpg" alt="Yepoella tenuistyli - ♂ - prosoma, lateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - prosoma, lateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11921.jpg" alt="Yepoella tenuistyli - ♂ - laminas y labio. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - laminas y labio. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11920.jpg" alt="Yepoella tenuistyli - ♀ - queliceros y laminas. Scale: 0.25 mm - Argentina - ALLOTYPE © GALIANO, M. E. (1970). RecId: 48299">
+            
+
+            <div>Yepoella tenuistyli - ♀ - queliceros y laminas. Scale: 0.25 mm - Argentina - ALLOTYPE © GALIANO, M. E. (1970). RecId: 48299</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11936.jpg" alt="Yepoella tenuistyli - ♂ - quelicero, cara posterior. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - quelicero, cara posterior. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11930.jpg" alt="Yepoella tenuistyli - ♂ - pata I, ventral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - pata I, ventral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11919.jpg" alt="Yepoella tenuistyli - ♀ - palpo. Scale: 0.25 mm - Argentina - ALLOTYPE © GALIANO, M. E. (1970). RecId: 48299">
+            
+
+            <div>Yepoella tenuistyli - ♀ - palpo. Scale: 0.25 mm - Argentina - ALLOTYPE © GALIANO, M. E. (1970). RecId: 48299</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11931.jpg" alt="Yepoella tenuistyli - ♂ - palpo, ventral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - palpo, ventral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11932.jpg" alt="Yepoella tenuistyli - ♂ - bulbo, retrolateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - bulbo, retrolateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11933.jpg" alt="Yepoella tenuistyli - ♂ - palpo, retrolateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - palpo, retrolateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11934.jpg" alt="Yepoella tenuistyli - ♂ - palpo, prolateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - palpo, prolateral. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11935.jpg" alt="Yepoella tenuistyli - ♂ - palpo, rero-dorsal. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - palpo, rero-dorsal. Scale: 0.25 mm - Argentina - HOLOTYPE © GALIANO, M. E. (1970). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11943.jpg" alt="Yepoella tenuistyli - ♀ - epigino. Scale: 0.25 mm - Argentina - ALLOTYPE © GALIANO, M. E. (1970)">
+            
+
+            <div>Yepoella tenuistyli - ♀ - epigino. Scale: 0.25 mm - Argentina - ALLOTYPE © GALIANO, M. E. (1970)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11944.jpg" alt="Yepoella tenuistyli - ♀ - epigino de otro ejemplar. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)">
+            
+
+            <div>Yepoella tenuistyli - ♀ - epigino de otro ejemplar. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11945.jpg" alt="Yepoella tenuistyli - ♀ - espermatecas y conductos, vista ventral. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)">
+            
+
+            <div>Yepoella tenuistyli - ♀ - espermatecas y conductos, vista ventral. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11946.jpg" alt="Yepoella tenuistyli - ♀ - espermatecas y conductos, vista dorsal. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)">
+            
+
+            <div>Yepoella tenuistyli - ♀ - espermatecas y conductos, vista dorsal. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-11947.jpg" alt="Yepoella tenuistyli - ♀ - espermateca. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)">
+            
+
+            <div>Yepoella tenuistyli - ♀ - espermateca. Scale: 0.25 mm - Argentina - PARATYPE © GALIANO, M. E. (1970)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50694.jpg" alt="Yepoella tenuistyli - ♂ - palp, ventral view. © METZNER 1996 Sketch @ MACN, Buenos Aires - Argentina - HOLOTYPE © METZNER, H. (1996-2025). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - palp, ventral view. © METZNER 1996 Sketch @ MACN, Buenos Aires - Argentina - HOLOTYPE © METZNER, H. (1996-2025). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50695.jpg" alt="Yepoella tenuistyli - ♂ - palp, retrolateral view. © METZNER 1996 Sketch @ MACN, Buenos Aires - Argentina - HOLOTYPE © METZNER, H. (1996-2025). RecId: 48300">
+            
+
+            <div>Yepoella tenuistyli - ♂ - palp, retrolateral view. © METZNER 1996 Sketch @ MACN, Buenos Aires - Argentina - HOLOTYPE © METZNER, H. (1996-2025). RecId: 48300</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-50696.jpg" alt="Yepoella tenuistyli - ♀ - epigyne, retrolateral view. © METZNER 1996 Sketch @ MACN, Buenos Aires - Argentina - PARATYPE © METZNER, H. (1996-2025)">
+            
+
+            <div>Yepoella tenuistyli - ♀ - epigyne, retrolateral view. © METZNER 1996 Sketch @ MACN, Buenos Aires - Argentina - PARATYPE © METZNER, H. (1996-2025)</div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phausina on Jumping Spider World</title>
+    <link>https://example.org/genus/phausina/</link>
+    <description>Recent content in Phausina on Jumping Spider World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/genus/phausina/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phausina bivittata</title>
+      <link>https://example.org/species/phausina-bivittata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phausina-bivittata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phausina flavofrenata</title>
+      <link>https://example.org/species/phausina-flavofrenata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phausina-flavofrenata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phausina guttipes</title>
+      <link>https://example.org/species/phausina-guttipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phausina-guttipes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phausina leucopogon</title>
+      <link>https://example.org/species/phausina-leucopogon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/species/phausina-leucopogon/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

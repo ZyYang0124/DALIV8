@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Plexippoides doenitzi</title>
+
+<div class="search-box">
+    <input type="text" id="search-input" placeholder="输入物种名称搜索...">
+</div>
+<div id="search-results"></div>
+
+<style>
+.search-box { margin: 20px 0; }
+#search-input { width: 100%; max-width: 600px; padding: 12px; font-size: 16px; border: 2px solid #333; border-radius: 8px; }
+#search-results { text-align: left; max-width: 600px; margin: 10px auto; }
+.result-item { padding: 8px; border-bottom: 1px solid #eee; }
+.result-item a { color: #1f4e79; text-decoration: none; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.5;
+    color: #111;
+}
+
+
+ 
+.header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.authority {
+    font-style: italic;
+    color: #444;
+}
+
+ 
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 16px;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+ 
+.fig-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.fig {
+    border: 1px solid #ddd;
+    padding: 6px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.fig img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ 
+.meta {
+    font-size: 13px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eee;
+    padding: 2px 6px;
+    margin: 2px 3px;
+    border-radius: 3px;
+}
+
+ 
+.refs {
+    font-size: 12px;
+    color: #333;
+}
+
+.refs li {
+    margin-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+
+    <h1>Plexippoides doenitzi</h1>
+
+    <div class="authority">
+        
+    </div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Combinations</h2>
+
+<div class="meta">
+
+    <div>—</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Distribution</h2>
+
+<div class="meta">
+
+    <span class="tag">Unknown</span>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Illustrations</h2>
+
+<div class="fig-grid">
+
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31277.jpg" alt="Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31280.jpg" alt="Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31279.jpg" alt="Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-31278.jpg" alt="Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - Japan - SYNTYPE © BÖSENBERG, W. &amp; STRAND, E. (1906). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21106.jpg" alt="Hasarius doenitzi - ♀ - general appearance - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - general appearance - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21107.jpg" alt="Hasarius doenitzi - ♀ - face - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - face - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21108.jpg" alt="Hasarius doenitzi - ♀ - cheliceral dentition - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - cheliceral dentition - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8426.jpg" alt="Hasarius doenitzi - ♀ - Epigyne - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - Epigyne - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-21109.jpg" alt="Hasarius doenitzi - ♀ - epigynum - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - epigynum - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-8427.jpg" alt="Hasarius doenitzi - ♀ - Spermatheca (half of epigyne only) - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745">
+            
+
+            <div>Hasarius doenitzi - ♀ - Spermatheca (half of epigyne only) - Japan - SYNTYPE © PRÓSZYŃ SKI, J. (1973). RecId: 45745</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38188.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38194.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38189.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38190.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38191.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38192.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-38193.jpg" alt="Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)">
+            
+
+            <div>Hasarius doenitzi - ♀ - China © YIN, C. M. &amp; WANG, J. F. (1979)</div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20890.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20891.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20892.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20893.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20894.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20895.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-20896.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39170.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-39171.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48461.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-48460.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18062.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18065.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18063.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18064.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18066.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17376.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17377.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18227.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18228.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18229.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18230.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18231.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-18232.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-14638.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17747.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17748.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17749.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17750.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17751.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17752.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17753.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/F-17754.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+        <div class="fig">
+
+            
+                <img src="/images/D-30176.jpg" alt="">
+            
+
+            <div></div>
+
+        </div>
+
+    
+
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>References</h2>
+
+<ul class="refs">
+
+</ul>
+
+</div>
+
+</body>
+</html>

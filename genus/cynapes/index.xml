@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cynapes on Jumping Spider World</title>
-    <link>https://example.org/genus/cynapes/</link>
-    <description>Recent content in Cynapes on Jumping Spider World</description>
+    <title>Cynapes on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/cynapes/</link>
+    <description>Recent content in Cynapes on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/cynapes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/cynapes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cynapes baptizatus</title>
-      <link>https://example.org/species/cynapes-baptizatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cynapes-baptizatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cynapes-baptizatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cynapes-baptizatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cynapes canosus</title>
-      <link>https://example.org/species/cynapes-canosus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cynapes-canosus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cynapes-canosus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cynapes-canosus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cynapes lineatus</title>
-      <link>https://example.org/species/cynapes-lineatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cynapes-lineatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cynapes-lineatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cynapes-lineatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cynapes wrighti</title>
-      <link>https://example.org/species/cynapes-wrighti/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cynapes-wrighti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cynapes-wrighti/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cynapes-wrighti/</guid>
       <description></description>
     </item>
   </channel>

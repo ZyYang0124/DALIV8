@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mendoza on Jumping Spider World</title>
-    <link>https://example.org/genus/mendoza/</link>
-    <description>Recent content in Mendoza on Jumping Spider World</description>
+    <title>Mendoza on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/mendoza/</link>
+    <description>Recent content in Mendoza on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/mendoza/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/mendoza/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mendoza canestrinii</title>
-      <link>https://example.org/species/mendoza-canestrinii/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-canestrinii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-canestrinii/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-canestrinii/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza dersuuzalai</title>
-      <link>https://example.org/species/mendoza-dersuuzalai/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-dersuuzalai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-dersuuzalai/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-dersuuzalai/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza elongata</title>
-      <link>https://example.org/species/mendoza-elongata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-elongata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-elongata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-elongata/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza ibarakiensis</title>
-      <link>https://example.org/species/mendoza-ibarakiensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-ibarakiensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-ibarakiensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-ibarakiensis/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza nobilis</title>
-      <link>https://example.org/species/mendoza-nobilis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-nobilis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-nobilis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-nobilis/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza pulchra</title>
-      <link>https://example.org/species/mendoza-pulchra/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-pulchra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-pulchra/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-pulchra/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza ryukyuensis</title>
-      <link>https://example.org/species/mendoza-ryukyuensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-ryukyuensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-ryukyuensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-ryukyuensis/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza suguroi</title>
-      <link>https://example.org/species/mendoza-suguroi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-suguroi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-suguroi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-suguroi/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendoza zebra</title>
-      <link>https://example.org/species/mendoza-zebra/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/mendoza-zebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/mendoza-zebra/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/mendoza-zebra/</guid>
       <description></description>
     </item>
   </channel>

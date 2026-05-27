@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zabkattus on Jumping Spider World</title>
-    <link>https://example.org/genus/zabkattus/</link>
-    <description>Recent content in Zabkattus on Jumping Spider World</description>
+    <title>Zabkattus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/zabkattus/</link>
+    <description>Recent content in Zabkattus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/zabkattus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/zabkattus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zabkattus brevis</title>
-      <link>https://example.org/species/zabkattus-brevis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/zabkattus-brevis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/zabkattus-brevis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/zabkattus-brevis/</guid>
       <description></description>
     </item>
     <item>
       <title>Zabkattus furcatus</title>
-      <link>https://example.org/species/zabkattus-furcatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/zabkattus-furcatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/zabkattus-furcatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/zabkattus-furcatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Zabkattus richardsi</title>
-      <link>https://example.org/species/zabkattus-richardsi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/zabkattus-richardsi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/zabkattus-richardsi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/zabkattus-richardsi/</guid>
       <description></description>
     </item>
     <item>
       <title>Zabkattus trapeziformis</title>
-      <link>https://example.org/species/zabkattus-trapeziformis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/zabkattus-trapeziformis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/zabkattus-trapeziformis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/zabkattus-trapeziformis/</guid>
       <description></description>
     </item>
   </channel>

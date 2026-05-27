@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Saitidops on Jumping Spider World</title>
-    <link>https://example.org/genus/saitidops/</link>
-    <description>Recent content in Saitidops on Jumping Spider World</description>
+    <title>Saitidops on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/saitidops/</link>
+    <description>Recent content in Saitidops on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/saitidops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/saitidops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Saitidops albopatellus</title>
-      <link>https://example.org/species/saitidops-albopatellus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/saitidops-albopatellus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/saitidops-albopatellus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/saitidops-albopatellus/</guid>
       <description></description>
     </item>
     <item>
       <title>Saitidops clathratus</title>
-      <link>https://example.org/species/saitidops-clathratus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/saitidops-clathratus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/saitidops-clathratus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/saitidops-clathratus/</guid>
       <description></description>
     </item>
   </channel>

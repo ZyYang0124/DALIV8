@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trydarssus on Jumping Spider World</title>
-    <link>https://example.org/genus/trydarssus/</link>
-    <description>Recent content in Trydarssus on Jumping Spider World</description>
+    <title>Trydarssus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/trydarssus/</link>
+    <description>Recent content in Trydarssus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/trydarssus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/trydarssus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trydarssus nobilitatus</title>
-      <link>https://example.org/species/trydarssus-nobilitatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/trydarssus-nobilitatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/trydarssus-nobilitatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/trydarssus-nobilitatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Trydarssus pantherinus</title>
-      <link>https://example.org/species/trydarssus-pantherinus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/trydarssus-pantherinus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/trydarssus-pantherinus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/trydarssus-pantherinus/</guid>
       <description></description>
     </item>
   </channel>

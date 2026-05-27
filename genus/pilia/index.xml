@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pilia on Jumping Spider World</title>
-    <link>https://example.org/genus/pilia/</link>
-    <description>Recent content in Pilia on Jumping Spider World</description>
+    <title>Pilia on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/pilia/</link>
+    <description>Recent content in Pilia on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/pilia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/pilia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pilia escheri</title>
-      <link>https://example.org/species/pilia-escheri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pilia-escheri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pilia-escheri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pilia-escheri/</guid>
       <description></description>
     </item>
     <item>
       <title>Pilia malenadu</title>
-      <link>https://example.org/species/pilia-malenadu/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pilia-malenadu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pilia-malenadu/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pilia-malenadu/</guid>
       <description></description>
     </item>
     <item>
       <title>Pilia saltabunda</title>
-      <link>https://example.org/species/pilia-saltabunda/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pilia-saltabunda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pilia-saltabunda/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pilia-saltabunda/</guid>
       <description></description>
     </item>
   </channel>

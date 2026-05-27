@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carabella on Jumping Spider World</title>
-    <link>https://example.org/genus/carabella/</link>
-    <description>Recent content in Carabella on Jumping Spider World</description>
+    <title>Carabella on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/carabella/</link>
+    <description>Recent content in Carabella on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/carabella/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/carabella/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carabella banksi</title>
-      <link>https://example.org/species/carabella-banksi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/carabella-banksi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/carabella-banksi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/carabella-banksi/</guid>
       <description></description>
     </item>
     <item>
       <title>Carabella insignis</title>
-      <link>https://example.org/species/carabella-insignis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/carabella-insignis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/carabella-insignis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/carabella-insignis/</guid>
       <description></description>
     </item>
   </channel>

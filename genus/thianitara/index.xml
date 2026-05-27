@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thianitara on Jumping Spider World</title>
-    <link>https://example.org/genus/thianitara/</link>
-    <description>Recent content in Thianitara on Jumping Spider World</description>
+    <title>Thianitara on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/thianitara/</link>
+    <description>Recent content in Thianitara on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/thianitara/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/thianitara/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thianitara spectrum</title>
-      <link>https://example.org/species/thianitara-spectrum/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/thianitara-spectrum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/thianitara-spectrum/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/thianitara-spectrum/</guid>
       <description></description>
     </item>
     <item>
       <title>Thianitara thailandica</title>
-      <link>https://example.org/species/thianitara-thailandica/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/thianitara-thailandica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/thianitara-thailandica/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/thianitara-thailandica/</guid>
       <description></description>
     </item>
   </channel>

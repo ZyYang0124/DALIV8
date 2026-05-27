@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leuserattus on Jumping Spider World</title>
-    <link>https://example.org/genus/leuserattus/</link>
-    <description>Recent content in Leuserattus on Jumping Spider World</description>
+    <title>Leuserattus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/leuserattus/</link>
+    <description>Recent content in Leuserattus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/leuserattus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/leuserattus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leuserattus gunung</title>
-      <link>https://example.org/species/leuserattus-gunung/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/leuserattus-gunung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/leuserattus-gunung/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/leuserattus-gunung/</guid>
       <description></description>
     </item>
     <item>
       <title>Leuserattus khuongi</title>
-      <link>https://example.org/species/leuserattus-khuongi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/leuserattus-khuongi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/leuserattus-khuongi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/leuserattus-khuongi/</guid>
       <description></description>
     </item>
     <item>
       <title>Leuserattus pristinus</title>
-      <link>https://example.org/species/leuserattus-pristinus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/leuserattus-pristinus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/leuserattus-pristinus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/leuserattus-pristinus/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Atomosphyrus on Jumping Spider World</title>
-    <link>https://example.org/genus/atomosphyrus/</link>
-    <description>Recent content in Atomosphyrus on Jumping Spider World</description>
+    <title>Atomosphyrus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/atomosphyrus/</link>
+    <description>Recent content in Atomosphyrus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/atomosphyrus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/atomosphyrus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atomosphyrus breyeri</title>
-      <link>https://example.org/species/atomosphyrus-breyeri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/atomosphyrus-breyeri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/atomosphyrus-breyeri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/atomosphyrus-breyeri/</guid>
       <description></description>
     </item>
     <item>
       <title>Atomosphyrus tristiculus</title>
-      <link>https://example.org/species/atomosphyrus-tristiculus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/atomosphyrus-tristiculus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/atomosphyrus-tristiculus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/atomosphyrus-tristiculus/</guid>
       <description></description>
     </item>
     <item>
       <title>Atomosphyrus wandae</title>
-      <link>https://example.org/species/atomosphyrus-wandae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/atomosphyrus-wandae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/atomosphyrus-wandae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/atomosphyrus-wandae/</guid>
       <description></description>
     </item>
   </channel>

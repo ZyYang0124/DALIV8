@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lumptibiella on Jumping Spider World</title>
-    <link>https://example.org/genus/lumptibiella/</link>
-    <description>Recent content in Lumptibiella on Jumping Spider World</description>
+    <title>Lumptibiella on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/lumptibiella/</link>
+    <description>Recent content in Lumptibiella on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/lumptibiella/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/lumptibiella/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lumptibiella camporum</title>
-      <link>https://example.org/species/lumptibiella-camporum/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lumptibiella-camporum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lumptibiella-camporum/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lumptibiella-camporum/</guid>
       <description></description>
     </item>
     <item>
       <title>Lumptibiella chacoensis</title>
-      <link>https://example.org/species/lumptibiella-chacoensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lumptibiella-chacoensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lumptibiella-chacoensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lumptibiella-chacoensis/</guid>
       <description></description>
     </item>
     <item>
       <title>Lumptibiella demagistrisi</title>
-      <link>https://example.org/species/lumptibiella-demagistrisi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lumptibiella-demagistrisi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lumptibiella-demagistrisi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lumptibiella-demagistrisi/</guid>
       <description></description>
     </item>
     <item>
       <title>Lumptibiella paranensis</title>
-      <link>https://example.org/species/lumptibiella-paranensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lumptibiella-paranensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lumptibiella-paranensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lumptibiella-paranensis/</guid>
       <description></description>
     </item>
   </channel>

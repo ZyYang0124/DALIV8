@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proszynskia on Jumping Spider World</title>
-    <link>https://example.org/genus/proszynskia/</link>
-    <description>Recent content in Proszynskia on Jumping Spider World</description>
+    <title>Proszynskia on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/proszynskia/</link>
+    <description>Recent content in Proszynskia on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/proszynskia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/proszynskia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proszynskia anusuae</title>
-      <link>https://example.org/species/proszynskia-anusuae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/proszynskia-anusuae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/proszynskia-anusuae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/proszynskia-anusuae/</guid>
       <description></description>
     </item>
     <item>
       <title>Proszynskia diatreta</title>
-      <link>https://example.org/species/proszynskia-diatreta/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/proszynskia-diatreta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/proszynskia-diatreta/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/proszynskia-diatreta/</guid>
       <description></description>
     </item>
   </channel>

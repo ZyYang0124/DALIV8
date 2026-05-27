@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nosferattus on Jumping Spider World</title>
-    <link>https://example.org/genus/nosferattus/</link>
-    <description>Recent content in Nosferattus on Jumping Spider World</description>
+    <title>Nosferattus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/nosferattus/</link>
+    <description>Recent content in Nosferattus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/nosferattus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/nosferattus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nosferattus aegis</title>
-      <link>https://example.org/species/nosferattus-aegis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nosferattus-aegis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nosferattus-aegis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nosferattus-aegis/</guid>
       <description></description>
     </item>
     <item>
       <title>Nosferattus ciliatus</title>
-      <link>https://example.org/species/nosferattus-ciliatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nosferattus-ciliatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nosferattus-ciliatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nosferattus-ciliatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Nosferattus discus</title>
-      <link>https://example.org/species/nosferattus-discus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nosferattus-discus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nosferattus-discus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nosferattus-discus/</guid>
       <description></description>
     </item>
     <item>
       <title>Nosferattus occultus</title>
-      <link>https://example.org/species/nosferattus-occultus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nosferattus-occultus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nosferattus-occultus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nosferattus-occultus/</guid>
       <description></description>
     </item>
     <item>
       <title>Nosferattus palmatus</title>
-      <link>https://example.org/species/nosferattus-palmatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nosferattus-palmatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nosferattus-palmatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nosferattus-palmatus/</guid>
       <description></description>
     </item>
   </channel>

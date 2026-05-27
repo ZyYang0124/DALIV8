@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Afrobeata on Jumping Spider World</title>
-    <link>https://example.org/genus/afrobeata/</link>
-    <description>Recent content in Afrobeata on Jumping Spider World</description>
+    <title>Afrobeata on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/afrobeata/</link>
+    <description>Recent content in Afrobeata on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/afrobeata/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/afrobeata/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Afrobeata firma</title>
-      <link>https://example.org/species/afrobeata-firma/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/afrobeata-firma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/afrobeata-firma/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/afrobeata-firma/</guid>
       <description></description>
     </item>
     <item>
       <title>Afrobeata latithorax</title>
-      <link>https://example.org/species/afrobeata-latithorax/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/afrobeata-latithorax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/afrobeata-latithorax/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/afrobeata-latithorax/</guid>
       <description></description>
     </item>
     <item>
       <title>Afrobeata magnifica</title>
-      <link>https://example.org/species/afrobeata-magnifica/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/afrobeata-magnifica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/afrobeata-magnifica/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/afrobeata-magnifica/</guid>
       <description></description>
     </item>
   </channel>

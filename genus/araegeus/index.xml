@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Araegeus on Jumping Spider World</title>
-    <link>https://example.org/genus/araegeus/</link>
-    <description>Recent content in Araegeus on Jumping Spider World</description>
+    <title>Araegeus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/araegeus/</link>
+    <description>Recent content in Araegeus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/araegeus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/araegeus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Araegeus fornasinii</title>
-      <link>https://example.org/species/araegeus-fornasinii/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/araegeus-fornasinii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/araegeus-fornasinii/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/araegeus-fornasinii/</guid>
       <description></description>
     </item>
     <item>
       <title>Araegeus mimicus</title>
-      <link>https://example.org/species/araegeus-mimicus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/araegeus-mimicus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/araegeus-mimicus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/araegeus-mimicus/</guid>
       <description></description>
     </item>
   </channel>

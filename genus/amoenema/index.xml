@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amoenema on Jumping Spider World</title>
-    <link>https://example.org/genus/amoenema/</link>
-    <description>Recent content in Amoenema on Jumping Spider World</description>
+    <title>Amoenema on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/amoenema/</link>
+    <description>Recent content in Amoenema on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/amoenema/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/amoenema/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amoenema erhai</title>
-      <link>https://example.org/species/amoenema-erhai/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/amoenema-erhai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/amoenema-erhai/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/amoenema-erhai/</guid>
       <description></description>
     </item>
     <item>
       <title>Amoenema liuae</title>
-      <link>https://example.org/species/amoenema-liuae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/amoenema-liuae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/amoenema-liuae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/amoenema-liuae/</guid>
       <description></description>
     </item>
     <item>
       <title>Amoenema robusta</title>
-      <link>https://example.org/species/amoenema-robusta/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/amoenema-robusta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/amoenema-robusta/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/amoenema-robusta/</guid>
       <description></description>
     </item>
     <item>
       <title>Amoenema zizhongi</title>
-      <link>https://example.org/species/amoenema-zizhongi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/amoenema-zizhongi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/amoenema-zizhongi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/amoenema-zizhongi/</guid>
       <description></description>
     </item>
   </channel>

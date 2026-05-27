@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lagnus on Jumping Spider World</title>
-    <link>https://example.org/genus/lagnus/</link>
-    <description>Recent content in Lagnus on Jumping Spider World</description>
+    <title>Lagnus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/lagnus/</link>
+    <description>Recent content in Lagnus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/lagnus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/lagnus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lagnus edwardsi</title>
-      <link>https://example.org/species/lagnus-edwardsi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lagnus-edwardsi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lagnus-edwardsi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lagnus-edwardsi/</guid>
       <description></description>
     </item>
     <item>
       <title>Lagnus longimanus</title>
-      <link>https://example.org/species/lagnus-longimanus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lagnus-longimanus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lagnus-longimanus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lagnus-longimanus/</guid>
       <description></description>
     </item>
     <item>
       <title>Lagnus monteithorum</title>
-      <link>https://example.org/species/lagnus-monteithorum/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/lagnus-monteithorum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/lagnus-monteithorum/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/lagnus-monteithorum/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osericta on Jumping Spider World</title>
-    <link>https://example.org/genus/osericta/</link>
-    <description>Recent content in Osericta on Jumping Spider World</description>
+    <title>Osericta on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/osericta/</link>
+    <description>Recent content in Osericta on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/osericta/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/osericta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Osericta cheliferoides</title>
-      <link>https://example.org/species/osericta-cheliferoides/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/osericta-cheliferoides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/osericta-cheliferoides/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/osericta-cheliferoides/</guid>
       <description></description>
     </item>
     <item>
       <title>Osericta dives</title>
-      <link>https://example.org/species/osericta-dives/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/osericta-dives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/osericta-dives/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/osericta-dives/</guid>
       <description></description>
     </item>
   </channel>

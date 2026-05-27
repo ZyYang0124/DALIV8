@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Propiomarengo on Jumping Spider World</title>
-    <link>https://example.org/genus/propiomarengo/</link>
-    <description>Recent content in Propiomarengo on Jumping Spider World</description>
+    <title>Propiomarengo on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/propiomarengo/</link>
+    <description>Recent content in Propiomarengo on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/propiomarengo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/propiomarengo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Propiomarengo foordi</title>
-      <link>https://example.org/species/propiomarengo-foordi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/propiomarengo-foordi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/propiomarengo-foordi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/propiomarengo-foordi/</guid>
       <description></description>
     </item>
     <item>
       <title>Propiomarengo plana</title>
-      <link>https://example.org/species/propiomarengo-plana/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/propiomarengo-plana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/propiomarengo-plana/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/propiomarengo-plana/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yaginumanis on Jumping Spider World</title>
-    <link>https://example.org/genus/yaginumanis/</link>
-    <description>Recent content in Yaginumanis on Jumping Spider World</description>
+    <title>Yaginumanis on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/yaginumanis/</link>
+    <description>Recent content in Yaginumanis on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/yaginumanis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/yaginumanis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yaginumanis cheni</title>
-      <link>https://example.org/species/yaginumanis-cheni/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/yaginumanis-cheni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/yaginumanis-cheni/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/yaginumanis-cheni/</guid>
       <description></description>
     </item>
     <item>
       <title>Yaginumanis sexdentatus</title>
-      <link>https://example.org/species/yaginumanis-sexdentatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/yaginumanis-sexdentatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/yaginumanis-sexdentatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/yaginumanis-sexdentatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Yaginumanis wanlessi</title>
-      <link>https://example.org/species/yaginumanis-wanlessi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/yaginumanis-wanlessi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/yaginumanis-wanlessi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/yaginumanis-wanlessi/</guid>
       <description></description>
     </item>
     <item>
       <title>Yaginumanis yuanwencai</title>
-      <link>https://example.org/species/yaginumanis-yuanwencai/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/yaginumanis-yuanwencai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/yaginumanis-yuanwencai/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/yaginumanis-yuanwencai/</guid>
       <description></description>
     </item>
   </channel>

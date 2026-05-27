@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Udvardya on Jumping Spider World</title>
-    <link>https://example.org/genus/udvardya/</link>
-    <description>Recent content in Udvardya on Jumping Spider World</description>
+    <title>Udvardya on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/udvardya/</link>
+    <description>Recent content in Udvardya on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/udvardya/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/udvardya/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udvardya bellatrix</title>
-      <link>https://example.org/species/udvardya-bellatrix/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/udvardya-bellatrix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/udvardya-bellatrix/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/udvardya-bellatrix/</guid>
       <description></description>
     </item>
     <item>
       <title>Udvardya elegans</title>
-      <link>https://example.org/species/udvardya-elegans/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/udvardya-elegans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/udvardya-elegans/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/udvardya-elegans/</guid>
       <description></description>
     </item>
     <item>
       <title>Udvardya fortis</title>
-      <link>https://example.org/species/udvardya-fortis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/udvardya-fortis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/udvardya-fortis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/udvardya-fortis/</guid>
       <description></description>
     </item>
   </channel>

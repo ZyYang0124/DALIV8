@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aruattus on Jumping Spider World</title>
-    <link>https://example.org/genus/aruattus/</link>
-    <description>Recent content in Aruattus on Jumping Spider World</description>
+    <title>Aruattus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/aruattus/</link>
+    <description>Recent content in Aruattus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/aruattus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/aruattus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aruattus agostii</title>
-      <link>https://example.org/species/aruattus-agostii/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/aruattus-agostii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/aruattus-agostii/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/aruattus-agostii/</guid>
       <description></description>
     </item>
   </channel>

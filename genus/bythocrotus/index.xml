@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bythocrotus on Jumping Spider World</title>
-    <link>https://example.org/genus/bythocrotus/</link>
-    <description>Recent content in Bythocrotus on Jumping Spider World</description>
+    <title>Bythocrotus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/bythocrotus/</link>
+    <description>Recent content in Bythocrotus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/bythocrotus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/bythocrotus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bythocrotus cephalotes</title>
-      <link>https://example.org/species/bythocrotus-cephalotes/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/bythocrotus-cephalotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/bythocrotus-cephalotes/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/bythocrotus-cephalotes/</guid>
       <description></description>
     </item>
     <item>
       <title>Bythocrotus crypticus</title>
-      <link>https://example.org/species/bythocrotus-crypticus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/bythocrotus-crypticus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/bythocrotus-crypticus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/bythocrotus-crypticus/</guid>
       <description></description>
     </item>
   </channel>

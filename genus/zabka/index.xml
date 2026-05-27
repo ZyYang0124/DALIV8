@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zabka on Jumping Spider World</title>
-    <link>https://example.org/genus/zabka/</link>
-    <description>Recent content in Zabka on Jumping Spider World</description>
+    <title>Zabka on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/zabka/</link>
+    <description>Recent content in Zabka on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/zabka/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/zabka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zabka dianmian</title>
-      <link>https://example.org/species/zabka-dianmian/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/zabka-dianmian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/zabka-dianmian/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/zabka-dianmian/</guid>
       <description></description>
     </item>
     <item>
       <title>Zabka xuyei</title>
-      <link>https://example.org/species/zabka-xuyei/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/zabka-xuyei/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/zabka-xuyei/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/zabka-xuyei/</guid>
       <description></description>
     </item>
   </channel>

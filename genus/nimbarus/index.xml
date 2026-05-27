@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nimbarus on Jumping Spider World</title>
-    <link>https://example.org/genus/nimbarus/</link>
-    <description>Recent content in Nimbarus on Jumping Spider World</description>
+    <title>Nimbarus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/nimbarus/</link>
+    <description>Recent content in Nimbarus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/nimbarus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/nimbarus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nimbarus acer</title>
-      <link>https://example.org/species/nimbarus-acer/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-acer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-acer/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-acer/</guid>
       <description></description>
     </item>
     <item>
       <title>Nimbarus digitatus</title>
-      <link>https://example.org/species/nimbarus-digitatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-digitatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-digitatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-digitatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Nimbarus nimbus</title>
-      <link>https://example.org/species/nimbarus-nimbus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-nimbus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-nimbus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-nimbus/</guid>
       <description></description>
     </item>
     <item>
       <title>Nimbarus pratensis</title>
-      <link>https://example.org/species/nimbarus-pratensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-pratensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-pratensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-pratensis/</guid>
       <description></description>
     </item>
     <item>
       <title>Nimbarus trilobatus</title>
-      <link>https://example.org/species/nimbarus-trilobatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-trilobatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-trilobatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-trilobatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Nimbarus zie</title>
-      <link>https://example.org/species/nimbarus-zie/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-zie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-zie/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-zie/</guid>
       <description></description>
     </item>
     <item>
       <title>Nimbarus zouguepo</title>
-      <link>https://example.org/species/nimbarus-zouguepo/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/nimbarus-zouguepo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/nimbarus-zouguepo/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/nimbarus-zouguepo/</guid>
       <description></description>
     </item>
   </channel>

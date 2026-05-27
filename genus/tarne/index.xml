@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tarne on Jumping Spider World</title>
-    <link>https://example.org/genus/tarne/</link>
-    <description>Recent content in Tarne on Jumping Spider World</description>
+    <title>Tarne on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/tarne/</link>
+    <description>Recent content in Tarne on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/tarne/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/tarne/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tarne annoyeri</title>
-      <link>https://example.org/species/tarne-annoyeri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tarne-annoyeri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tarne-annoyeri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tarne-annoyeri/</guid>
       <description></description>
     </item>
     <item>
       <title>Tarne dives</title>
-      <link>https://example.org/species/tarne-dives/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tarne-dives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tarne-dives/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tarne-dives/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Avitus on Jumping Spider World</title>
-    <link>https://example.org/genus/avitus/</link>
-    <description>Recent content in Avitus on Jumping Spider World</description>
+    <title>Avitus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/avitus/</link>
+    <description>Recent content in Avitus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/avitus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/avitus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Avitus anumbi</title>
-      <link>https://example.org/species/avitus-anumbi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/avitus-anumbi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/avitus-anumbi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/avitus-anumbi/</guid>
       <description></description>
     </item>
     <item>
       <title>Avitus castaneonotatus</title>
-      <link>https://example.org/species/avitus-castaneonotatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/avitus-castaneonotatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/avitus-castaneonotatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/avitus-castaneonotatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Avitus diolenii</title>
-      <link>https://example.org/species/avitus-diolenii/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/avitus-diolenii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/avitus-diolenii/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/avitus-diolenii/</guid>
       <description></description>
     </item>
     <item>
       <title>Avitus longidens</title>
-      <link>https://example.org/species/avitus-longidens/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/avitus-longidens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/avitus-longidens/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/avitus-longidens/</guid>
       <description></description>
     </item>
     <item>
       <title>Avitus taylori</title>
-      <link>https://example.org/species/avitus-taylori/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/avitus-taylori/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/avitus-taylori/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/avitus-taylori/</guid>
       <description></description>
     </item>
     <item>
       <title>Avitus variabilis</title>
-      <link>https://example.org/species/avitus-variabilis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/avitus-variabilis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/avitus-variabilis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/avitus-variabilis/</guid>
       <description></description>
     </item>
   </channel>

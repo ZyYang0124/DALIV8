@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Edilemma on Jumping Spider World</title>
-    <link>https://example.org/genus/edilemma/</link>
-    <description>Recent content in Edilemma on Jumping Spider World</description>
+    <title>Edilemma on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/edilemma/</link>
+    <description>Recent content in Edilemma on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/edilemma/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/edilemma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edilemma foraminifera</title>
-      <link>https://example.org/species/edilemma-foraminifera/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/edilemma-foraminifera/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/edilemma-foraminifera/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/edilemma-foraminifera/</guid>
       <description></description>
     </item>
   </channel>

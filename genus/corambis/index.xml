@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Corambis on Jumping Spider World</title>
-    <link>https://example.org/genus/corambis/</link>
-    <description>Recent content in Corambis on Jumping Spider World</description>
+    <title>Corambis on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/corambis/</link>
+    <description>Recent content in Corambis on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/corambis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/corambis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corambis foeldvarii</title>
-      <link>https://example.org/species/corambis-foeldvarii/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/corambis-foeldvarii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/corambis-foeldvarii/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/corambis-foeldvarii/</guid>
       <description></description>
     </item>
     <item>
       <title>Corambis insignipes</title>
-      <link>https://example.org/species/corambis-insignipes/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/corambis-insignipes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/corambis-insignipes/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/corambis-insignipes/</guid>
       <description></description>
     </item>
     <item>
       <title>Corambis jacknicholsoni</title>
-      <link>https://example.org/species/corambis-jacknicholsoni/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/corambis-jacknicholsoni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/corambis-jacknicholsoni/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/corambis-jacknicholsoni/</guid>
       <description></description>
     </item>
     <item>
       <title>Corambis logunovi</title>
-      <link>https://example.org/species/corambis-logunovi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/corambis-logunovi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/corambis-logunovi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/corambis-logunovi/</guid>
       <description></description>
     </item>
     <item>
       <title>Corambis pantherae</title>
-      <link>https://example.org/species/corambis-pantherae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/corambis-pantherae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/corambis-pantherae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/corambis-pantherae/</guid>
       <description></description>
     </item>
   </channel>

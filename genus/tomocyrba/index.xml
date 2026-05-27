@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tomocyrba on Jumping Spider World</title>
-    <link>https://example.org/genus/tomocyrba/</link>
-    <description>Recent content in Tomocyrba on Jumping Spider World</description>
+    <title>Tomocyrba on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/tomocyrba/</link>
+    <description>Recent content in Tomocyrba on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/tomocyrba/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/tomocyrba/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tomocyrba barbata</title>
-      <link>https://example.org/species/tomocyrba-barbata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomocyrba-barbata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomocyrba-barbata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomocyrba-barbata/</guid>
       <description></description>
     </item>
     <item>
       <title>Tomocyrba berniae</title>
-      <link>https://example.org/species/tomocyrba-berniae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomocyrba-berniae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomocyrba-berniae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomocyrba-berniae/</guid>
       <description></description>
     </item>
     <item>
       <title>Tomocyrba decollata</title>
-      <link>https://example.org/species/tomocyrba-decollata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomocyrba-decollata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomocyrba-decollata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomocyrba-decollata/</guid>
       <description></description>
     </item>
     <item>
       <title>Tomocyrba griswoldi</title>
-      <link>https://example.org/species/tomocyrba-griswoldi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomocyrba-griswoldi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomocyrba-griswoldi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomocyrba-griswoldi/</guid>
       <description></description>
     </item>
     <item>
       <title>Tomocyrba thaleri</title>
-      <link>https://example.org/species/tomocyrba-thaleri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomocyrba-thaleri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomocyrba-thaleri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomocyrba-thaleri/</guid>
       <description></description>
     </item>
     <item>
       <title>Tomocyrba ubicki</title>
-      <link>https://example.org/species/tomocyrba-ubicki/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomocyrba-ubicki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomocyrba-ubicki/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomocyrba-ubicki/</guid>
       <description></description>
     </item>
   </channel>

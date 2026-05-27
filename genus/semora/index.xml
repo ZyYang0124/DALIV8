@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Semora on Jumping Spider World</title>
-    <link>https://example.org/genus/semora/</link>
-    <description>Recent content in Semora on Jumping Spider World</description>
+    <title>Semora on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/semora/</link>
+    <description>Recent content in Semora on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/semora/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/semora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Semora infranotata</title>
-      <link>https://example.org/species/semora-infranotata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/semora-infranotata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/semora-infranotata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/semora-infranotata/</guid>
       <description></description>
     </item>
     <item>
       <title>Semora langei</title>
-      <link>https://example.org/species/semora-langei/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/semora-langei/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/semora-langei/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/semora-langei/</guid>
       <description></description>
     </item>
     <item>
       <title>Semora napaea</title>
-      <link>https://example.org/species/semora-napaea/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/semora-napaea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/semora-napaea/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/semora-napaea/</guid>
       <description></description>
     </item>
     <item>
       <title>Semora trochilus</title>
-      <link>https://example.org/species/semora-trochilus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/semora-trochilus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/semora-trochilus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/semora-trochilus/</guid>
       <description></description>
     </item>
   </channel>

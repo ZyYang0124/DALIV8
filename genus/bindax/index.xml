@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bindax on Jumping Spider World</title>
-    <link>https://example.org/genus/bindax/</link>
-    <description>Recent content in Bindax on Jumping Spider World</description>
+    <title>Bindax on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/bindax/</link>
+    <description>Recent content in Bindax on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/bindax/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/bindax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bindax chalcocephalus</title>
-      <link>https://example.org/species/bindax-chalcocephalus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/bindax-chalcocephalus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/bindax-chalcocephalus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/bindax-chalcocephalus/</guid>
       <description></description>
     </item>
     <item>
       <title>Bindax dalat</title>
-      <link>https://example.org/species/bindax-dalat/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/bindax-dalat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/bindax-dalat/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/bindax-dalat/</guid>
       <description></description>
     </item>
     <item>
       <title>Bindax oscitans</title>
-      <link>https://example.org/species/bindax-oscitans/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/bindax-oscitans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/bindax-oscitans/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/bindax-oscitans/</guid>
       <description></description>
     </item>
   </channel>

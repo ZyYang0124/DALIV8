@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tartamura on Jumping Spider World</title>
-    <link>https://example.org/genus/tartamura/</link>
-    <description>Recent content in Tartamura on Jumping Spider World</description>
+    <title>Tartamura on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/tartamura/</link>
+    <description>Recent content in Tartamura on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/tartamura/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/tartamura/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tartamura adfectuosa</title>
-      <link>https://example.org/species/tartamura-adfectuosa/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tartamura-adfectuosa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tartamura-adfectuosa/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tartamura-adfectuosa/</guid>
       <description></description>
     </item>
     <item>
       <title>Tartamura agatelin</title>
-      <link>https://example.org/species/tartamura-agatelin/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tartamura-agatelin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tartamura-agatelin/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tartamura-agatelin/</guid>
       <description></description>
     </item>
     <item>
       <title>Tartamura huao</title>
-      <link>https://example.org/species/tartamura-huao/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tartamura-huao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tartamura-huao/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tartamura-huao/</guid>
       <description></description>
     </item>
     <item>
       <title>Tartamura metzneri</title>
-      <link>https://example.org/species/tartamura-metzneri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tartamura-metzneri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tartamura-metzneri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tartamura-metzneri/</guid>
       <description></description>
     </item>
     <item>
       <title>Tartamura turbo</title>
-      <link>https://example.org/species/tartamura-turbo/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tartamura-turbo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tartamura-turbo/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tartamura-turbo/</guid>
       <description></description>
     </item>
   </channel>

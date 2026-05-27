@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pungalina on Jumping Spider World</title>
-    <link>https://example.org/genus/pungalina/</link>
-    <description>Recent content in Pungalina on Jumping Spider World</description>
+    <title>Pungalina on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/pungalina/</link>
+    <description>Recent content in Pungalina on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/pungalina/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/pungalina/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pungalina albobarbata</title>
-      <link>https://example.org/species/pungalina-albobarbata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pungalina-albobarbata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pungalina-albobarbata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pungalina-albobarbata/</guid>
       <description></description>
     </item>
     <item>
       <title>Pungalina plurilineata</title>
-      <link>https://example.org/species/pungalina-plurilineata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pungalina-plurilineata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pungalina-plurilineata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pungalina-plurilineata/</guid>
       <description></description>
     </item>
     <item>
       <title>Pungalina semiatra</title>
-      <link>https://example.org/species/pungalina-semiatra/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pungalina-semiatra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pungalina-semiatra/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pungalina-semiatra/</guid>
       <description></description>
     </item>
     <item>
       <title>Pungalina semiferruginea</title>
-      <link>https://example.org/species/pungalina-semiferruginea/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pungalina-semiferruginea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pungalina-semiferruginea/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pungalina-semiferruginea/</guid>
       <description></description>
     </item>
     <item>
       <title>Pungalina waldockae</title>
-      <link>https://example.org/species/pungalina-waldockae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pungalina-waldockae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pungalina-waldockae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pungalina-waldockae/</guid>
       <description></description>
     </item>
     <item>
       <title>Pungalina weiri</title>
-      <link>https://example.org/species/pungalina-weiri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pungalina-weiri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pungalina-weiri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pungalina-weiri/</guid>
       <description></description>
     </item>
   </channel>

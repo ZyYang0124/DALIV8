@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pseudomaevia on Jumping Spider World</title>
-    <link>https://example.org/genus/pseudomaevia/</link>
-    <description>Recent content in Pseudomaevia on Jumping Spider World</description>
+    <title>Pseudomaevia on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/pseudomaevia/</link>
+    <description>Recent content in Pseudomaevia on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/pseudomaevia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/pseudomaevia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pseudomaevia cognata</title>
-      <link>https://example.org/species/pseudomaevia-cognata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pseudomaevia-cognata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pseudomaevia-cognata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pseudomaevia-cognata/</guid>
       <description></description>
     </item>
     <item>
       <title>Pseudomaevia insulana</title>
-      <link>https://example.org/species/pseudomaevia-insulana/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pseudomaevia-insulana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pseudomaevia-insulana/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pseudomaevia-insulana/</guid>
       <description></description>
     </item>
   </channel>

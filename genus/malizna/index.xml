@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Malizna on Jumping Spider World</title>
-    <link>https://example.org/genus/malizna/</link>
-    <description>Recent content in Malizna on Jumping Spider World</description>
+    <title>Malizna on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/malizna/</link>
+    <description>Recent content in Malizna on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/malizna/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/malizna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Malizna admirabilis</title>
-      <link>https://example.org/species/malizna-admirabilis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/malizna-admirabilis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/malizna-admirabilis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/malizna-admirabilis/</guid>
       <description></description>
     </item>
     <item>
       <title>Malizna guineensis</title>
-      <link>https://example.org/species/malizna-guineensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/malizna-guineensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/malizna-guineensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/malizna-guineensis/</guid>
       <description></description>
     </item>
     <item>
       <title>Malizna levis</title>
-      <link>https://example.org/species/malizna-levis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/malizna-levis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/malizna-levis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/malizna-levis/</guid>
       <description></description>
     </item>
     <item>
       <title>Malizna simplex</title>
-      <link>https://example.org/species/malizna-simplex/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/malizna-simplex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/malizna-simplex/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/malizna-simplex/</guid>
       <description></description>
     </item>
     <item>
       <title>Malizna zabkai</title>
-      <link>https://example.org/species/malizna-zabkai/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/malizna-zabkai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/malizna-zabkai/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/malizna-zabkai/</guid>
       <description></description>
     </item>
   </channel>

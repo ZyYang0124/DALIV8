@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tamigalesus on Jumping Spider World</title>
-    <link>https://example.org/genus/tamigalesus/</link>
-    <description>Recent content in Tamigalesus on Jumping Spider World</description>
+    <title>Tamigalesus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/tamigalesus/</link>
+    <description>Recent content in Tamigalesus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/tamigalesus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/tamigalesus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tamigalesus fabus</title>
-      <link>https://example.org/species/tamigalesus-fabus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tamigalesus-fabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tamigalesus-fabus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tamigalesus-fabus/</guid>
       <description></description>
     </item>
     <item>
       <title>Tamigalesus munnaricus</title>
-      <link>https://example.org/species/tamigalesus-munnaricus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tamigalesus-munnaricus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tamigalesus-munnaricus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tamigalesus-munnaricus/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hasarinella on Jumping Spider World</title>
-    <link>https://example.org/genus/hasarinella/</link>
-    <description>Recent content in Hasarinella on Jumping Spider World</description>
+    <title>Hasarinella on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/hasarinella/</link>
+    <description>Recent content in Hasarinella on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/hasarinella/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/hasarinella/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hasarinella berlandi</title>
-      <link>https://example.org/species/hasarinella-berlandi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hasarinella-berlandi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hasarinella-berlandi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hasarinella-berlandi/</guid>
       <description></description>
     </item>
     <item>
       <title>Hasarinella distincta</title>
-      <link>https://example.org/species/hasarinella-distincta/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hasarinella-distincta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hasarinella-distincta/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hasarinella-distincta/</guid>
       <description></description>
     </item>
     <item>
       <title>Hasarinella roeweri</title>
-      <link>https://example.org/species/hasarinella-roeweri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hasarinella-roeweri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hasarinella-roeweri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hasarinella-roeweri/</guid>
       <description></description>
     </item>
   </channel>

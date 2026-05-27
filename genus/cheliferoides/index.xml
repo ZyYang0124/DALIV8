@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cheliferoides on Jumping Spider World</title>
-    <link>https://example.org/genus/cheliferoides/</link>
-    <description>Recent content in Cheliferoides on Jumping Spider World</description>
+    <title>Cheliferoides on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/cheliferoides/</link>
+    <description>Recent content in Cheliferoides on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/cheliferoides/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/cheliferoides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheliferoides longimanus</title>
-      <link>https://example.org/species/cheliferoides-longimanus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cheliferoides-longimanus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cheliferoides-longimanus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cheliferoides-longimanus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cheliferoides planus</title>
-      <link>https://example.org/species/cheliferoides-planus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cheliferoides-planus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cheliferoides-planus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cheliferoides-planus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cheliferoides segmentatus</title>
-      <link>https://example.org/species/cheliferoides-segmentatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cheliferoides-segmentatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cheliferoides-segmentatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cheliferoides-segmentatus/</guid>
       <description></description>
     </item>
   </channel>

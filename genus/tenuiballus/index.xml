@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tenuiballus on Jumping Spider World</title>
-    <link>https://example.org/genus/tenuiballus/</link>
-    <description>Recent content in Tenuiballus on Jumping Spider World</description>
+    <title>Tenuiballus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/tenuiballus/</link>
+    <description>Recent content in Tenuiballus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/tenuiballus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/tenuiballus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tenuiballus coronatus</title>
-      <link>https://example.org/species/tenuiballus-coronatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tenuiballus-coronatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tenuiballus-coronatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tenuiballus-coronatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Tenuiballus minor</title>
-      <link>https://example.org/species/tenuiballus-minor/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tenuiballus-minor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tenuiballus-minor/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tenuiballus-minor/</guid>
       <description></description>
     </item>
   </channel>

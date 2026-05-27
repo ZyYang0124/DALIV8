@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cheliceroides on Jumping Spider World</title>
-    <link>https://example.org/genus/cheliceroides/</link>
-    <description>Recent content in Cheliceroides on Jumping Spider World</description>
+    <title>Cheliceroides on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/cheliceroides/</link>
+    <description>Recent content in Cheliceroides on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/cheliceroides/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/cheliceroides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheliceroides jinxini</title>
-      <link>https://example.org/species/cheliceroides-jinxini/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cheliceroides-jinxini/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cheliceroides-jinxini/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cheliceroides-jinxini/</guid>
       <description></description>
     </item>
     <item>
       <title>Cheliceroides longipalpis</title>
-      <link>https://example.org/species/cheliceroides-longipalpis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cheliceroides-longipalpis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cheliceroides-longipalpis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cheliceroides-longipalpis/</guid>
       <description></description>
     </item>
   </channel>

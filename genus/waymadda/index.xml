@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Waymadda on Jumping Spider World</title>
-    <link>https://example.org/genus/waymadda/</link>
-    <description>Recent content in Waymadda on Jumping Spider World</description>
+    <title>Waymadda on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/waymadda/</link>
+    <description>Recent content in Waymadda on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/waymadda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/waymadda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Waymadda enduwa</title>
-      <link>https://example.org/species/waymadda-enduwa/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/waymadda-enduwa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/waymadda-enduwa/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/waymadda-enduwa/</guid>
       <description></description>
     </item>
     <item>
       <title>Waymadda rufa</title>
-      <link>https://example.org/species/waymadda-rufa/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/waymadda-rufa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/waymadda-rufa/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/waymadda-rufa/</guid>
       <description></description>
     </item>
   </channel>

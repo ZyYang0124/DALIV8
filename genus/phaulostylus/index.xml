@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Phaulostylus on Jumping Spider World</title>
-    <link>https://example.org/genus/phaulostylus/</link>
-    <description>Recent content in Phaulostylus on Jumping Spider World</description>
+    <title>Phaulostylus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/phaulostylus/</link>
+    <description>Recent content in Phaulostylus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/phaulostylus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/phaulostylus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phaulostylus furcifer</title>
-      <link>https://example.org/species/phaulostylus-furcifer/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/phaulostylus-furcifer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/phaulostylus-furcifer/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/phaulostylus-furcifer/</guid>
       <description></description>
     </item>
     <item>
       <title>Phaulostylus grammicus</title>
-      <link>https://example.org/species/phaulostylus-grammicus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/phaulostylus-grammicus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/phaulostylus-grammicus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/phaulostylus-grammicus/</guid>
       <description></description>
     </item>
     <item>
       <title>Phaulostylus grandidieri</title>
-      <link>https://example.org/species/phaulostylus-grandidieri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/phaulostylus-grandidieri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/phaulostylus-grandidieri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/phaulostylus-grandidieri/</guid>
       <description></description>
     </item>
     <item>
       <title>Phaulostylus leucolophus</title>
-      <link>https://example.org/species/phaulostylus-leucolophus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/phaulostylus-leucolophus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/phaulostylus-leucolophus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/phaulostylus-leucolophus/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Philaeus on Jumping Spider World</title>
-    <link>https://example.org/genus/philaeus/</link>
-    <description>Recent content in Philaeus on Jumping Spider World</description>
+    <title>Philaeus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/philaeus/</link>
+    <description>Recent content in Philaeus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/philaeus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/philaeus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Philaeus chrysops</title>
-      <link>https://example.org/species/philaeus-chrysops/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/philaeus-chrysops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/philaeus-chrysops/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/philaeus-chrysops/</guid>
       <description></description>
     </item>
     <item>
       <title>Philaeus corrugatulus</title>
-      <link>https://example.org/species/philaeus-corrugatulus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/philaeus-corrugatulus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/philaeus-corrugatulus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/philaeus-corrugatulus/</guid>
       <description></description>
     </item>
     <item>
       <title>Philaeus fallax</title>
-      <link>https://example.org/species/philaeus-fallax/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/philaeus-fallax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/philaeus-fallax/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/philaeus-fallax/</guid>
       <description></description>
     </item>
     <item>
       <title>Philaeus raribarbis</title>
-      <link>https://example.org/species/philaeus-raribarbis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/philaeus-raribarbis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/philaeus-raribarbis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/philaeus-raribarbis/</guid>
       <description></description>
     </item>
   </channel>

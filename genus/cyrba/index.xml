@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cyrba on Jumping Spider World</title>
-    <link>https://example.org/genus/cyrba/</link>
-    <description>Recent content in Cyrba on Jumping Spider World</description>
+    <title>Cyrba on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/cyrba/</link>
+    <description>Recent content in Cyrba on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/cyrba/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/cyrba/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cyrba algerina</title>
-      <link>https://example.org/species/cyrba-algerina/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-algerina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-algerina/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-algerina/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba boveyi</title>
-      <link>https://example.org/species/cyrba-boveyi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-boveyi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-boveyi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-boveyi/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba dotata</title>
-      <link>https://example.org/species/cyrba-dotata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-dotata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-dotata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-dotata/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba legendrei</title>
-      <link>https://example.org/species/cyrba-legendrei/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-legendrei/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-legendrei/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-legendrei/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba lineata</title>
-      <link>https://example.org/species/cyrba-lineata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-lineata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-lineata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-lineata/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba nigrimana</title>
-      <link>https://example.org/species/cyrba-nigrimana/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-nigrimana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-nigrimana/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-nigrimana/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba ocellata</title>
-      <link>https://example.org/species/cyrba-ocellata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-ocellata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-ocellata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-ocellata/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba simoni</title>
-      <link>https://example.org/species/cyrba-simoni/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-simoni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-simoni/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-simoni/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyrba szechenyii</title>
-      <link>https://example.org/species/cyrba-szechenyii/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/cyrba-szechenyii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/cyrba-szechenyii/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/cyrba-szechenyii/</guid>
       <description></description>
     </item>
   </channel>

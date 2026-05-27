@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tomobella on Jumping Spider World</title>
-    <link>https://example.org/genus/tomobella/</link>
-    <description>Recent content in Tomobella on Jumping Spider World</description>
+    <title>Tomobella on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/tomobella/</link>
+    <description>Recent content in Tomobella on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/tomobella/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/tomobella/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tomobella andasibe</title>
-      <link>https://example.org/species/tomobella-andasibe/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomobella-andasibe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomobella-andasibe/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomobella-andasibe/</guid>
       <description></description>
     </item>
     <item>
       <title>Tomobella fotsy</title>
-      <link>https://example.org/species/tomobella-fotsy/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/tomobella-fotsy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/tomobella-fotsy/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/tomobella-fotsy/</guid>
       <description></description>
     </item>
   </channel>

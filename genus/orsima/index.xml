@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Orsima on Jumping Spider World</title>
-    <link>https://example.org/genus/orsima/</link>
-    <description>Recent content in Orsima on Jumping Spider World</description>
+    <title>Orsima on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/orsima/</link>
+    <description>Recent content in Orsima on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/orsima/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/orsima/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orsima constricta</title>
-      <link>https://example.org/species/orsima-constricta/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/orsima-constricta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/orsima-constricta/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/orsima-constricta/</guid>
       <description></description>
     </item>
     <item>
       <title>Orsima ichneumon</title>
-      <link>https://example.org/species/orsima-ichneumon/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/orsima-ichneumon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/orsima-ichneumon/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/orsima-ichneumon/</guid>
       <description></description>
     </item>
     <item>
       <title>Orsima thaleri</title>
-      <link>https://example.org/species/orsima-thaleri/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/orsima-thaleri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/orsima-thaleri/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/orsima-thaleri/</guid>
       <description></description>
     </item>
   </channel>

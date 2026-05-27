@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pseudemathis on Jumping Spider World</title>
-    <link>https://example.org/genus/pseudemathis/</link>
-    <description>Recent content in Pseudemathis on Jumping Spider World</description>
+    <title>Pseudemathis on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/pseudemathis/</link>
+    <description>Recent content in Pseudemathis on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/pseudemathis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/pseudemathis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pseudemathis trifida</title>
-      <link>https://example.org/species/pseudemathis-trifida/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/pseudemathis-trifida/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/pseudemathis-trifida/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/pseudemathis-trifida/</guid>
       <description></description>
     </item>
   </channel>

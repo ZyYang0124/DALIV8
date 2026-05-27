@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homalattus on Jumping Spider World</title>
-    <link>https://example.org/genus/homalattus/</link>
-    <description>Recent content in Homalattus on Jumping Spider World</description>
+    <title>Homalattus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/homalattus/</link>
+    <description>Recent content in Homalattus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/homalattus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/homalattus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Homalattus coriaceus</title>
-      <link>https://example.org/species/homalattus-coriaceus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/homalattus-coriaceus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/homalattus-coriaceus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/homalattus-coriaceus/</guid>
       <description></description>
     </item>
     <item>
       <title>Homalattus obscurus</title>
-      <link>https://example.org/species/homalattus-obscurus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/homalattus-obscurus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/homalattus-obscurus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/homalattus-obscurus/</guid>
       <description></description>
     </item>
     <item>
       <title>Homalattus punctatus</title>
-      <link>https://example.org/species/homalattus-punctatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/homalattus-punctatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/homalattus-punctatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/homalattus-punctatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Homalattus pustulatus</title>
-      <link>https://example.org/species/homalattus-pustulatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/homalattus-pustulatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/homalattus-pustulatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/homalattus-pustulatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Homalattus similis</title>
-      <link>https://example.org/species/homalattus-similis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/homalattus-similis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/homalattus-similis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/homalattus-similis/</guid>
       <description></description>
     </item>
   </channel>

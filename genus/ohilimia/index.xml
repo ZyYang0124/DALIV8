@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ohilimia on Jumping Spider World</title>
-    <link>https://example.org/genus/ohilimia/</link>
-    <description>Recent content in Ohilimia on Jumping Spider World</description>
+    <title>Ohilimia on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/ohilimia/</link>
+    <description>Recent content in Ohilimia on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/ohilimia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/ohilimia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ohilimia albomaculata</title>
-      <link>https://example.org/species/ohilimia-albomaculata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/ohilimia-albomaculata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/ohilimia-albomaculata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/ohilimia-albomaculata/</guid>
       <description></description>
     </item>
     <item>
       <title>Ohilimia laensis</title>
-      <link>https://example.org/species/ohilimia-laensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/ohilimia-laensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/ohilimia-laensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/ohilimia-laensis/</guid>
       <description></description>
     </item>
     <item>
       <title>Ohilimia scutellata</title>
-      <link>https://example.org/species/ohilimia-scutellata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/ohilimia-scutellata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/ohilimia-scutellata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/ohilimia-scutellata/</guid>
       <description></description>
     </item>
   </channel>

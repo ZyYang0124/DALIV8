@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Itata on Jumping Spider World</title>
-    <link>https://example.org/genus/itata/</link>
-    <description>Recent content in Itata on Jumping Spider World</description>
+    <title>Itata on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/itata/</link>
+    <description>Recent content in Itata on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/itata/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/itata/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Itata completa</title>
-      <link>https://example.org/species/itata-completa/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/itata-completa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/itata-completa/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/itata-completa/</guid>
       <description></description>
     </item>
     <item>
       <title>Itata isabellina</title>
-      <link>https://example.org/species/itata-isabellina/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/itata-isabellina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/itata-isabellina/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/itata-isabellina/</guid>
       <description></description>
     </item>
     <item>
       <title>Itata partita</title>
-      <link>https://example.org/species/itata-partita/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/itata-partita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/itata-partita/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/itata-partita/</guid>
       <description></description>
     </item>
     <item>
       <title>Itata tipuloides</title>
-      <link>https://example.org/species/itata-tipuloides/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/itata-tipuloides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/itata-tipuloides/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/itata-tipuloides/</guid>
       <description></description>
     </item>
     <item>
       <title>Itata vadia</title>
-      <link>https://example.org/species/itata-vadia/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/itata-vadia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/itata-vadia/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/itata-vadia/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yamangalea on Jumping Spider World</title>
-    <link>https://example.org/genus/yamangalea/</link>
-    <description>Recent content in Yamangalea on Jumping Spider World</description>
+    <title>Yamangalea on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/yamangalea/</link>
+    <description>Recent content in Yamangalea on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/yamangalea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/yamangalea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yamangalea frewana</title>
-      <link>https://example.org/species/yamangalea-frewana/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/yamangalea-frewana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/yamangalea-frewana/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/yamangalea-frewana/</guid>
       <description></description>
     </item>
     <item>
       <title>Yamangalea lubinae</title>
-      <link>https://example.org/species/yamangalea-lubinae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/yamangalea-lubinae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/yamangalea-lubinae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/yamangalea-lubinae/</guid>
       <description></description>
     </item>
   </channel>

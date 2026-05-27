@@ -1,9 +1,0 @@
-baseURL = 'https://zyyang0124.github.io/DALIV8/'
-languageCode = 'en-us'
-title = '咩姆乐园'
-
-[taxonomies]
-genus = "genus"
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]

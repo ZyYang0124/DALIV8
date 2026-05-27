@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Colaxes on Jumping Spider World</title>
-    <link>https://example.org/genus/colaxes/</link>
-    <description>Recent content in Colaxes on Jumping Spider World</description>
+    <title>Colaxes on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/colaxes/</link>
+    <description>Recent content in Colaxes on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/colaxes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/colaxes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Colaxes cibagou</title>
-      <link>https://example.org/species/colaxes-cibagou/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/colaxes-cibagou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/colaxes-cibagou/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/colaxes-cibagou/</guid>
       <description></description>
     </item>
     <item>
       <title>Colaxes horton</title>
-      <link>https://example.org/species/colaxes-horton/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/colaxes-horton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/colaxes-horton/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/colaxes-horton/</guid>
       <description></description>
     </item>
     <item>
       <title>Colaxes nitidiventris</title>
-      <link>https://example.org/species/colaxes-nitidiventris/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/colaxes-nitidiventris/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/colaxes-nitidiventris/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/colaxes-nitidiventris/</guid>
       <description></description>
     </item>
     <item>
       <title>Colaxes sazailus</title>
-      <link>https://example.org/species/colaxes-sazailus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/colaxes-sazailus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/colaxes-sazailus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/colaxes-sazailus/</guid>
       <description></description>
     </item>
     <item>
       <title>Colaxes wanlessi</title>
-      <link>https://example.org/species/colaxes-wanlessi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/colaxes-wanlessi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/colaxes-wanlessi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/colaxes-wanlessi/</guid>
       <description></description>
     </item>
   </channel>

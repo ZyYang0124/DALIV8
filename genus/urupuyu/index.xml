@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Urupuyu on Jumping Spider World</title>
-    <link>https://example.org/genus/urupuyu/</link>
-    <description>Recent content in Urupuyu on Jumping Spider World</description>
+    <title>Urupuyu on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/urupuyu/</link>
+    <description>Recent content in Urupuyu on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/urupuyu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/urupuyu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Urupuyu antisana</title>
-      <link>https://example.org/species/urupuyu-antisana/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/urupuyu-antisana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/urupuyu-antisana/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/urupuyu-antisana/</guid>
       <description></description>
     </item>
     <item>
       <title>Urupuyu edwardsi</title>
-      <link>https://example.org/species/urupuyu-edwardsi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/urupuyu-edwardsi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/urupuyu-edwardsi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/urupuyu-edwardsi/</guid>
       <description></description>
     </item>
     <item>
       <title>Urupuyu occidentale</title>
-      <link>https://example.org/species/urupuyu-occidentale/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/urupuyu-occidentale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/urupuyu-occidentale/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/urupuyu-occidentale/</guid>
       <description></description>
     </item>
   </channel>

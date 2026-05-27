@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Admesturius on Jumping Spider World</title>
-    <link>https://example.org/genus/admesturius/</link>
-    <description>Recent content in Admesturius on Jumping Spider World</description>
+    <title>Admesturius on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/admesturius/</link>
+    <description>Recent content in Admesturius on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/admesturius/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/admesturius/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Admesturius bitaeniatus</title>
-      <link>https://example.org/species/admesturius-bitaeniatus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/admesturius-bitaeniatus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/admesturius-bitaeniatus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/admesturius-bitaeniatus/</guid>
       <description></description>
     </item>
     <item>
       <title>Admesturius mariaeugeniae</title>
-      <link>https://example.org/species/admesturius-mariaeugeniae/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/admesturius-mariaeugeniae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/admesturius-mariaeugeniae/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/admesturius-mariaeugeniae/</guid>
       <description></description>
     </item>
     <item>
       <title>Admesturius schajovskoyi</title>
-      <link>https://example.org/species/admesturius-schajovskoyi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/admesturius-schajovskoyi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/admesturius-schajovskoyi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/admesturius-schajovskoyi/</guid>
       <description></description>
     </item>
   </channel>

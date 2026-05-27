@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hisukattus on Jumping Spider World</title>
-    <link>https://example.org/genus/hisukattus/</link>
-    <description>Recent content in Hisukattus on Jumping Spider World</description>
+    <title>Hisukattus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/hisukattus/</link>
+    <description>Recent content in Hisukattus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/hisukattus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/hisukattus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hisukattus alienus</title>
-      <link>https://example.org/species/hisukattus-alienus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hisukattus-alienus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hisukattus-alienus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hisukattus-alienus/</guid>
       <description></description>
     </item>
     <item>
       <title>Hisukattus simplex</title>
-      <link>https://example.org/species/hisukattus-simplex/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hisukattus-simplex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hisukattus-simplex/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hisukattus-simplex/</guid>
       <description></description>
     </item>
     <item>
       <title>Hisukattus transversalis</title>
-      <link>https://example.org/species/hisukattus-transversalis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hisukattus-transversalis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hisukattus-transversalis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hisukattus-transversalis/</guid>
       <description></description>
     </item>
     <item>
       <title>Hisukattus tristis</title>
-      <link>https://example.org/species/hisukattus-tristis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/hisukattus-tristis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/hisukattus-tristis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/hisukattus-tristis/</guid>
       <description></description>
     </item>
   </channel>

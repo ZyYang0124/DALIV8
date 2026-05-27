@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Canama on Jumping Spider World</title>
-    <link>https://example.org/genus/canama/</link>
-    <description>Recent content in Canama on Jumping Spider World</description>
+    <title>Canama on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/canama/</link>
+    <description>Recent content in Canama on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/canama/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/canama/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canama dorcas</title>
-      <link>https://example.org/species/canama-dorcas/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-dorcas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-dorcas/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-dorcas/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama extranea</title>
-      <link>https://example.org/species/canama-extranea/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-extranea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-extranea/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-extranea/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama fimoi</title>
-      <link>https://example.org/species/canama-fimoi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-fimoi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-fimoi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-fimoi/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama forceps</title>
-      <link>https://example.org/species/canama-forceps/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-forceps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-forceps/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-forceps/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama hinnulea</title>
-      <link>https://example.org/species/canama-hinnulea/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-hinnulea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-hinnulea/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-hinnulea/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama inquirenda</title>
-      <link>https://example.org/species/canama-inquirenda/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-inquirenda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-inquirenda/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-inquirenda/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama lacerans</title>
-      <link>https://example.org/species/canama-lacerans/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-lacerans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-lacerans/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-lacerans/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama rutila</title>
-      <link>https://example.org/species/canama-rutila/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-rutila/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-rutila/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-rutila/</guid>
       <description></description>
     </item>
     <item>
       <title>Canama triramosa</title>
-      <link>https://example.org/species/canama-triramosa/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/canama-triramosa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/canama-triramosa/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/canama-triramosa/</guid>
       <description></description>
     </item>
   </channel>

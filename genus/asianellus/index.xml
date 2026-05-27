@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Asianellus on Jumping Spider World</title>
-    <link>https://example.org/genus/asianellus/</link>
-    <description>Recent content in Asianellus on Jumping Spider World</description>
+    <title>Asianellus on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/asianellus/</link>
+    <description>Recent content in Asianellus on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/asianellus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/asianellus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asianellus festivus</title>
-      <link>https://example.org/species/asianellus-festivus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/asianellus-festivus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/asianellus-festivus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/asianellus-festivus/</guid>
       <description></description>
     </item>
     <item>
       <title>Asianellus kazakhstanicus</title>
-      <link>https://example.org/species/asianellus-kazakhstanicus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/asianellus-kazakhstanicus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/asianellus-kazakhstanicus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/asianellus-kazakhstanicus/</guid>
       <description></description>
     </item>
     <item>
       <title>Asianellus kuraicus</title>
-      <link>https://example.org/species/asianellus-kuraicus/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/asianellus-kuraicus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/asianellus-kuraicus/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/asianellus-kuraicus/</guid>
       <description></description>
     </item>
     <item>
       <title>Asianellus ontchalaan</title>
-      <link>https://example.org/species/asianellus-ontchalaan/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/asianellus-ontchalaan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/asianellus-ontchalaan/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/asianellus-ontchalaan/</guid>
       <description></description>
     </item>
     <item>
       <title>Asianellus potanini</title>
-      <link>https://example.org/species/asianellus-potanini/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/asianellus-potanini/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/asianellus-potanini/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/asianellus-potanini/</guid>
       <description></description>
     </item>
     <item>
       <title>Asianellus yuzhongensis</title>
-      <link>https://example.org/species/asianellus-yuzhongensis/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/asianellus-yuzhongensis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/asianellus-yuzhongensis/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/asianellus-yuzhongensis/</guid>
       <description></description>
     </item>
   </channel>

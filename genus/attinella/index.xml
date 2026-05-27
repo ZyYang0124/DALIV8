@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Attinella on Jumping Spider World</title>
-    <link>https://example.org/genus/attinella/</link>
-    <description>Recent content in Attinella on Jumping Spider World</description>
+    <title>Attinella on 咩姆乐园</title>
+    <link>https://zyyang0124.github.io/DALIV8/genus/attinella/</link>
+    <description>Recent content in Attinella on 咩姆乐园</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/genus/attinella/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zyyang0124.github.io/DALIV8/genus/attinella/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attinella concolor</title>
-      <link>https://example.org/species/attinella-concolor/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/attinella-concolor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/attinella-concolor/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/attinella-concolor/</guid>
       <description></description>
     </item>
     <item>
       <title>Attinella dorsata</title>
-      <link>https://example.org/species/attinella-dorsata/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/attinella-dorsata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/attinella-dorsata/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/attinella-dorsata/</guid>
       <description></description>
     </item>
     <item>
       <title>Attinella juniperi</title>
-      <link>https://example.org/species/attinella-juniperi/</link>
+      <link>https://zyyang0124.github.io/DALIV8/species/attinella-juniperi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/species/attinella-juniperi/</guid>
+      <guid>https://zyyang0124.github.io/DALIV8/species/attinella-juniperi/</guid>
       <description></description>
     </item>
   </channel>
